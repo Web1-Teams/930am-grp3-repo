@@ -3,9 +3,11 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
     <title>Document</title>
 </head>
 <body class="main page">
+    <div class="lol">
     <nav class="main-menu page">
         <div class="navbar">
             <ul class="navigation fix">
@@ -35,44 +37,78 @@
             </ul>
         </div>
     </nav>
-    <div>
+    <button>
+        <span class="text">Donate</span>
+        </button> 
+    <div class="InputContainer">
+        <input placeholder="Search.."  class="input" name="text" type="text">
+    </div>
+    </div>
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-    </nav>
-
-
+    <section class="home-banner">
+        <div class="banner-content">
+        <div class="banner-text">
+            <h1>Find your</h1>
+            <h2>Nablus City<br>Largest Animal Shelter</h2>
+        </div>
+        <div class="banner-images">
+            <img src="cat_2.webp" alt="" />
+            <img src="dog.webp" alt="" />
+        </div>
+        <div class="banner-stats">
+            <h2>10,000+ Lives Saved</h2>
+            <div class="counter">
+            <span>186+ Lives Saved In 2023</span>
+            </div>
+            <h2>Furry Friend</h2>
+        </div>
+        </div>
+    </section>
+    <section class="Adopt-section">
+        <div class="Adopt-div">
+            <div class="Adopt-text">
+                <h1><strong>Adopt</strong></h1>
+                <p>Search our database of available pets!</p>
+            </div>
+            <div class="Adopt-search">
+                <form method="Get" action="">
+                    <div class="Search-box">
+                        <div class="Search-field">
+                            <label for="spacies">Search By Animal</label>
+                            <select name="spacies" class="spacies">
+                                <option value="All">All Animals</option>
+                                <option value="Cat">Cat</option>
+                                <option value="Dog">Dog</option>
+                                <option value="Rabbit">Rabbit</option>
+                            </select>
+                        </div>
+                        <div class="Search-field">
+                            <label for="location">Search By Location</label>
+                            <select name="location" class="location">
+                                <option value="All">Any Location</option>
+                                <option value="Rafedia">Rafedia</option>
+                                <option value="DerSharaf">DerSharaf</option>
+                                <option value="Qalqilia">Qalqilia</option>
+                            </select>
+                        </div>
+                        <button type="submit" class="Search-button">Search</button>
+                    </div>
+                </form>
+            </div>
+        </div>
+    </section>
+    <section class="join our pack">
+        <div class="content-wrapper">
+            <div class="image-section">
+                <img src="photo.webp" alt="Queens Care Center Collage" width="620" height="535">
+            </div>
+            <div class="text-section">
+                <h4>Join Our Pack!</h4>
+                <h1>ACC is hiring for our newly built Queens Care Center!</h1>
+                <p>Are you passionate about making a difference in the lives of animals? Join ACC and be part of a movement making a real difference!</p>
+                <a href="" class="apply-button"><strong>Apply Now</strong></a>
+            </div>
+        </div>
+    </section>
 </body>
 </html>
