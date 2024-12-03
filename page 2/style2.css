@@ -1,0 +1,11 @@
+.adoption-list {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 50px;
+    padding-right: 250px;
+    padding-left: 250px;
+    padding-top: 50px;
+    padding-bottom: 50px;
+}
+
