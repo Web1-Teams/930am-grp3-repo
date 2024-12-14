@@ -5,8 +5,26 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="style4.css">
     <link rel="stylesheet" href="https://fontawesome.com/icons/camera?f=classic&s=solid">
-    <title>resuce</title>
-</head>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH" crossorigin="anonymous">
+    <script defer src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz" crossorigin="anonymous"></script>
+    <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css" rel="stylesheet">
+    <title> Lost & Found </title>
+    <style>
+      dt {
+        font-weight: bold;
+        text-align: center;
+        margin-top: 15px;
+        opacity: 0.8;
+      }
+  
+      dd {
+        text-align: center;
+        color: #555;
+        margin-bottom: 30px; 
+        font-size:1.1rem
+      }
+    </style>
+  </head>
 <body>
     <nav>
         <ul>
@@ -17,130 +35,284 @@
             <li>Location And Hours</li>
         </ul>
     </nav>
-    <div id="photo">
-        <p id="one">
-           <span> lost & found </span> 
+    <div class="position-relative">
+        <p  class="z-1 fs-50 position-absolute text-white " style="margin-left:10rem ; margin-top: 10rem;"  >
+           <span class="h1"> lost & found <br> </span> 
             Find or Report a Lost Pet
         </p>
        <p><img src="coats-header-cropped.jpg" alt="pic of pets" style="width: 100%;" ></p>
     </div>
-    <div id="description">
-        <nav>
-          <ul>
-                <li>Lost Pet Resources</li>
-                <li> Found Pet Resources</li>
-                <li>Stray Cats</li>
-                <li>Additional Information</li>
-          </ul>
-        </nav>
+    <div  class=" z-2 position-sticky" style="margin-top: 45%;" >
+        <nav class="nav justify-content-center " >
+        <ul class="nav ">
+          <li class="nav-item">
+            <a class="nav-link" href="#section_1">Lost Pet Resources</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="#section_2">Found Pet Resources</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="#section_3">Stray Cats</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link " href="#section_4">Additional Information</a>
+          </li>
+        </ul>
+      </nav>
     </div>
-    <div id="button">
-        <button><a href=""> I Lost My Pet! </a></button>
-        <button><a href=""> Found a pet </a></button>
-    </div>
-    <div id="section_1">
-        <header>
-           <h2> Lost a pet? Act fast! </h2> 
-        </header>
-        <dl>
-           <i class="fa-solid fa-camera"></i>
-            <dt>Report</dt>
-            <dd>Report your missing pet and search <br>for a match on Petco Love Lost, a <br>national lost and found database <br>where shelters and neighbors post <br>found pets. Petco Love Lost uses <br>facial recognition technology, so <br>make sure to upload a clear photo of <br> your pet’s face!</dd>
-            <dt>Look Around</dt>
-            <dd>Look around the area where your <br> pet was lost. Create LOST PET flyers <br> and hang them as you walk around <br>the neighborhood.</dd>
-            <dt>Check the Chip</dt>
-            <dd>If your pet is microchipped, verify <br>your contact information is up-to- <br>date and inform the microchip <br>company that your pet is lost.</dd>
-            <dt>Share </dt>
-            <dd>Share your Petco Love Lost flyer on <br>social platforms, including your local <br>lost and found pets Facebook <br>groups.</dd>
-        </dl>
-    </div>
-    <div id="section_2">
-        
-        <header>
-            <h2> Found a pet? Help get them home!</h2>
-        </header>
-        <dl>
-         <dt>Report the Pet </dt>
-         <dd>Report the found pet and search <br>Petco Love Lost, a national lost and <br>found database where pets are <br>reported as lost to our shelters. <br>Petco Love Lost uses facial <br>recognition technology, so make <br>sure to upload a clear photo of the <br>pet’s face!</dd>
-         <dt>Check for ID Tags </dt>
-         <dd>Check for tags on the pet’s collar <br>and look for contact information. If <br>there are no tags, take them to a vet <br>or animal shelter to scan for a <br>microchip. </dd>        
-         <dt>Alert Your Community </dt>
-         <dd>Walk or drive around the area <br>where you found the pet. Create <br>FOUND PET flyers and hang them in <br>the neighborhood.</dd>
-         <dt>Share </dt>
-         <dd>Share your Petco Love Lost flyer on <br>social platforms, including your local <br>lost and found pets Facebook <br>groups.</dd>
-        </dl>
-    </div>
-    <div id="section_3">
-        <header>
-        <h2>Outdoor cats might not be lost or stray!</h2>
-        </header>
-       <dl>
-           <dt> Healthy Cats</dt>
-           <dd>If you come across a healthy cat in <br>your neighborhood, don’t be too <br>quick to assume it’s a stray or has <br>been abandoned. The cat might <br>belong to one of your neighbors and <br>likes to explore the outdoors. Please <br>note that ACC doesn’t accept <br>healthy stray cats. We kindly <br>recommend that you return the cat <br>to where you found it so it can easily <br>find its way back home.</dd>
-           <dt>Sick or Injured Cats</dt>
-           <dd> If you spot a cat that is visibly sick <br>or injured, please email CommunityCats@nycacc.org <br>so we can determine if the cat <br>needs assistance and, if so, how to <br>provide it. Do not try to handle or <br>physically restrain an aggressive or <br>fearful cat.</dd>       
-           <dt>Still Unsure</dt>
-           <dd>If you’re still unsure if the cat is lost <br>or abandoned, check for a tipped <br>ear, collar, or microchip (at a shelter <br>or vet clinic). If they have a tipped <br>ear, you’ve found a community cat! <br>It means they live outdoors, have a <br>caretaker, and have been sterilized <br>and vaccinated. If the cat has a collar <br>or tags, consider contacting the <br>owner to find the cat’s home.</dd>
-           <dt>Report</dt>
-           <dd>You can always report the cat as <br>found on Petco Love Lost to ensure <br>word gets out that this cat is <br>roaming your neighborhood. If you <br>contact an owner or a community <br>cat caretaker, you can remove the <br>listing from Petco Love Lost later.</dd>
-        </dl>
+    <div class="d-flex justify-content-center mt-4" >
+      <button class="btn btn-primary px-5 py-2 fs-4  mx-4" style="border-radius: 25px;">
+          <a href="#section_1" class="text-white text-decoration-none  data-mdb-attribute">I Lost My Pet!</a>
+      </button>
+      <button class="btn btn-success px-5 py-2 fs-4 mx-4"  style="border-radius: 25px;">
+          <a href="#section_2" class="text-white text-decoration-none  data-mdb-attribute">Found a Pet</a>
+      </button>
+  </div>
+  
+  
+  <div id="section_1"class="container text-center py-5">
+    <h1 class="mb-4" style="color: #A61AF0; opacity: 0.75;">Lost a pet? Act fast!</h1>
+    <dl class="row  align-items-stretch  justify-content-center">
+      
+      <div class="col-md-3">
+        <div class="  rounded-circle mx-auto mb-3" style="width: 80px; height: 80px; background-color: #1AA1F0; opacity: 0.9;">
+          <div class="d-flex justify-content-center align-items-center h-100 ">
+             <i class="fa-solid fa-camera  fa-2x" ></i>
+          </div>
         </div>
-        <section id="section_4">
-            <div id="section_4_div_1">
-                <h1>1 in 3 pets go missing in their <br>lifetime. Be prepared in case it <br>happens to you. </h1>
-               <p>Refaq reminds all pet owners to ensure their dog is licensed and <br>always kept on a leash, that their cat is kept indoors, that their <br>pets are wearing a tag, and that they have a registered <br>microchip</p>
+        <dt class="h4">Report</dt>
+        <dd >
+          Report your missing pet and search for a match on Petco Love Lost, a national lost and found database where shelters and neighbors post found pets. Petco Love Lost uses facial recognition technology, so make sure to upload a clear photo of your pet’s face!
+        </dd>
+      </div>
+     
+      <div class="col-md-3">
+        <div class="  rounded-circle mx-auto mb-3" style="width: 80px; height: 80px;  background-color: #1AA1F0; opacity: 0.9;">
+          <div class="d-flex justify-content-center align-items-center h-100 ">
+            <i class="fa-solid fa-magnifying-glass-location fa-2x"></i>
+         </div>
+        </div>
+        <dt class="h4">Look Around</dt>
+        <dd>
+          Look around the area where your pet was lost. Create LOST PET flyers and hang them as you walk around the neighborhood.
+        </dd>
+      </div>
+      
+      <div class="col-md-3">
+        <div class=" rounded-circle mx-auto mb-3" style="width: 80px; height: 80px;  background-color: #1AA1F0; opacity: 0.9;">
+          <div class="d-flex justify-content-center align-items-center h-100 ">
+            <i class="fa-solid fa-id-card-clip fa-2x"></i>
+         </div>
+        </div>
+        <dt class="h4">Check the Chip</dt>
+        <dd>
+          If your pet is microchipped, verify your contact information is up-to-date and inform the microchip company that your pet is lost.
+        </dd>
+      </div>
+      
+      <div class="col-md-3">
+        <div class=" rounded-circle mx-auto mb-3" style="width: 80px; height: 80px;  background-color: #1AA1F0; opacity: 0.9;">
+          <div class="d-flex justify-content-center align-items-center h-100 ">
+            <i class="fa-solid fa-phone-volume fa-2x"></i>
+         </div>
+        </div>
+        <dt class="h4">Share</dt>
+        <dd>
+          Share your Petco Love Lost flyer on social platforms, including your local lost and found pets Facebook groups.
+        </dd>
+      </div>
+    </dl>
+  </div>
+ 
+    <div id="section_2" class="py-5">
+     <div class="container">
+        <div class="text-center">
+          <h1 class="mb-5" style="color: #A61AF0; opacity: 0.75;">Found a pet? Help get them home!</h1>
+             <dl class="row align-items-stretch " >
+        
+           <div class="col-md-3">
+             <div class="rounded-circle mx-auto mb-3" style="width: 80px; height: 80px;  background-color: #1AA1F0; opacity: 0.9;">
+              <div class="d-flex justify-content-center align-items-center h-100 ">
+                <i class="fa-solid fa-camera  fa-2x" ></i>
+             </div>
+             </div>
+               <dt class="h4">Report the Pet</dt>
+               <dd>
+                 Report the found pet and search Petco Love Lost, a national lost and found database where pets are reported as lost to our shelters. Petco Love Lost uses facial recognition technology, so make sure to upload a clear photo of the pet’s face!
+              </dd>
+           </div>
+       
+          <div class="col-md-3">
+              <div class=" rounded-circle mx-auto mb-3" style="width: 80px; height: 80px;  background-color: #1AA1F0; opacity: 0.9;">
+                <div class="d-flex justify-content-center align-items-center h-100 ">
+                  <i class="fa-solid fa-id-card fa-2x"></i>
+               </div>
+              </div>
+             <dt class="h4">Check for ID Tags</dt>
+            <dd>
+                Check for tags on the pet’s collar and look for contact information. If there are no tags, take them to a vet or animal shelter to scan for a microchip.
+            </dd>
+          </div>
+        
+            <div class="col-md-3">
+              <div class="  rounded-circle mx-auto mb-3" style="width: 80px; height: 80px;  background-color: #1AA1F0; opacity: 0.9;">
+                <div class="d-flex justify-content-center align-items-center h-100 ">
+                  <i class="fa-solid fa-person fa-2x"></i>
+               </div>
+             </div>
+              <dt class="h4">Alert Your Community</dt>
+              <dd>
+                Walk or drive around the area  where you found the pet. Create  FOUND PET flyers and hang them in the neighborhood.
+               </dd>
             </div>
-            <div id="section_4_div_2">
-                <div class="accordion">
-                    <div class="accordion-item">
-                      <button class="accordion-header">
-                        Microchip
-                        <span class="icon">−</span>
-                      </button>
-                      <div class="accordion-content">
-                        <p>Microchips with up-to-date info are essential! If your lost pet is brought to any shelter or veterinary office, they will scan for a microchip and contact you! Here at ACC, we reunite hundreds of animals yearly because of microchips! If your pet is not microchipped, please have one implanted immediately! If your pet is microchipped, call the company to ensure the info is up-to-date. A microchip MUST be updated manually every time you move or change your contact info. If you don't know the microchip company, visit the <a href="#">Microchip Registry Lookup</a>.</p>
-                      </div>
-                    </div>
-                    <div class="accordion-item">
-                      <button class="accordion-header">
-                        Have Details and a Photo Ready
-                        <span class="icon">+</span>
-                      </button>
-                      <div class="accordion-content">
-                        <p>Keep updated details and a clear photo of your pet for identification purposes.</p>
-                      </div>
-                    </div>
-                    <div class="accordion-item">
-                      <button class="accordion-header">
-                        Collars, Tags, and Leashes
-                        <span class="icon">+</span>
-                      </button>
-                      <div class="accordion-content">
-                        <p>Ensure your pet always has a collar with tags and a secure leash when outside.</p>
-                      </div>
-                    </div>
-                    <div class="accordion-item">
-                      <button class="accordion-header">
-                        Dog License
-                        <span class="icon">+</span>
-                      </button>
-                      <div class="accordion-content">
-                        <p>Having a valid dog license is essential for identification and compliance with local laws.</p>
-                      </div>
-                    </div>
-                    <div class="accordion-item">
-                      <button class="accordion-header">
-                        Protective Barriers
-                        <span class="icon">+</span>
-                      </button>
-                      <div class="accordion-content">
-                        <p>Use protective barriers at home to ensure your pet’s safety.</p>
-                      </div>
-                    </div>
-                  </div>
+        
+            <div class="col-md-3">
+              <div class="  rounded-circle mx-auto mb-3" style="width: 80px; height: 80px;  background-color: #1AA1F0; opacity: 0.9;">
+                <div class="d-flex justify-content-center align-items-center h-100 ">
+                  <i class="fa-solid fa-phone-volume fa-2x"></i>
+               </div>
+              </div>
+              <dt class="h4">Share</dt>
+             <dd>
+                Share your Petco Love Lost flyer on social platforms, including your local lost and found pets Facebook groups.
+              </dd>
             </div>
+           </dl>
+         </div>
+        </div>
+     </div>
+    <div id="section_3">
+      <div class="container text-center py-5 ">
+        <h1 class="mb-5" style="color: #A61AF0; opacity: 0.75;">Outdoor cats might not be lost or stray!</h1>
+        <dl class="row align-items-stretch justify-content-center">
+          
+          <div class="col-md-3">
+            <div class=" rounded-circle mx-auto mb-3" style="width: 80px; height: 80px;  background-color: #1AA1F0; opacity: 0.9;">
+              <div class="d-flex justify-content-center align-items-center h-100 ">
+                <i class="fa-solid fa-paw fa-2x"></i>
+             </div>
+            </div>
+            <dt class="h4">Healthy Cats</dt>
+            <dd>
+              If you come across a healthy cat in <br>your neighborhood, don’t be too <br>quick to assume it’s a stray or has <br>been abandoned. The cat might <br>belong to one of your neighbors and <br>likes to explore the outdoors. Please <br>note that Rafiq doesn’t accept <br>healthy stray cats. We kindly <br>recommend that you return the cat <br>to where you found it so it can easily <br>find its way back home.
+            </dd>
+          </div>
+         
+          <div class="col-md-3">
+            <div class="  rounded-circle mx-auto mb-3" style="width: 80px; height: 80px;  background-color: #1AA1F0; opacity: 0.9;">
+              <div class="d-flex justify-content-center align-items-center h-100 ">
+                <i class="fa-solid fa-kit-medical fa-2x"></i>
+             </div>
+            </div>
+            <dt class="h4">Sick or Injured Cats</dt>
+            <dd>
+              If you spot a cat that is visibly sick or injured, please email CommunityCats@palRafiq.org so we can determine if the cat needs assistance and, if so, how to provide it. Do not try to handle or physically restrain an aggressive or fearful cat.
+            </dd>
+          </div>
+          
+          <div class="col-md-3">
+            <div class=" rounded-circle mx-auto mb-3" style="width: 80px; height: 80px;  background-color: #1AA1F0; opacity: 0.9;">
+              <div class="d-flex justify-content-center align-items-center h-100 ">
+                <i class="fa-solid fa-question fa-2x"></i>
+             </div>
+            </div>
+            <dt class="h4">Still Unsure</dt>
+            <dd>
+              If you’re still unsure if the cat is lost or abandoned, check for a tipped ear, collar, or microchip (at a shelter or vet clinic). If they have a tipped ear, you’ve found a community cat! It means they live outdoors, have a caretaker, and have been sterilized and vaccinated. If the cat has a collar or tags, consider contacting the owner to find the cat’s home.
+            </dd>
+          </div>
+          
+          <div class="col-md-3">
+            <div class="  rounded-circle mx-auto mb-3" style="width: 80px; height: 80px;  background-color: #1AA1F0; opacity: 0.9;">
+              <div class="d-flex justify-content-center align-items-center h-100 ">
+                <i class="fa-solid fa-camera  fa-2x" ></i>
+             </div>
+            </div>
+            <dt class="h4">Report</dt>
+            <dd>
+              You can always report the cat as found on Petco Love Lost to ensure word gets out that this cat is roaming your neighborhood. If you contact an owner or a community cat caretaker, you can remove the listing from Petco Love Lost later.
+            </dd>
+          </div>
+        </dl>
+      </div>
+    </div>
+        <section id="section_4" class="position-relative container">
+          <div class="container py-5">
+            <div class="row ">
+                <div class=" col-md-6  text-white p-4  " style="background-color: #1AA1F0;">
+                    <h1 class="mb-4">1 in 3 pets go missing in their lifetime. Be prepared in case it happens to you. </h1>
+                    <p>Rafiq reminds all pet owners to ensure their dog is licensed and always kept on a leash, that their cat is kept indoors, that their pets are wearing a tag, and that they have a registered microchip.</p>
+                </div>
+                
+                <div class="col-md-6 p-4">
+                    <div class="accordion" id="detailsAccordion">
+                      <div class="accordion-item">
+                        <h2 class="accordion-header" id="headingOne">
+                          <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapseOne" aria-expanded="true" aria-controls="collapseOne">
+                            Microchip
+                          </button>
+                        </h2>
+                        <div id="collapseOne" class="accordion-collapse collapse " aria-labelledby="headingOne" data-bs-parent="#detailsAccordion">
+                          <div class="accordion-body">
+                            Microchips with up-to-date info are essential! If your lost pet is brought to any shelter or veterinary office, they will scan for a microchip and contact you! Here at Rafiq, we reunite hundreds of animals yearly because of microchips. If your pet is not microchipped, please have one implanted immediately!
+                              If your pet is microchipped, call the company to ensure the info is up-to-date. A microchip MUST be updated manually every time you move or change your contact info. If you don't know the microchip company, 
+                          </div>
+                        </div>
+                      </div>
+                        <div class="accordion-item">
+                            <h2 class="accordion-header" id="headingTwo">
+                                <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapseTwo" aria-expanded="false" aria-controls="collapseTwo">
+                                  Have Details and a Photo Ready
+                                </button>
+                            </h2>
+                            <div id="collapseTwo" class="accordion-collapse collapse" aria-labelledby="headingTwo" data-bs-parent="#detailsAccordion">
+                                <div class="accordion-body">
+                                  Always keep updated information and a recent photo of your pet in case they go missing.
+                                </div>
+                            </div>
+                        </div>
+                        <div class="accordion-item">
+                            <h2 class="accordion-header" id="headingThree">
+                                <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapseThree" aria-expanded="false" aria-controls="collapseThree">
+                                  Collars, Tags, and Leashes
+                                </button>
+                            </h2>
+                            <div id="collapseThree" class="accordion-collapse collapse" aria-labelledby="headingThree" data-bs-parent="#detailsAccordion">
+                                <div class="accordion-body">
+                                  Ensure your pets are wearing proper identification and are kept safe with leashes.
+                                </div>
+                            </div>
+                        </div>
+                        <div class="accordion-item">
+                            <h2 class="accordion-header" id="headingFour">
+                                <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapseFour" aria-expanded="false" aria-controls="collapseFour">
+                                  Dog License
+                                </button>
+                            </h2>
+                            <div id="collapseFour" class="accordion-collapse collapse" aria-labelledby="headingFour" data-bs-parent="#detailsAccordion">
+                                <div class="accordion-body">
+                                  A dog license ensures your pet is easily identifiable by local authorities.
+                                </div>
+                            </div>
+                        </div>
+                        <div class="accordion-item">
+                            <h2 class="accordion-header" id="headingFive">
+                                <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapseFive" aria-expanded="false" aria-controls="collapseFive">
+                                  Protective Barriers
+                                </button>
+                            </h2>
+                            <div id="collapseFive" class="accordion-collapse collapse" aria-labelledby="headingFive" data-bs-parent="#detailsAccordion">
+                                <div class="accordion-body">
+                                  Use protective barriers to keep pets safe indoors or in secured outdoor areas.
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
         </section>
-        <div>
+        <!-- <div>
             <h1>Sign up for the ACC Boroughbred Bulletin Newsletter</h1>
             <div class = "sign-up-button">
                 <style>
@@ -177,8 +349,8 @@
             </div>
             </div>
         </div>
-    </section>
-    <section class = "footer-section" style="background-color: #00b3b3;">
+    </section> -->
+    <!-- <section class = "footer-section" style="background-color: #00b3b3;">
         <div class = "social-bar">
             <style>
                 .social-bar {
@@ -214,6 +386,6 @@
 
            
         </div>
-    </section>
+    </section> -->
 </body>
 </html>
