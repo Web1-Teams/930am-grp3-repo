@@ -8,42 +8,37 @@
 </head>
 <body class="main page">
     <div class="lol">
-    <nav class="main-menu page">
-        <div class="navbar">
-            <ul class="navigation fix">
-                <li class="menu-item-10"><a title="home" href="">Home</a></li>
-                <li class="menu-item-11"><a title="About" href="">About</a>
-                    <ul role="menu" class="submenu">
-                        <li class="menu-item menu-item-type-post_type menu-item-object-page menu-item-1"><a href="">Content Us</a></li>
-                    </ul>
-                </li>
-                <li  class="menu-item-12"><a title="Animal Care" href="">Animal Care</a>
-                    <ul role="menu" class="submenu">
-                        <li class="menu-item menu-item-type-post_type menu-item-object-page menu-item-2"><a href="">Advice</a></li>
-                        <li class="menu-item menu-item-type-post_type menu-item-object-page menu-item-3"><a href="">health</a></li>
-                        <li class="menu-item menu-item-type-post_type menu-item-object-page menu-item-4"><a href="">Articles</a></li>
-                    </ul>
-                </li>
-                <li class="menu-item-13"><a title="Support" href="">Support</a>
-                <ul role="menu" class="submenu">
-                    <li class="menu-item menu-item-type-post_type menu-item-object-page menu-item-5"><a href="">Donate</a></li>
-                    <li class="menu-item menu-item-type-post_type menu-item-object-page menu-item-6"><a href="">Resurces</a></li>
-                    <li class="menu-item menu-item-type-post_type menu-item-object-page menu-item-7"><a href="">Sponsors</a></li>
+        <nav class="main-menu page">
+            <div class="navbar">
+                <div class="logo">
+                    <img src="Picsart_24-12-11_00-26-28-373.jpg" alt="Logo" title="Website Logo" />
+                </div>
+                <ul class="navigation">
+                    <li class="menu-item-10"><a title="Home" href="">Home</a></li>
+                    <li class="menu-item-11"><a title="About" href="">About</a>
+                        <ul role="menu" class="submenu">
+                            <li class="menu-item menu-item-type-post_type menu-item-object-page menu-item-1"><a href="">Contact Us</a></li>
+                        </ul>
+                    </li>
+                    <li class="menu-item-12"><a title="Animal Care" href="">Animal Care</a>
+                        <ul role="menu" class="submenu">
+                            <li class="menu-item menu-item-type-post_type menu-item-object-page menu-item-2"><a href="">Advice</a></li>
+                            <li class="menu-item menu-item-type-post_type menu-item-object-page menu-item-3"><a href="">Health</a></li>
+                            <li class="menu-item menu-item-type-post_type menu-item-object-page menu-item-4"><a href="">Articles</a></li>
+                        </ul>
+                    </li>
+                    <li class="menu-item-13"><a title="Support" href="">Support</a></li>
+                    <li class="menu-item-14"><a title="Volunteer" href="">Volunteer</a></li>
+                    <li class="menu-item-15"><a title="Report" href="">Report</a></li>
+                    <li class="menu-item-16"><a title="Login" href="">Login</a></li>
+                    <button class="Donate">
+                        <span>Donate</span>
+                    </button> 
                 </ul>
-                </li>
-                <li  class="menu-item-14"><a title="Volunter" href="">Volunter</a></li>
-                <li class="menu-item-15"><a title="Report" href="">Report</a></li>
-                <li class="menu-item-16"><a title="Login" href="">Login</a></li>
-            </ul>
-            <button>
-                <span class="text">Donate</span>
-                </button> 
-            <div class="InputContainer">
-                <input placeholder="Search.."  class="input" name="text" type="text">
             </div>
-        </div> 
-    </nav>
+        </nav>
     </div>
+    
     <br>
 
     <section class="home-banner">
@@ -79,22 +74,31 @@
                         <div class="Search-field">
                             <label for="spacies">Search By Animal</label>
                             <select name="spacies" class="spacies">
-                                <option value="All">All Animals</option>
-                                <option value="Cat">Cat</option>
-                                <option value="Dog">Dog</option>
-                                <option value="Rabbit">Rabbit</option>
+                                <option class="op" value="All">All Animals</option>
+                                <option class="op" value="Cat">Cat</option>
+                                <option class="op" value="Dog">Dog</option>
+                                <option class="op" value="Rabbit">Rabbit</option>
                             </select>
                         </div>
                         <div class="Search-field">
                             <label for="location">Search By Location</label>
                             <select name="location" class="location">
-                                <option value="All">Any Location</option>
-                                <option value="Rafedia">Rafedia</option>
-                                <option value="DerSharaf">DerSharaf</option>
-                                <option value="Qalqilia">Qalqilia</option>
+                                <div class="nn">
+                                <option class="op" value="All">Any Location</option>
+                                <option class="op" value="Rafedia">Nablus</option>
+                                <option class="op" value="DerSharaf">Gaza</option>
+                                <option class="op" value="Jarusalem">Jarusalem</option>
+                                <option class="op" value="Amaan">Amaan</option>
+                                <option class="op" value="Beirut">Beirut</option>
+                                <option class="op" value="Hebron">Hebron</option>
+                                <option class="op" value="Jenin">Jenin</option>
+                                <option class="op" value="Damascus">Damascus</option>
+                                <option class="op" value="Alexandria">Alexandria</option>
+                                <option class="op" value="Ramallah">Ramallah</option>
+                            </div>
                             </select>
                         </div>
-                        <button type="submit" class="Search-button">Search</button>
+                        <button  type="submit" class="Search-button"><a class="lol" href="../page 2/adoption.html">Search</a></button>
                     </div>
                 </form>
             </div>
@@ -102,7 +106,7 @@
     </section>
     <br>
 
-    <section class="join our pack">
+    <section class="join-our-pack">
         <div class="content-wrapper">
             <div class="image-section">
                 <img src="photo.webp" alt="Queens Care Center Collage" width="620" height="535">
@@ -121,7 +125,7 @@
         <div class="elementor-container">
             <div class="elementor-column">
                 <div class="elementor-widget">
-                    <h4 class="elementor-heading-title">Adoption Events</h4>
+                    <h4 class="elementor-heading-title">Events</h4>
                     <h1 class="elementor-heading-title">Find an Upcoming RAFEQ <br> Mobile Pet Adoption <br> Event</h1>
                     <p>Our adoption events are on a first-come-first-served basis for adoptable <br> animals. Our lines typically start 2 hour prior to the event’s start. See a full <br> list of our upcoming events!</p>
                     <a class="elementor-button" href="Adopt">
@@ -131,39 +135,39 @@
             </div>
             <div class="elementor-column">
                 <div class="elementor-widget">
-                    <img src="" alt="Mobile Pet Adoption">
+                    <img src="event.jpg" alt="Mobile Pet Adoption">
                 </div>
             </div>
         </div>
     </section>
     <br>
     
-    <section class="elementor-section-2" >
-        <div class="elementor-container-2">
-            <div class="elementor-column elementor">
+    <section class="elementor-section2" >
+        <div class="elementor-container2">
+            <div class="elementor-column2">
                 <h5><strong>Volunteer</strong></h5>
-                <p>If you have a passion for animals and are looking to <br> make a difference, Animal Care Centers of Nablus <br> (RAFEQ) needs your help.</p>
-                <a class="elementor-icon" href="/volunteer/">
+                <p>If you have a passion for animals and are looking to  make a difference, Animal Care Centers of Nablus  (RAFEQ) needs your help.</p>
+                <a class="elementor-icon1" href="..//page 6/volunter.html">
                     <button>
-                        <span class="butto">GO</span>
+                        <span class="butto1">GO</span>
                         </button>
                 </a>
             </div>
-            <div class="elementor-column elementor-2">
+            <div class="elementor-column2">
                 <h5><strong>Lost and Found</strong></h5>
-                <p>RAFEQ is committed to reuniting lost and found pets <br> with their families. We take in  of animals <br> every day at all locations.</p>
-                <a class="elementor-icon" href="/services/lost-and-found/">
+                <p>RAFEQ is committed to reuniting lost <br> and found pets  with their families. We take in  of animals  every day at all locations.</p>
+                <a class="elementor-icon2" href="..//page 4/resuce.html">
                     <button>
-                        <span class="butto">GO</span>
+                        <span class="butto2">GO</span>
                         </button>
                 </a>
             </div>
-            <div class="elementor-column elementor-2">
+            <div class="elementor-column2">
                 <h5><strong>Foster</strong></h5>
-                <p>Take your first steps with the RAFEQ Foster Team by <br> signing up for one of our Virtual Foster <br> Orientations.</p>
-                <a class="elementor-icon" href="/foster/">
+                <p>Take your first steps with the RAFEQ Foster Team by <br> signing up for one of our Virtual Foster  Orientations.</p>
+                <a class="elementor-icon3" href="/foster/">
                     <button>
-                        <span class="butto">GO</span>
+                        <span class="butto3">GO</span>
                         </button>
                 </a>
             </div>
@@ -174,7 +178,7 @@
     <section class="hero-section">
         <div class="hero-container">
         <div class="hero-column hero-image">
-            <img src="RAFEQ-Heroes.jpg" alt="Heroes Needed" class="hero-img">
+            <img src="Hero.jpg" alt="Heroes Needed" class="hero-img">
         </div>
         <div class="hero-column hero-content">
             <h4 class="hero-subtitle">Emergency Placement</h4>
@@ -194,83 +198,60 @@
     </section>
     <br>
 
-    <section class="sec how can help">
-        <div class="image-section2">
-            <img src="dooooooog.webp" alt="" width="20%" height="10%" >
-                <header>
+    <section class="sec-how-can-help">
+        <div class="contaner222">
+            <header>
                 <h4>How You Can Help</h4>
                 <h1>There are many ways to get involved</h1>
                 </header>
-            
+                <img class="er" src="dooooooog.webp" alt="" width="20%" height="10%" >
+
         </div>
-        <div class="con how can help">
-            <div class="item how can help">
-                <img src="" alt="">
+        <div class="con-how-can-help">
+            <div class="item-how-can-help">
+                <a href="..//page 6/volunter.html"><img class="sss" src="hands.png" alt=""></a>
                 <h4><strong>Volunteer</strong></h4>
                 <p>Currently seeking highly experienced large dog handlers at all Care Center locations</p>
-                <button class="help">
-                    <a href="volonter" class="link how can help">Learn More</a>
-                </button>
             </div>
-            <div class="item how can help">
-                <img src="" alt="">
+            <div class="item-how-can-help">
+                <a href="..//page 2/adoption.html"><img class="sss" src="foster1.webp" alt=""></a>
                 <h4><strong>Foster</strong></h4>
                 <p>Take your first steps with the RAFEQ Foster Team by signing up for one of our Virtual Foster Orientations</p>
-                <button class="help">
-                    <a href="foster" class="link how can help">Learn More</a>
-                </button>
             </div>
-            <div class="item how can help">
-                <img src="" alt="">
-                <h4><strong>Corporate Partnerships</strong></h4>
+            <div class="item-how-can-help">
+                <a href="..//page 2/adoption.html"><img class="sss" src="donate1.png" alt=""></a>
+                <h4><strong>Donate</strong></h4>
                 <p>Support homeless animals, achieve your charitable goals</p>
-                <button class="help">
-                    <a href="get involved" class="link how can help">Learn More</a>
-                </button>
                 </div>
-            <div class="item how can help">
-                <img src="" alt="">
+            <div class="item-how-can-help">
+                <a href="..//page 2/adoption.html"><img class="sss" src="tekit.png" alt=""></a>
                 <h4><strong>Fundraising Events</strong></h4>
                 <p>Find an upcoming Fundraising Event near you</p>
-                <button class="help">
-                    <a href="get involved" class="link how can help">Learn More</a>
-                </button>
-                
             </div>
         </div>
     </section>
     <br>
 
-    <section class = "sign-up">    
-        <div>
-            <h1>Sign up for the RAFEQ</h1>
-            <div class = "sign-up-button">
-            
-            <div class="page-container">
+    <section class="footer-section">
+        <div class="footer-content">
+            <div class="sign-up">
+                <h1>Sign up for the RAFEQ</h1>
                 <a href="#" class="button">Click here to<br>sign up!</a>
             </div>
+            <div class="social-bar">
+                <a href="#" target="_blank" class="social-icon">
+                    <img src="facebook.png" alt="Facebook">
+                </a>
+                <a href="#" target="_blank" class="social-icon">
+                    <img src="instagram.png" alt="Instagram">
+                </a>
+                <a href="#" target="_blank" class="social-icon">
+                    <img src="whatsapp.png" alt="WhatsApp">
+                </a>
             </div>
         </div>
     </section>
-    <br>
-
-    <section class = "footer-section" >
-        <div class = "social-bar">
-            <a href="#" target="_blank" class="social-icon">
-            <img src="facebook.png" alt="Facebook">
-            </a>
-
-            <a href="#" target="_blank" class="social-icon">
-            <img src="instagram.png" alt="instagram">
-            </a>
-            
-            <a href="#" target="_blank" class="social-icon">
-            <img src="whatsapp.png" alt="WhatsApp">
-            </a>
-
-        
-        </div>
-    </section>
+    
     
 </body>
 </html>
