@@ -5,12 +5,13 @@ body{
     align-items: center;
     flex-direction: column;
     padding: 50px;
+    background-color: #FFFBF5;
 }
 .navbar {
     display: flex;
     justify-content: space-between;
     align-items: center;
-    background-color: #ffffff;
+    background-color: #7743DB;
     padding: 10px 20px;
     position: fixed;
     top: 0;
@@ -41,14 +42,14 @@ body{
 
 .navigation a {
     text-decoration: none;
-    color: rgb(0, 0, 0);
+    color: rgb(255, 255, 255);
     padding: 10px 20px;
     display: block;
     transition: background-color 0.3s;
 }
 
 .navigation a:hover {
-    color: #4a0075;
+    color: #7743DB;
 }
 
 .submenu {
@@ -56,7 +57,7 @@ body{
     position: absolute;
     top: 100%;
     left: 0;
-    background-color: #400164;
+    background-color: #FFFBF5;
     list-style: none;
     padding: 0;
     margin: 0;
@@ -74,12 +75,12 @@ body{
 
 .submenu a {
     padding: 10px 15px;
-    color: rgb(255, 255, 255);
+    color: #7743DB;
     white-space: nowrap;
 }
-
 .submenu a:hover {
     background-color: #ffffff;
+    border-radius: 10px;
 }
 
 button.Donate {
@@ -149,7 +150,7 @@ option{
 
 .Search-button {
     padding: 10px 20px;
-    background-color: #ff9900;
+    background-color: #f7b605;
     color: #0c0404;
     border: none;
     border-radius: 5px;
@@ -193,7 +194,7 @@ option{
 }
 
 .text-section h4 {
-    color: #0400ff;
+    color: #7743DB;
     font-size: 25px;
     margin-bottom: 10px;
 }
@@ -213,7 +214,7 @@ option{
     padding: 10px 20px;
     font-size: 16px;
     color: #0e0606;
-    background-color: #ff9900;
+    background-color: #f7b605;
     text-decoration: none;
     border-radius: 50px;
     transition: transform 0.3s ease, box-shadow 0.3s ease;
@@ -248,7 +249,7 @@ option{
     text-align: center;
 }
 .elementor-widget h4 {
-    color: #0111f7;
+    color: #7743DB;
     font-size: 18px;
     margin-bottom: 10px;
     text-transform: uppercase;
@@ -271,7 +272,7 @@ option{
     font-size: 16px;
     font-weight: bold;
     color: #000000;
-    background-color: #ff9900;
+    background-color: #f7b605;
     text-decoration: none;
     border-radius: 50px;
     transition: transform 0.3s ease, box-shadow 0.3s ease;
@@ -317,7 +318,7 @@ option{
 }
 .elementor-column2 h5 {
     font-size: 20px;
-    color: #0112fd;
+    color: #7743DB;
     margin-bottom: 15px;
 }
 .elementor-column2 p {
@@ -329,7 +330,7 @@ option{
 .elementor-icon1 button,
 .elementor-icon2 button,
 .elementor-icon3 button {
-    background-color: #ff9900;
+    background-color: #f7b605;
     color: #000000;
     border: none;
     padding: 10px 40px;
@@ -383,7 +384,7 @@ option{
 .hero-subtitle {
     font-size: 20px;
     font-weight: bold;
-    color: #1100fa;
+    color: #7743DB;
     margin-bottom: 10px;
 }
 .hero-title {
@@ -397,7 +398,7 @@ option{
     margin-bottom: 30px;
 }
 .hero-button button {
-    background-color: #ff9900; 
+    background-color: #f7b605; 
     color: #030202;
     border: none;
     padding: 12px 260px;
@@ -425,7 +426,7 @@ option{
     font-family: Arial, sans-serif;
 }
 .sec-how-can-help header h4 {
-    color: #1100ff;
+    color: #7743DB;
     font-size: 20px;
     margin-bottom: 10px;
     text-transform: uppercase;
@@ -470,7 +471,7 @@ option{
     height: 80px;
     margin-bottom: 15px;
     border-radius: 50%;
-    background-color: #ff9900;
+    background-color: #7743DB;
     padding: 10px;
 }
 .item-how-can-help h4 {
