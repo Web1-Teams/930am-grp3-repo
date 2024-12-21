@@ -1,8 +1,11 @@
+import Hanis_page from './components/hani_components/Hanis_page';
 
 
 function App() {
   return (
-<div></div>
+    <>
+    <Hanis_page/>
+    </>
   );
 }
 
