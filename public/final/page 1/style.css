@@ -84,20 +84,20 @@ body{
     border-radius: 10px;
 }
 
-button.Donate {
+.Donatee{
     margin-right: 300px;
     background-color: #f7b605;
-    color: rgb(0, 0, 0);
+    color: rgb(255, 255, 255);
     border: none;
-    padding: 10px 20px;
+    padding: 1px;
     font-size: 16px;
     cursor: pointer;
     transition: background-color 0.3s;
-    border-radius: 10px;
+    border-radius: 5px;
 }
 
-button.Donate:hover {
-    color: #ffffff;
+.Donatee:hover {
+    color: #000000;
 }
 /***********/
 .home-banner {
@@ -230,11 +230,11 @@ option{
     font-size: 20px;
     text-decoration: none;
     padding: 10px ;
-    color: #0c0404;
+    color: #ffffff;
     cursor: pointer;
 }
 .lol:hover{
-    color: #ffffff;
+    color: #000000;
 }
 /***********/
 .join-our-pack {
