@@ -100,6 +100,76 @@ button.Donate:hover {
     color: #ffffff;
 }
 /***********/
+.home-banner {
+    width: 100%;
+    height: 110vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    position: relative;
+    overflow: hidden;
+}
+.banner-content {
+    text-align: center;
+    position: relative;
+    color: #fff;
+    z-index: 1;
+}
+.banner-text h1, .banner-text h2 {
+    margin: 0;
+    font-size: 36px;
+    line-height: 1.2;
+}
+.banner-text h1 {
+    font-size: 48px;
+    font-weight: 600;
+    letter-spacing: 1px;
+    color: #7743DB;
+}
+.banner-text h2 {
+    font-size: 48px;
+    font-weight: 700;
+    color: #7743DB; 
+    letter-spacing: 2px;
+    text-transform: uppercase;
+    margin-top: 10px;
+}
+.banner-images {
+    position: relative;
+    width: 100%;
+    max-width: 600px; 
+    height: 700px; 
+    margin: 30px auto;
+    border-radius: 10px;
+    overflow: hidden;
+}
+.image-item {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    opacity: 0;
+    transition: opacity 1s ease-in-out, transform 1s ease-in-out;
+    object-fit: cover;
+    border-radius: 10px;
+}
+
+.image-item.active {
+    opacity: 1;
+    transform: scale(1.05);
+}
+.banner-stats {
+    margin-top: 30px;
+}
+.banner-stats h2 {
+    font-size: 36px;
+    font-weight: 700;
+    color: #7743DB;
+    text-transform: uppercase;
+    letter-spacing: 2px;
+}
+/***********/
 .Adopt-section{
     background-color: #7743DB;
     padding: 50px;
@@ -493,50 +563,64 @@ option{
     color: #ffffff;
 }
 /********/
-/* تنسيق الفوتر */
-.footer-section {
-    background-color: #333;
-    width: 100%;
-    padding: 40px 0;
-    position: relative;
-    bottom: 0;
-    left: 0;
-    right: 0;
-}
+@media (max-width: 768px) {
+    .navbar {
+        flex-direction: column;
+        padding: 15px;
+    }
 
-/* تنسيق محتوى الفوتر */
-.footer-content {
-    max-width: 1200px;
-    margin: 0 auto;
-    padding: 0 15px;
-    text-align: center;
-}
+    .logo img {
+        margin-left: 0;
+        max-height: 50px;
+    }
 
-/* تنسيق شريط التواصل الاجتماعي */
-.social-bar {
-    display: flex;
-    justify-content: center;
-    gap: 20px;
-    align-items: center;
-}
+    .navigation {
+        flex-direction: column;
+        align-items: flex-start;
+    }
 
-/* تنسيق الأيقونات الاجتماعية */
-.social-icon img {
-    width: 40px;
-    height: 40px;
-    transition: transform 0.3s ease;
-}
+    .navigation a {
+        padding: 10px 0;
+        text-align: left;
+    }
 
-/* تأثير عند تمرير الماوس */
-.social-icon:hover img {
-    transform: scale(1.1);
-}
+    .Adopt-div {
+        flex-direction: column;
+    }
 
-/* تنسيق الأيقونات عند التمرير */
-.social-icon {
-    display: inline-block;
-}
+    .Adopt-text {
+        margin-right: 0;
+        margin-bottom: 20px;
+        text-align: center;
+    }
 
+    .hero-container {
+        flex-direction: column;
+    }
+
+    .hero-img {
+        width: 100%;
+        height: auto;
+    }
+
+    .hero-button button {
+        padding: 12px 40px;
+    }
+
+    .elementor-container,
+    .con-how-can-help {
+        flex-direction: column;
+        gap: 20px;
+    }
+
+    .elementor-button {
+        padding: 12px 40px;
+    }
+}
+/*********/
+
+
+/**********/
 
 
 
