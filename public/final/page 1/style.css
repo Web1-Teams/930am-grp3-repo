@@ -102,7 +102,7 @@ button.Donate:hover {
 /***********/
 .home-banner {
     width: 100%;
-    height: 115vh;
+    height: 120vh;
     display: flex;
     align-items: center;
     justify-content: center;
@@ -616,66 +616,72 @@ option{
     }
 }
 /*********/
+@media (max-width: 1024px) {
+    .navbar {
+        padding: 10px 15px;
+    }
 
+    .logo img {
+        margin-left: 0;
+        max-height: 60px;
+    }
 
+    .navigation li {
+        margin: 0 5px;
+    }
+
+    .hero-img {
+        width: 80%;
+        height: auto;
+    }
+
+    .hero-button button {
+        padding: 12px 60px;
+    }
+
+    .Adopt-div {
+        flex-direction: column;
+    }
+
+    .Adopt-text {
+        margin-right: 0;
+        margin-bottom: 20px;
+        text-align: center;
+    }
+
+    .elementor-container2 {
+        flex-wrap: wrap;
+        gap: 20px;
+    }
+
+    .elementor-column2 {
+        width: 100%;
+    }
+}
 /**********/
-/* إعدادات الفوتر */
 .footer-section {
     width: 124%;
     background-color: #7743DB; 
-    padding: 50px;
-    
-    color: #fff; /* لون النص */
-    text-align: center; /* محاذاة النص إلى المنتصف */
-  }
-  
-  .footer-content {
-    max-width: 1200px; /* أقصى عرض للمحتوى */
-    margin: 0 auto; /* محاذاة المحتوى إلى المنتصف */
-    padding: 0 20px;
-  }
-  
-  .social-bar {
-    display: flex;
-    justify-content: center; /* توزيع الأيقونات بالتساوي */
-    gap: 20px; /* المسافة بين الأيقونات */
-  }
-  
-  .social-icon {
-    width: 40px; /* عرض الأيقونة */
-    height: 40px; /* ارتفاع الأيقونة */
+    padding: 70px;
+    text-align: center;
+    z-index: 1000;
+}
+
+.social-bar {
     display: flex;
     justify-content: center;
-    align-items: center;
-    border-radius: 50%; /* جعل الأيقونة دائرية */
-    background-color: #fff; /* خلفية الأيقونة بيضاء */
-    transition: background-color 0.3s, transform 0.3s; /* تأثيرات تفاعلية */
-  }
-  
-  .social-icon:hover {
-    background-color: #ff6600; /* تغيير الخلفية عند التمرير */
-    transform: scale(1.1); /* تكبير الأيقونة قليلاً */
-  }
-  
-  .social-icon img {
-    width: 25px; /* عرض الأيقونة داخل الدائرة */
-    height: 25px; /* ارتفاع الأيقونة داخل الدائرة */
-    transition: opacity 0.3s;
-  }
-  
-  .social-icon:hover img {
-    opacity: 0.8; /* تقليل شفافية الأيقونة عند التمرير */
-  }
-  
-  /* إضافة تأثيرات نصية على النص داخل الفوتر */
-  .footer-content p {
-    font-size: 14px;
-    color: #bbb; /* لون نص رقيق */
-    margin-top: 10px;
-    font-family: 'Arial', sans-serif;
-  }
-  
+    gap: 20px;
+}
 
+.social-icon img {
+    width: 30px; 
+    height: 30px;
+}
+
+.social-icon:hover img {
+    opacity: 0.7; 
+}
+/*end*/
 
 
 
