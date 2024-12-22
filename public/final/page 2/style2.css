@@ -1,11 +1,315 @@
+/* General Body Styling */
+body {
+    font-family: 'Roboto', sans-serif;
+    background-color: #F9F9F9;
+    color: #333;
+    margin: 0;
+    padding: 0;
+    line-height: 1.6;
+}
+
+/* Page Title Styling */
+#adoption-title {
+    text-align: center;
+    font-size: 3rem;
+    color: #7743DB;
+    margin: 30px 0;
+}
+
+/* Search Container */
+.search-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 20px 0;
+}
+
+#search-box {
+    padding: 12px;
+    font-size: 1rem;
+    width: 320px;
+    border: 2px solid #7743DB;
+    border-radius: 5px 0 0 5px;
+    outline: none;
+
+}
+
+
+.adoption-button {
+    padding: 14px 20px;
+    font-size: 1rem;
+    background-color: #7743DB;
+    color: #fff;
+    border: none;
+    border-radius: 0 5px 5px 0;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+}
+
+.adoption-button:hover {
+    background-color: #5f31b4;
+}
+
+.submit {
+
+    text-align: center;
+
+}
+/* Animal List */
 .adoption-list {
     display: flex;
     flex-wrap: wrap;
     justify-content: center;
-    gap: 50px;
-    padding-right: 250px;
-    padding-left: 250px;
-    padding-top: 50px;
-    padding-bottom: 50px;
+    gap: 20px;
+    padding: 20px;
+    margin: 0 auto;
+    max-width: 1200px;
+    margin-top: -10px;
 }
 
+/* Individual Animal Containers */
+.animal-container {
+    background-color: #fff;
+    border: 1px solid #E0E0E0;
+    border-radius: 10px;
+    width: 250px;
+    text-align: center;
+    padding: 15px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    transition: transform 0.3s ease, box-shadow 0.3s ease;
+    cursor: pointer;
+}
+
+.animal-container:hover {
+    transform: translateY(-5px);
+    box-shadow: 0 8px 16px rgba(0, 0, 0, 0.2);
+}
+
+.animal-container img {
+    border-radius: 10px;
+    width: 100%;
+    height: auto;
+}
+
+/* Animal Text Details */
+.name {
+    font-size: 1.4rem;
+    font-weight: bold;
+    color: #7743DB;
+    margin: 10px 0 5px;
+}
+
+.details, .place {
+    font-size: 1rem;
+    margin: 5px 0;
+    color: #555;
+}
+
+.background-adoption-start {
+    position: relative; 
+    background-image: url('first-adopt-pic.avif');
+    background-size: cover; 
+    background-position: center; 
+    height: 650px; 
+    width: 101.05%; 
+    background-repeat: no-repeat;
+    margin-left: -10px;
+    display: flex;
+    align-items: center;
+    margin-bottom: 40px;
+
+
+}
+
+#first-back-text{
+    font-weight: lighter;
+    margin-left: 280px;
+    color:rgb(255, 255, 255);
+    font-size: 45px;
+}
+#second-back-text{
+    font-weight: lighter;
+    margin-left: 280px;
+    color:rgb(255, 255, 255);
+    font-size: 29px;
+    margin-top: -12px;
+}
+#find-a-pet-button {
+    padding: 10px 20px;
+    font-size: 1rem;
+    background-color: #ffbb00;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+    margin-left: 280px;
+}
+#find-a-pet-button:hover {
+    background-color: #e79e00;
+}
+
+p, table {
+    color: #555;
+}
+
+.adopt-info-section {
+    background: #ffffff;
+    margin: 20px auto;
+    padding: 20px;
+    border-radius: 8px;
+
+    width: 90%;
+    max-width: 1200px;
+}
+.adopt-info-section-between{
+    background:#7743DB ;
+    margin: 40px auto;
+    padding: 20px;
+    border-radius: 8px;
+
+    width: 90%;
+    max-width: 1200px;
+}
+
+.adopt-info-title {
+
+
+    margin-bottom: 10px;
+    color: #7743DB;
+    font-size: 1.5em;
+}
+.adopt-info-title-between{
+    margin-bottom: 10px;
+    color: #ffffff;
+    font-size: 1.5em;
+}
+
+.adopt-info-paragraph {
+    font-size: 1.1em;
+    line-height: 1.8;
+    text-align: justify;
+    margin-bottom: 20px;
+}
+
+.adopt-info-paragraph-between{
+    font-size: 1.1em;
+    line-height: 1.8;
+    text-align: justify;
+    margin-bottom: 20px;
+    color: #ffffff;
+}
+
+.second-section {
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: space-around;
+    gap: 80px;
+}
+
+.second-section img {
+    border-radius: 8px;
+    height: 290px;
+    width: auto;
+}
+
+/* Table styling */
+table {
+
+    border-collapse: collapse;
+    width: 100%;
+    margin: 15px 0;
+    font-size: 1em;
+    text-align: left;
+    background-color: #fff;
+}
+
+table th, table td {
+    padding: 12px;
+    border: 1px solid #ddd;
+}
+
+table th {
+    background-color: #7743DB;
+    color: #ffffff;
+    font-weight: bold;
+    text-align: center;
+}
+
+table td {
+    text-align: center;
+}
+
+.right-corner-table {
+    text-align: center;
+}
+
+
+
+
+
+
+
+
+.form-container {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    background-color: #fff;
+    padding: 20px;
+    border-radius: 8px;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+    width: 100%;
+    max-width: 400px;
+}
+
+.form-container h2 {
+    text-align: center;
+    color: #333;
+    margin-bottom: 20px;
+}
+
+.form-container label {
+    display: block;
+    margin-bottom: 5px;
+    color: #555;
+    font-weight: bold;
+}
+
+.form-container input, 
+.form-container select, 
+.form-container textarea {
+    width: calc(100% - 10px); 
+    padding: 10px;
+    margin-bottom: 15px;
+    border: 1px solid #ddd;
+    border-radius: 5px;
+    font-size: 14px;
+    box-sizing: border-box; 
+}
+
+textarea {
+    resize: none; 
+}
+
+.form-container button {
+    width: 100%;
+    padding: 10px;
+    background-color: #7743DB;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    font-size: 16px;
+    cursor: pointer;
+}
+
+.form-container button:hover {
+    background-color: #5e2fb4;
+}
+
+.form-container .note {
+    font-size: 12px;
+    color: #888;
+}
