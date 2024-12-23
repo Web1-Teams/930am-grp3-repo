@@ -1,8 +1,12 @@
 
 
+import Ypage2 from "./components/yousefrect/yousefpage2/Ypag2";
+
 function App() {
   return (
-<div></div>
+  <div>
+    <Ypage2 />
+  </div>
   );
 }
 

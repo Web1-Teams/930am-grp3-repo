@@ -1,0 +1,37 @@
+.main-heading {
+    text-align: center;
+    margin: 20px 0;
+    font-size: 1.5rem;
+    font-weight: bold;
+}
+.locations-container {
+    width: 90%;
+    max-width: 800px;
+    margin: 0 auto;
+    padding: 15px;
+    border: 1px solid #ddd;
+    border-radius: 10px;
+    background-color: #F7EFE5;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+    text-align: center;
+}
+
+.locations-list {
+    display: flex;
+    justify-content: space-around;
+    list-style-type: none;
+    padding: 0;
+    margin: 0;
+}
+
+
+.locations ul {
+    text-align: center;
+    list-style-type: none;
+    padding: 0;
+}
+
+.locations li {
+    display: inline-block;
+    margin: 0 10px;
+}

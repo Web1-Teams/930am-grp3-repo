@@ -1,6 +1,5 @@
 // import
-import React from 'react';
-import '930am-grp3-repo\src\styles\sid.css';
+import '../../../styles/sid.css';
 //function 
 const Mainh = () =>
 {
