@@ -586,7 +586,6 @@ option{
     opacity: 0.7; 
 }
 /*end*/
-/* إعداد استجابة للشاشات الصغيرة */
 @media (max-width: 768px) {
     .navbar {
         flex-direction: column;
@@ -608,14 +607,14 @@ option{
         text-align: center;
     }
     .apply-button button {
-        padding: 12px 100px; /* تقليل العرض للزر */
+        padding: 12px 100px; 
     }
     .elementor-column2 {
         width: 100%;
     }
     .hero-img {
         width: 100%;
-        height: auto; /* جعل الصور تستجيب لحجم الشاشة */
+        height: auto; 
     }
 }
 
