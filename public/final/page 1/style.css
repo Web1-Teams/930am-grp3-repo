@@ -203,10 +203,10 @@ label{
     margin-right: 10px;
 }
 select{
-    background-color: #7743DB;
+    background-color: #ffffff;
     padding: 10px;
     border-radius: 20px;
-    color: #ffffff;
+    color: #000000;
 }
 option{
     color:#0a0909;
@@ -220,7 +220,7 @@ option{
 .Search-button {
     padding: 10px 20px;
     background-color: #f7b605;
-    color: #0c0404;
+    color: #7743DB;
     border: none;
     border-radius: 5px;
     cursor: pointer;
