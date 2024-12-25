@@ -399,26 +399,20 @@ option{
     line-height: 1.5;
     
 }
-.elementor-icon1 button,
-.elementor-icon2 button,
-.elementor-icon3 button {
+.elementor-icon-go {
     background-color: #f7b605;
     color: #000000;
     border: none;
     padding: 10px 40px;
     font-size: 14px;
     font-weight: bold;
+    text-decoration: none;
     border-radius: 25px;
-    transition: background-color 0.3s ease, transform 0.3s ease;
-
 }
-.elementor-icon1 button:hover,
-.elementor-icon2 button:hover,
-.elementor-icon3 button:hover {
+.elementor-icon-go :hover{
     color: #ffffff; 
-    transform: scale(1.05);
 }
-.butto1, .butto2, .butto3 {
+.button-cc {
     font-size: 15px;
     text-transform: uppercase;
 }
