@@ -213,8 +213,9 @@ option{
     border-radius: 10px;
 }
 .op{
+    border-radius: 20px;
     background-color: #ffffff;
-    color: #050504;
+    color: #7743DB;
 }
 
 .Search-button {
