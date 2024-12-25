@@ -237,14 +237,15 @@ option{
     color: #000000;
 }
 /***********/
-.join-our-pack {
+.sec-comp {
     display: flex;
     justify-content: center;
     align-items: center;
     padding: 70px;
+    border-radius: 20px;
     background-color: #ffffff;
 }
-.content-wrapper {
+.content-comp {
     display: flex;
     flex-wrap: wrap;
     gap: 20px;
@@ -277,9 +278,10 @@ option{
     padding: 10px;
     color: #555;
     font-size: 16px;
+    line-height: 1.6;
 }
 
-.button-com button {
+.button-comp {
     background-color: #f7b605; 
     color: #030202;
     border: none;
@@ -288,11 +290,11 @@ option{
     font-weight: bold;
     border-radius: 25px;
     cursor: pointer;
+    text-decoration: none;
     transition: background-color 0.3s ease, transform 0.3s ease;
-
 }
-.button-com button:hover {
-    color: #f7f7f8;
+.button-comp:hover {
+    color: #ffffff;
     transform: scale(1.05);
 }
 /***********/
@@ -300,9 +302,9 @@ option{
     display: flex;
     justify-content: center;
     align-items: center;
-    padding: 50px;
+    padding: 80px;
     background-color: #ffffff;
-    border-radius: 10px;
+    border-radius: 20px;
 }
 .elementor-container {
     display: flex;
@@ -337,7 +339,7 @@ option{
     margin-bottom: 20px;
     line-height: 1.6;
 }
-.button-com button {
+.elementor-button button {
     background-color: #f7b605; 
     color: #030202;
     border: none;
@@ -348,7 +350,7 @@ option{
     cursor: pointer;
     transition: background-color 0.3s ease, transform 0.3s ease;
 }
-.button-com button:hover {
+.elementor-button button:hover {
     color: #ffffff;
     transform: scale(1.05);
 }
@@ -360,7 +362,7 @@ option{
 /***********/
 .elementor-section2 {
     background-color: #ffffff; 
-    padding: 50px;
+    padding: 50px 30px;
     border-radius: 20px;
     display: flex;
     justify-content: center;
@@ -397,7 +399,9 @@ option{
     line-height: 1.5;
     
 }
-.elementor-icon-go button {
+.elementor-icon1 button,
+.elementor-icon2 button,
+.elementor-icon3 button {
     background-color: #f7b605;
     color: #000000;
     border: none;
@@ -406,63 +410,64 @@ option{
     font-weight: bold;
     border-radius: 25px;
     transition: background-color 0.3s ease, transform 0.3s ease;
+
 }
-.elementor-icon-go button:hover {
+.elementor-icon1 button:hover,
+.elementor-icon2 button:hover,
+.elementor-icon3 button:hover {
     color: #ffffff; 
     transform: scale(1.05);
 }
-.button-go {
+.butto1, .butto2, .butto3 {
     font-size: 15px;
     text-transform: uppercase;
 }
 /***********/
-.hero-section {
+.sec-comp {
     display: flex;
     justify-content: center;
     align-items: center;
-    padding: 20px ;
-    background-color: #ffffff; 
-    color: #ffffff;
-    border-radius: 15px;
+    padding: 70px;
+    border-radius: 20px;
+    background-color: #ffffff;
 }
-.hero-container {
+.content-comp {
     display: flex;
-    justify-content: space-between;
-    gap: 30px;
-    text-align: center;
-    align-items: center;
-    max-width: 1200px;
+    flex-wrap: wrap;
+    gap: 20px;
 }
-.hero-column.hero-image {
-    flex: 1;
-}
-.hero-img {
-    width: 600px;
+.image-section img {
+    border-radius: 10px;
     height: 600px;
-    border-radius: 15px;
-    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.2);
 }
-.hero-column.hero-content {
-    flex: 1;
-    
+.text-section {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    max-width: 560px;
+    padding: 20px;
+    text-align: center;
 }
-.hero-subtitle {
-    font-size: 20px;
-    font-weight: bold;
+
+.text-section h4 {
     color: #7743DB;
+    font-size: 25px;
     margin-bottom: 10px;
 }
-.hero-title {
-    font-size:20px;
-    color: #020101;
+
+.text-section h1 {
+    padding: 10px;
+    color: #4b4848;
+    font-size: 28px;
 }
-.hero-text {
+.text-section p {
+    padding: 10px;
+    color: #555;
     font-size: 16px;
     line-height: 1.6;
-    color: #4a5568;
-    margin-bottom: 30px;
 }
-.button-com button {
+
+.button-comp {
     background-color: #f7b605; 
     color: #030202;
     border: none;
@@ -472,22 +477,18 @@ option{
     border-radius: 25px;
     cursor: pointer;
     transition: background-color 0.3s ease, transform 0.3s ease;
+
 }
-.button-com button:hover {
+.button-comp:hover {
     color: #ffffff;
     transform: scale(1.05);
-}
-.butto {
-    text-transform: uppercase;
-    font-size: 14px;
-    letter-spacing: 1px;
-    font-weight: bold;
 }
 /**********/
 .sec-how-can-help {
     background-color: #ffffff;
-    padding: 40px 20px;
+    padding: 50px ;
     text-align: center;
+    border-radius: 20px;
     font-family: Arial, sans-serif;
 }
 .sec-how-can-help header h4 {
