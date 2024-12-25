@@ -1,9 +1,10 @@
-import Nav from "./components/Nav.js";
+import Nav from "./components/Nav/Nav.js";
 
 
 function App() {
   return (
-    <Nav/>
+    <div>
+    <Nav/></div>
   );
 }
 
