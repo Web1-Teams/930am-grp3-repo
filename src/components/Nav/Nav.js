@@ -1,5 +1,5 @@
 //import
-import logo from "../Nav/Picsart_24-12-11_00-26-28-373.jpg"
+import logo from "..//../assest/icons/images/Picsart_24-12-11_00-26-28-373.jpg"
 import '../Nav/nav.css';
 //function
 const Nav=()=>{
