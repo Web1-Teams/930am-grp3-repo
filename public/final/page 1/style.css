@@ -4,7 +4,8 @@ body{
     justify-self: center;
     align-items: center;
     flex-direction: column;
-    padding: 50px;
+    padding: 0;
+    margin: 0;
     background-color: #ffffff;
 }
 .navbar {
@@ -552,28 +553,88 @@ option{
     color: #ffffff;
 }
 /********/
-/* تنسيق الفوتر */
-.footer-section {
-    width: 124%;
-    background-color: #7743DB; 
-    padding: 70px;
-    text-align: center;
-    z-index: 1000;
+footer{
+    background-color: #7743DB;
 }
-
-.social-bar {
+.footerContainer{
+    width: 1630px;
+    padding: 50px  ;
+}
+.socialIcons{
     display: flex;
     justify-content: center;
-    gap: 20px;
+}
+.socialIcons a{
+    text-decoration: none;
+    padding:  10px;
+    background-color: white;
+    margin: 10px;
+    border-radius: 30%;
+}
+.socialIcons a i{
+    font-size: 2em;
+    color: #7743DB;
+    opacity: 0,9;
 }
 
-.social-icon img {
-    width: 30px; 
-    height: 30px;                 
-}
 
-.social-icon:hover img {
-    opacity: 0.7; 
+.socialIcons a:hover{
+    background-color:#7743DB;
+    transition: 0.5s;
+}
+.socialIcons a:hover i{
+    color: white;
+    transition: 0.5s;
+}
+.footerNav{
+    margin: 30px 0;
+margin-right: 40px;
+}
+.footerNav ul{
+    display: flex;
+    justify-content: center;
+    list-style-type: none;
+}
+.footerNav ul li a{
+    color:white;
+    margin: 20px;
+    text-decoration: none;
+    font-size: 1.3em;
+    opacity: 0.7;
+    transition: 0.5s;
+
+}
+.footerNav ul li a:hover{
+    opacity: 1;
+}
+.footerBottom{
+    background-color:#2c3450;
+    padding: 20px;
+    text-align: center;
+}
+.footerBottom p{
+    color: white;
+}
+.designer{
+    opacity: 0.7;
+    text-transform: uppercase;
+    letter-spacing: 1px;
+    font-weight: 400;
+    margin: 0px 5px;
+}
+@media (max-width: 700px){
+    .footerNav ul{
+        flex-direction: column;
+    } 
+    .footerNav ul li{
+        width:100%;
+        text-align: center;
+        margin: 10px;
+    }
+    .socialIcons a{
+        padding: 8px;
+        margin: 4px;
+    }
 }
 /*end*/
 @media (max-width: 768px) {
