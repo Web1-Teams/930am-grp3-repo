@@ -8,49 +8,56 @@ body{
     margin: 0;
     background-color: #ffffff;
 }
-.navbar {
-    display: flex;
-    justify-content: space-between;
-    align-items: center;
+.lol {
     background-color: #7743DB;
-    padding: 10px 20px;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
     position: fixed;
     top: 0;
     left: 0;
     width: 100%;
     z-index: 1000;
-    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.2);
+}
+
+.navbar {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 10px 20px;
 }
 
 .logo img {
+    height: 70px;
+    width: auto;
     border-radius: 50px;
-    max-height: 70px;
-    margin-left: 200px;
 }
 
 .navigation {
-    list-style: none;
-    padding: 0;
-    margin: 10px;
+    list-style-type: none;
     display: flex;
     align-items: center;
+    margin: 0;
+    padding: 0;
 }
 
 .navigation li {
     position: relative;
-    margin: 0 10px;
+}
+
+.navigation > li {
+    margin: 0 15px;
 }
 
 .navigation a {
     text-decoration: none;
-    color: rgb(255, 255, 255);
-    padding: 10px 20px;
-    display: block;
-    transition: background-color 0.3s;
+    color: #ffffff;
+    font-size: 16px;
+    padding: 5px 10px;
+    transition: color 0.3s;
 }
 
 .navigation a:hover {
-    border-radius: 10px;
     color: #000000;
 }
 
@@ -60,45 +67,58 @@ body{
     top: 100%;
     left: 0;
     background-color: #ffffff;
-    list-style: none;
-    padding: 0;
-    margin: 0;
+    border: 1px solid #ddd;
     border-radius: 10px;
-    z-index: 1000;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+    list-style: none;
+    padding: 10px 0;
+    margin: 0;
+}
+
+.submenu li {
+    margin: 0;
+    padding: 0;
+}
+
+.submenu a {
+    display: block;
+    padding: 10px 20px;
+    color: #7743DB;
+    text-decoration: none;
+    font-size: 14px;
+    border-radius: 20px;
+
+    white-space: nowrap;
+    transition: background-color 0.3s;
+}
+
+.submenu a:hover {
+    background-color: #7743DB;
 }
 
 .navigation li:hover .submenu {
     display: block;
 }
 
-.submenu li {
-    margin: 0;
-}
-
-.submenu a {
-    padding: 10px 15px;
-    color: #7743DB;
-    white-space: nowrap;
-}
-.submenu a:hover {
-    background-color: #ffffff;
-    border-radius: 10px;
-}
-
-.Donatee{
-    margin-right: 300px;
+.Donatee {
+    margin-left: 150px;
     background-color: #f7b605;
-    color: rgb(255, 255, 255);
     border: none;
-    padding: 1px;
+    color: rgb(0, 0, 0);
+    padding: 10px 20px;
     font-size: 16px;
     cursor: pointer;
-    transition: background-color 0.3s;
     border-radius: 5px;
+    transition: background-color 0.3s;
+}
+
+.Donatee a {
+    text-decoration: none;
+    color: white;
 }
 
 .Donatee:hover {
-    color: #000000;
+    background-color: #ffffff;
 }
 /***********/
 .home-banner {
@@ -204,18 +224,19 @@ label{
     margin-right: 10px;
 }
 select{
-    background-color: #ffffff;
+    background-color: #7743DB;
     padding: 10px;
     border-radius: 20px;
-    color: #000000;
+    color: #ffffff;
 }
 option{
     color:#0a0909;
     border-radius: 10px;
 }
 .op{
-    background-color: #ffffff;
-    color: #050504;
+    background-color: #7743DB;
+    color: #ffffff;
+    border-radius: 10px;
 }
 
 .Search-button {
@@ -227,14 +248,14 @@ option{
     cursor: pointer;
     text-decoration: none;
 }
-.lol{
+.lol2{
     font-size: 20px;
     text-decoration: none;
     padding: 10px ;
     color: #ffffff;
     cursor: pointer;
 }
-.lol:hover{
+.lol2:hover{
     color: #000000;
 }
 /***********/
