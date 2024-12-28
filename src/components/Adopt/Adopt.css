@@ -1,0 +1,79 @@
+body{
+    font-family: Arial, sans-serif;
+    display: flex;
+    justify-self: center;
+    align-items: center;
+    flex-direction: column;
+    padding: 0;
+    margin: 0;
+    background-color: #ffffff;
+}
+.Adopt-section{
+    background-color: #7743DB;
+    padding: 50px;
+    border-radius: 30px;
+}
+.Adopt-div{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.Adopt-text{
+    margin-right: 100px;
+    color: #ffffff;
+    font-size: 20px;
+}
+.Adopt-text p,h1{
+    font-size: 20px;
+}
+.Adopt-search form{
+    display: flex;
+    align-items: center;
+}
+.Search-box{
+    display: flex;
+    align-items: center;
+}
+.Search-field{
+    margin-right: 20px ;
+}
+label{
+    color: #ffffff;
+    font-weight: bold;
+    margin-right: 10px;
+}
+select{
+    background-color: #7743DB;
+    padding: 10px;
+    border-radius: 20px;
+    color: #ffffff;
+}
+option{
+    color:#0a0909;
+    border-radius: 10px;
+}
+.op{
+    background-color: #7743DB;
+    color: #ffffff;
+    border-radius: 10px;
+}
+
+.Search-button {
+    padding: 10px 20px;
+    background-color: #f7b605;
+    color: #7743DB;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    text-decoration: none;
+}
+.lol2{
+    font-size: 20px;
+    text-decoration: none;
+    padding: 10px ;
+    color: #ffffff;
+    cursor: pointer;
+}
+.lol2:hover{
+    color: #000000;
+}
