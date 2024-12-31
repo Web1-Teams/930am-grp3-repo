@@ -1,14 +1,19 @@
-import Banner from "./components/Banner/Banner.js";
-import Footer from "./components/Footer/Footer.js";
-import Nav from "./components/Nav/Nav.js";
+
+import Card from "./components/Card/Card.js";
+import A from "./components/A/A.js";
+
+
 
 
 function App() {
   return (
     <div>
-      <Banner/>
-    <Nav/>
-    <Footer/></div>
+              <A title="volunter"/>
+
+      <Card title="volunter"/>
+      <Card title="osaid"/>
+      <Card title="abd"/>
+</div>
   );
 }
 
