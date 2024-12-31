@@ -1,7 +1,7 @@
 import "./HaniStyle.css"
 const StickyLinks = () => {
   return (
-    <div className="z-2 position-sticky" style={{ marginTop: "45%" }}>
+    <div className="z-2 position-sticky" style={{   }}>
       <nav className="nav justify-content-center">
         <ul className="nav">
           <li className="nav-item">

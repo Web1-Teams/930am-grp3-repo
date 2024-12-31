@@ -1,9 +1,9 @@
 import React from "react";
-import "./HaniStyle.css"
+import "./HaniStyle.css";
 const Page = () => {
   return (
     <>
-      <div className="col-md-6 text-white p-4" style={{ backgroundColor: "#C3ACD0"}}>
+      <div className="col-md-6-text-white-p-4" style={{ backgroundColor: "#C3ACD0"}}>
         <h1 className="mb-4">
           1 in 3 pets go missing in their lifetime. Be prepared in case it
           happens to you.

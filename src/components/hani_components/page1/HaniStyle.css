@@ -1,0 +1,277 @@
+:global(body) {
+  background-color: #F7EFE5;
+}
+.imageRelative{
+  position: relative;
+  width: 100%; 
+  margin: 0 auto; 
+  border-radius: 15px;
+  text-align: center;
+}
+.imagePostion {
+  position: relative;
+  margin: auto;
+   width: 85%; 
+  border: 5rem ;
+  border-Color: white;
+}
+.top-left {
+    position: absolute;
+    top: 7rem;
+    left: 6rem;
+    color: #FFFBF5;
+ }
+  .accordion {
+    background-color:  #FFFBF5;
+    color: #444;
+    cursor: pointer;
+    padding: 1.5rem;
+    width: 100%;
+    text-align: left;
+    border: none;
+    outline: none;
+    transition: 0.4s;
+  } 
+  
+  .accordion:hover {
+    background-color: #F7EFE5;
+  }
+  
+  .panel {
+    padding: 0 18px;
+    background-color: white;
+    overflow: hidden;
+   }
+  
+.relative {
+  opacity:0.75;
+  display: flex;
+  flex-direction: column; 
+  position: relative;
+  gap: 15px;
+   padding: 20px; 
+  background-color:#F7EFE5;
+  border-radius: 3rem;
+    top: 8vh;
+   margin: auto;
+    width: 45rem;
+    height: 30rem;
+}
+
+.absulute {
+  border-radius: 2rem; 
+  padding:	0.625rem; 
+}
+
+
+ #input lable {
+  width: 100%;
+  display: block;
+  font-weight: bold;  
+  color: #333; 
+}
+
+
+#input input {
+  width: 100%;
+  padding: 0.5rem;
+  font-size: 0.65rem; 
+  border: 1px solid #ccc; 
+  border-radius: 1rem; 
+  box-sizing: border-box; 
+}
+.overlay{
+  opacity:1;
+  background: url('../../../assests/images/pexels-raybilcliff-1509237.jpg');
+  position:fixed;
+  background-size: cover;
+  width:100%;
+  height:100%;
+  top:0px;
+  left:0px;
+  z-index:1000;
+}
+.header2{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-top:4rem ;
+  font-family: 'Roboto', sans-serif; 
+  font-size: 2rem; 
+  font-weight: bold; 
+  color: rgb(195, 172, 208); 
+  text-transform: uppercase;
+  letter-spacing: 0.1rem; 
+  text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.3); 
+}
+#submit{
+  display:flex;
+  margin: auto;
+  justify-content: center;
+  align-items: center;
+  border-radius: 1rem;
+  width : 5rem;
+
+}
+.upload-button {
+  font-size: 1rem;
+  font-weight: bold;
+  border: none;
+  border-radius: 25px;
+  cursor: pointer;
+}
+.upload-button:hover {
+  transform: translateY(-2px);
+  box-shadow: 0px 6px 8px rgba(0, 0, 0, 0.2);
+  background: linear-gradient;
+}
+.upload-button:active {
+  transform: translateY(1px);
+  box-shadow: 0px 3px 4px rgba(0, 0, 0, 0.2);
+}
+.lost-found-container {
+  text-align: center;
+  font-family: Arial, sans-serif;
+}
+.nav-container {
+  z-index: 2;
+  position: sticky;
+  /* padding-top: 60%; */
+}
+
+.nav {
+  display: flex;
+  justify-content: center;
+  list-style: none;
+  padding: 0;
+  margin: 0;
+}
+
+.nav-item {
+  margin: 0 15px;
+}
+
+.nav-link {
+  text-decoration: none;
+  color: #007bff; 
+  font-size: 16px;
+}
+
+.nav-link:hover {
+  text-decoration: underline;
+  color: #0056b3;
+}
+.row {
+  display: flex;
+  flex-wrap: wrap;
+}
+.col-md-3 {
+  flex: 0 0 25%;
+  /* max-width: 25%; */
+  box-sizing: border-box;
+  padding: 10px; 
+}
+.rounded-circle-mx-auto-mb-3 {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  margin-bottom: 1rem;
+  border-radius: 50%;
+  width: 100px; 
+  width: 80px;
+  height: 80px;
+  background-Color: rgb(195, 172, 208);
+  opacity: 0.9 ;
+}
+.d-flex-justify-content-center-align-items-center-h-100 {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100%;
+}
+.row-align-items-stretch-justify-content-center {
+  display: grid;
+  grid-template-columns: auto auto auto auto;
+  text-align: center;
+
+}
+.mb-4{
+ 
+  display: flex;
+  justify-content: center;
+}
+body {
+  font-size: 16px;
+  line-height: 1.5;
+  color: #333;
+}
+
+h1, h2, h3 {
+  font-family: 'Roboto', sans-serif;
+  font-weight: bold;
+  color: #444;
+}
+h1{
+  color: white;
+  font-size:3rem;
+}
+p {
+  font-family: 'Open Sans', sans-serif;
+  font-size: 14px;
+}
+.col-md-6-text-white-p-4 {
+  margin: 0 auto; 
+  color: white; 
+  padding: 1.5rem; 
+}
+
+.mb-4 {
+  margin-bottom: 1.5rem;
+}
+.postion-absulute{
+  position: absolute;
+  width: 40%;
+  right: 0;
+}
+.postion-absulute-1{
+  position: absolute;
+  width: 60%;
+  left:0;
+}
+.relative-accordion{
+  position:relative;
+  width: 90%;
+}
+@media only screen and (max-width : 900px){
+  .row-align-items-stretch-justify-content-center {
+    display: grid;
+    grid-template-columns:  auto auto;
+    text-align: center;
+  }
+  .top-left {
+    position: absolute;
+    top: 1rem;
+    left: 2rem;
+    color: #FFFBF5;
+ }
+ .top-left span h1 {
+  font-size: x-large;
+ }
+ .top-left h2 {
+  font-size: small;
+ }
+.col-md-6-text-white-p-4 h1{
+  font-size: large;
+}
+.accordion {
+  background-color:  #FFFBF5;
+  color: #444;
+  cursor: pointer;
+  padding: 1rem;
+  width: 100%;
+  text-align: left;
+  border: none;
+  outline: none;
+  transition: 0.4s;
+}
+}

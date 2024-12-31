@@ -7,9 +7,12 @@ import "./HaniStyle.css"
 function Hanis_page() {
   return (
     <>
-    <div style={{ backgroundColor: " rgb(247, 239, 229)" }}>
+    <div>
+    <div class="lost-found-container">
     <ImagesH/>
     <StickyLinks/>
+    </div>
+    
     <HeaderCard
       header = "Lost a pet? Act fast!"
       TitleHead= "Report" 
@@ -53,7 +56,7 @@ function Hanis_page() {
      <HeaderCard
        header = "Outdoor cats might not be lost or stray!"
        TitleHead= "Healthy Cats" 
-       descriptionHead = "If you come across a healthy cat in your neighborhood, don’t be too quick to assume it’s a stray or has <br>been abandoned. The cat might belong to one of your neighbors and likes to explore the outdoors. Please note that Rafiq doesn’t accept <br>healthy stray cats. We kindly recommend that you return the cat to where you found it so it can easily find its way back home."
+       descriptionHead = "If you come across a healthy cat in your neighborhood, don’t be too quick to assume it’s a stray or has been abandoned. The cat might belong to one of your neighbors and likes to explore the outdoors. Please note that Rafiq doesn’t accept healthy stray cats. We kindly recommend that you return the cat to where you found it so it can easily find its way back home."
        photoHead = "fa-solid fa-paw fa-2x"
   
        TitleHead1= "Sick or Injured Cats" 
@@ -68,11 +71,15 @@ function Hanis_page() {
       descriptionHead3 = "You can always report the cat as found on Petco Love Lost to ensure word gets out that this cat is roaming your neighborhood. If you contact an owner or a community cat caretaker, you can remove the listing from Petco Love Lost later."
       photoHead3 = "fa-solid fa-camera  fa-2x"
       />
-      <section id="section_4" class="position-relative container">
-          <div class="container py-5" style={{border: "10px solid #FFFBF5", backgroundColor:"#FFFBF5"}}>
-            <div class="row ">
+      {/* <section id="section_4" class="position-relative-container">
+          <div class="container-py-5" style={{border: "10px solid #FFFBF5", backgroundColor:"#FFFBF5"}}>
+            <div class="row"> */}
+            <div class ="relative-accordion">
+              <div class= "postion-absulute-1">
               <Page/>
-              <div class="col-md-6 p-4">
+              </div>
+              <div class= "postion-absulute">
+              <div class="col-md-6-p-4">
               <div class="accordion" id="detailsAccordion">
               <Accordion
               buttonContant="Microchip"
@@ -95,12 +102,14 @@ function Hanis_page() {
               buttonContant="Protective Barriers"
               pContant=" Use protective barriers to keep pets safe indoors or in secured outdoor areas."
               />
+              </div>
                 </div>
               </div>
             </div>
-          </div>
+            </div>
+          {/* </div>
         </section>
-        </div>
+        </div> */}
      </>
   );
 }

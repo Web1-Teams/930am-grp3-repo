@@ -1,5 +1,5 @@
 import { useState } from "react";
-import "./HaniStyle.css"
+import "./HaniStyle.css";
 
 const Accordion = (props)=>{
     const [open , setopen] = useState(false)
