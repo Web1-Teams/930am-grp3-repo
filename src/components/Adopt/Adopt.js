@@ -24,7 +24,6 @@ const Adopt =()=>{
                         <div className="Search-field">
                             <label for="location">Search By Location</label>
                             <select name="location" className="location">
-                                <div className="nn">
                                 <option className="op" value="All">Any Location</option>
                                 <option className="op" value="Rafedia">Nablus</option>
                                 <option className="op" value="DerSharaf">Gaza</option>
@@ -36,7 +35,6 @@ const Adopt =()=>{
                                 <option className="op" value="Damascus">Damascus</option>
                                 <option className="op" value="Alexandria">Alexandria</option>
                                 <option className="op" value="Ramallah">Ramallah</option>
-                            </div>
                             </select>
                         </div>
                         <button  type="submit" className="Search-button"><a className="lol2" href="../page 2/adoption.html">Search</a></button>
