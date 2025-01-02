@@ -1,0 +1,73 @@
+.sec-how-can-help {
+    background-color: #ffffff;
+    padding: 50px ;
+    text-align: center;
+    border-radius: 20px;
+    font-family: Arial, sans-serif;
+}
+.sec-how-can-help header h4 {
+    color: #ffffff;
+    font-size: 20px;
+    margin-bottom: 10px;
+    text-transform: uppercase;
+}
+.sec-how-can-help header h1 {
+    font-size: 32px;
+    color: #333;
+    margin-bottom: 30px;
+}
+.contaner222 {
+    margin-bottom: 20px;
+}
+.sec-how-can-help img.er {
+    display: block;
+    height: 300px;
+    width: 350px;
+    margin: 20px auto;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+.con-how-can-help {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 30px;
+}
+.item-how-can-help {
+    background-color: #7743DB;
+    border: 1px solid #ffffff;
+    border-radius: 10px;
+    padding: 20px;
+    width: 250px;
+    text-align: center;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    transition: transform 0.3s, box-shadow 0.3s;
+}
+.item-how-can-help:hover {
+    transform: scale(1.05);
+}
+.item-how-can-help img.sss {
+    width: 80px;
+    height: 80px;
+    margin-bottom: 15px;
+    border-radius: 50%;
+    background-color: #ffffff;
+    padding: 10px;
+}
+.item-how-can-help h4 {
+    font-size: 18px;
+    color: #ffffff;
+    margin-bottom: 10px;
+}
+.item-how-can-help p {
+    font-size: 14px;
+    color: #ffffff;
+    line-height: 1.5;
+}
+.item-how-can-help a {
+    text-decoration: none;
+    color: inherit;
+}
+.item-how-can-help a:hover h4 {
+    color: #ffffff;
+}
