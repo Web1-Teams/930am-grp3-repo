@@ -1,0 +1,16 @@
+.button-comp {
+    background-color: #f7b605; 
+    color: #030202;
+    border: none;
+    padding: 12px 260px;
+    font-size: 18px;
+    font-weight: bold;
+    border-radius: 25px;
+    cursor: pointer;
+    text-decoration: none;
+    transition: background-color 0.3s ease, transform 0.3s ease;
+}
+.button-comp:hover {
+    color: #ffffff;
+    transform: scale(1.05);
+}

@@ -1,7 +1,7 @@
 // imports
 import React, { useEffect, useState } from "react";
-import logo from "../Banner/cat_2.webp";
-import logo2 from "../Banner/dog.webp";
+//import logo from "../images/cat_2.webp";
+//import logo2 from "../images/dog.webp";
 import '../BannerHome/BannerHome.css';
 
 // function
@@ -31,10 +31,10 @@ const BannerHome = () => {
         </div>
         <div className="banner-images">
           <div className="image-item active">
-            <img src={logo} alt="Cat" />
+            <img src="../images/cat_2.webp" alt="Cat" />
           </div>
           <div className="image-item">
-            <img src={logo2} alt="Dog" />
+            <img src="../images/dog.webp" alt="Dog" />
           </div>
         </div>
         <div className="banner-stats">

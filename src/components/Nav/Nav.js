@@ -1,5 +1,5 @@
 //import
-import logo from "../Nav/Picsart_24-12-11_00-26-28-373.jpg"
+//import logo from "../images/rafeeq.jpg"
 import '../Nav/nav.css';
 //function
 const Nav=()=>{
@@ -8,7 +8,7 @@ const Nav=()=>{
         <nav className="main-menu page">
             <div className="navbar">
                 <div className="logo">
-                    <a href="home.html"><img src={logo} alt="Logo" title="Website Logo" /></a>
+                    <a href="home.html"><img src="../images/rafeeq.jpg" alt="Logo" title="Website Logo" /></a>
                 </div>
                 <ul className="navigation">
                     <li className="menu-item-10"><a title="Home" href="home.html">Home</a></li>
