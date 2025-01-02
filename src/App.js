@@ -8,7 +8,7 @@ import A from "./components/A/A.js";
 function App() {
   return (
     <div>
-              <A title="volunter"/>
+            <A title="volunter"/>
 
       <Card title="volunter"/>
       <Card title="osaid"/>
