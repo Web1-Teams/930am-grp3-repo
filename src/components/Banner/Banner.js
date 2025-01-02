@@ -6,6 +6,7 @@ import '../Banner/Banner.css'
 //function
 const Banner =()=>{
     return(
+        
         <section className="home-banner">
         <div className="banner-content">
         <div className="banner-text">
