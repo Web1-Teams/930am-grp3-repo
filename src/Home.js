@@ -2,11 +2,10 @@
 import Nav from '../src/components/Nav/Nav';
 import JoinHome from '../src/components/JoinHome/JoinHome';
 import FindHome from './components/FindHome/FindHome';
-//import ElemHome from './components/ElemHome/ElemHome';
 import BannerHome from './components/BannerHome/BannerHome';
 import ElemAll from './components/ElemAll/ElemAll';
-//import HelpHome from './components/HelpHome/HelpHome';
 import HelpAll from './components/HelpAll/HelpAll';
+import Footer from './components/Footer/Footer';
 
 
 
@@ -26,6 +25,7 @@ function Home() {
       <ElemAll/>
       <JoinHome title="Emergency Placement" des="Heroes Needed" dess="Emergency Placement Heroes Needed Many of our Partners have been very open about their need to focus more on the emergency cases and pull those animals with the greatest needs. With RAFEQ having so many animals in care, it is challenging for our partners to know which animals they should focus their efforts on." btnTitle="Hero"/>
       <HelpAll/>
+      <Footer/>
     </div>
   );
 }
