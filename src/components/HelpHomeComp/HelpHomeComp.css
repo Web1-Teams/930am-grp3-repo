@@ -10,7 +10,7 @@ body{
 }
 .sec-how-can-help {
     background-color: #ffffff;
-    padding: 50px ;
+    padding: 0px 0px 70px;
     text-align: center;
     border-radius: 20px;
     font-family: Arial, sans-serif;
@@ -24,7 +24,7 @@ body{
 .sec-how-can-help header h1 {
     font-size: 32px;
     color: #333;
-    margin-bottom: 30px;
+    margin-bottom: 40px;
 }
 .contaner222 {
     margin-bottom: 20px;
@@ -38,17 +38,20 @@ body{
     box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
 }
 .con-how-can-help {
+    
     display: flex;
     flex-wrap: wrap;
     justify-content: center;
     gap: 30px;
 }
 .item-how-can-help {
+    
     background-color: #7743DB;
     border: 1px solid #ffffff;
     border-radius: 10px;
     padding: 20px;
     width: 250px;
+    height: 250px;
     text-align: center;
     box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
     transition: transform 0.3s, box-shadow 0.3s;
@@ -60,9 +63,10 @@ body{
     width: 80px;
     height: 80px;
     margin-bottom: 15px;
-    border-radius: 50%;
+    border-radius: 100px;
     background-color: #ffffff;
     padding: 10px;
+    margin-bottom: 0px;
 }
 .item-how-can-help h4 {
     font-size: 18px;
@@ -70,7 +74,7 @@ body{
     margin-bottom: 10px;
 }
 .item-how-can-help p {
-    font-size: 14px;
+    font-size: 17px;
     color: #ffffff;
     line-height: 1.5;
 }
