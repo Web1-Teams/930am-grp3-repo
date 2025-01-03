@@ -3,6 +3,8 @@ import React, { useEffect, useState } from "react";
 //import logo from "../images/cat_2.webp";
 //import logo2 from "../images/dog.webp";
 import '../BannerHome/BannerHome.css';
+import TrustRafeeq from "../TrustRafeeq/TrustRafeeq";
+
 
 // function
 const BannerHome = () => {
@@ -29,6 +31,8 @@ const BannerHome = () => {
           <h1>Find your</h1>
           <h2>Palestine's Largest Animal Shelter</h2>
         </div>
+        <TrustRafeeq />
+
         <div className="banner-images">
           <div className="image-item active">
             <img src="../images/cat_2.webp" alt="Cat" />

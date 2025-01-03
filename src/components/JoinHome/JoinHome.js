@@ -8,7 +8,7 @@ const JoinHelp=(props)=>{
         <section className="sec-comp">
         <div className="content-comp">
             <div className="image-section">
-                <img src="../images/pack.jpg" alt="Queens Care Center Collage"/>
+                <img src={props.image} alt="Queens Care Center Collage"/>
             </div>
             <div className="text-section">
                 <h4>{props.title}</h4>
