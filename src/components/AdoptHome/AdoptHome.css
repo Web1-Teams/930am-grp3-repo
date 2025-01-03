@@ -6,16 +6,24 @@ body{
     flex-direction: column;
     padding: 0;
     margin: 0;
-    background-color: #ffffff;
+    background-color: #000000;
+    max-width: 1200px; 
+    margin-left: auto; 
+    margin-right: auto; 
 }
+
 .Adopt-section{
     background-color: #7743DB;
     padding: 50px;
     border-radius: 30px;
+    width: 100%; 
+    max-width: 1130px; 
+    margin: 0 auto; 
 }
+
 .Adopt-div{
     display: flex;
-    justify-content: space-between;
+    justify-content: space-around;
     align-items: center;
 }
 .Adopt-text{
@@ -59,21 +67,102 @@ option{
 }
 
 .Search-button {
-    padding: 10px 20px;
+    padding: 10px 10px;
     background-color: #f7b605;
-    color: #7743DB;
-    border: none;
-    border-radius: 5px;
-    cursor: pointer;
-    text-decoration: none;
-}
-.lol2{
-    font-size: 20px;
-    text-decoration: none;
-    padding: 10px ;
     color: #ffffff;
+    border: none;
+    border-radius: 10px;
     cursor: pointer;
+    text-decoration: none;
 }
-.lol2:hover{
-    color: #000000;
+
+.Search-button:hover{
+    background-color: #ffffff;
+    color: #000;
+}
+@media screen and (max-width: 767px) {
+    body {
+        padding: 10px;
+        font-size: 14px;
+    }
+    
+    .Adopt-section {
+        padding: 20px;
+    }
+
+    .Adopt-text {
+        margin-right: 0;
+        font-size: 16px;
+    }
+
+    .Adopt-search form {
+        flex-direction: column;
+        align-items: flex-start;
+    }
+
+    .Search-button {
+        width: 100%;
+        padding: 12px;
+        font-size: 16px;
+    }
+}
+@media screen and (min-width: 767px) and (max-width: 991px) {
+    body {
+        padding: 15px;
+        font-size: 16px;
+    }
+
+    .Adopt-section {
+        padding: 30px;
+    }
+
+    .Adopt-text {
+        margin-right: 50px;
+        font-size: 18px;
+    }
+
+    .Search-button {
+        padding: 12px 25px;
+        font-size: 18px;
+    }
+}
+@media screen and (min-width: 991px) and (max-width: 1200px) {
+    body {
+        padding: 20px;
+        font-size: 18px;
+    }
+
+    .Adopt-section {
+        padding: 40px;
+    }
+
+    .Adopt-text {
+        margin-right: 80px;
+        font-size: 20px;
+    }
+
+    .Search-button {
+        padding: 15px 30px;
+        font-size: 20px;
+    }
+}
+@media screen and (min-width: 1201px) {
+    body {
+        padding: 30px;
+        font-size: 20px;
+    }
+
+    .Adopt-section {
+        padding: 50px;
+    }
+
+    .Adopt-text {
+        margin-right: 100px;
+        font-size: 22px;
+    }
+
+    .Search-button {
+        padding: 15px 40px;
+        font-size: 22px;
+    }
 }

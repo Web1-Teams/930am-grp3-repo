@@ -24,3 +24,79 @@
     font-size: 14px;
     color: #000000;
   }
+/* Default styles (for larger screens like desktops) */
+.container {
+    text-align: center;
+    margin: 20px;
+}
+
+.button {
+    background-color: #7743DB;
+    color: #fff;
+    border: none;
+    border-radius: 5px;
+    padding: 10px 20px;
+    cursor: pointer;
+    font-size: 16px;
+    transition: background-color 0.3s ease, transform 0.3s ease;
+}
+
+.button:hover {
+    background-color: #ffffff; 
+    color: #000;
+    transform: scale(1.05);
+}
+
+.likeCount {
+    margin-top: 10px;
+    font-size: 14px;
+    color: #000000;
+}
+
+/* For mobile devices (max width: 600px) */
+@media screen and (max-width: 767px) {
+    .button {
+        font-size: 14px;
+        padding: 8px 16px;
+    }
+
+    .likeCount {
+        font-size: 12px;
+    }
+}
+
+/* For tablets (max width: 768px) */
+@media screen and (min-width: 767px) and (max-width: 991px) {
+    .button {
+        font-size: 15px;
+        padding: 9px 18px;
+    }
+
+    .likeCount {
+        font-size: 13px;
+    }
+}
+
+/* For laptops (max width: 1024px) */
+@media screen and (min-width: 991px) and (max-width: 1200px) {
+    .button {
+        font-size: 16px;
+        padding: 10px 20px;
+    }
+
+    .likeCount {
+        font-size: 14px;
+    }
+}
+
+/* For large desktops (min width: 1025px) */
+@media screen and (min-width: 1201px) {
+    .button {
+        font-size: 18px;
+        padding: 12px 24px;
+    }
+
+    .likeCount {
+        font-size: 16px;
+    }
+}

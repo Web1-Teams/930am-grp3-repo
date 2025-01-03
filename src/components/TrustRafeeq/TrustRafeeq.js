@@ -41,7 +41,7 @@ function TrustRafeeq() {
   return (
     <div className="container">
       <button onClick={handleToggleLike} className="button">
-        {hasLiked ? "I Trust Rafeeq" : "I Don't Trust Rafeeq Anymore"}
+        {hasLiked ? "I Don't Trust Rafeeq Anymore" : "I Trust Rafeeq"}
       </button>
       <p className="likeCount">
         {likes} {likes === 1 ? "Person Trusts Rafeeq" : "People Trust Rafeeq"}

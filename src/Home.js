@@ -6,7 +6,7 @@ import BannerHome from './components/BannerHome/BannerHome';
 import ElemAll from './components/ElemAll/ElemAll';
 //import HelpAll from './components/HelpAll/HelpAll';
 import Footer from './components/Footer/Footer';
-//import AdoptHome from './components/AdoptHome/AdoptHome';
+import AdoptHome from './components/AdoptHome/AdoptHome';
 import HelpHomeComp from './components/HelpHomeComp/HelpHomeComp';
 //import AdoptHome from './components/AdoptHome/AdoptHome';
 
@@ -17,6 +17,7 @@ function Home() {
   return (
     <div>
       <BannerHome/>
+      <AdoptHome/>
       <JoinHome 
       title="Join Our Pack!" 
       des="RAFEEQ is hiring for our newly built Queens Care Center!" 
