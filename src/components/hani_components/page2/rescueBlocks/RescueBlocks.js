@@ -1,5 +1,5 @@
 import React from "react";
-import "../page1/HaniStyle.css"
+import "./RescueBlocks.css"
 const Block=(props)=>{
     const typeTitle= (props.type) ? props.type : "text";
     const classes= (props.className) ? props.className : "non";  
