@@ -1,5 +1,5 @@
 //import
-import '../../../styles/headimg.css';
+import './headimg.css';
 
 //functtion
 const Headimg = (props) =>{

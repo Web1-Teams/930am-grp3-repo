@@ -1,5 +1,5 @@
 //import
-import '../../../styles/loc.css';
+import './loc.css';
 //function
 const Ylocations = (props) =>{
     return(

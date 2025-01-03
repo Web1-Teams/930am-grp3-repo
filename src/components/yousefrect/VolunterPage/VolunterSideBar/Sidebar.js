@@ -1,10 +1,10 @@
 // import
-import '../../../styles/sid.css';
+import './sid.css';
 
 //function
 const Sidebar = () =>{
     return(
-        <div className="container">
+        <div className="sidebar-container">
             <section className="sidebar">
                 <h4 className="sidebar-heading">Needed at Rafeeq!</h4>
                 <p className="sidebar-text">
