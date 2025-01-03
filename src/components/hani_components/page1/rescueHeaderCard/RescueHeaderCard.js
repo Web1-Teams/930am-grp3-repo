@@ -1,14 +1,17 @@
 import React from 'react';
-import Card from'./Card';
-import "./HaniStyle.css";
+import Card from '../rescueCard/RescueCard';
+// import "./HaniStyle.css";
+import "./RescueHeaderCard.css"
 const HeaderCard = (props)=>{
     return(
         
         <>
-      <h1 className="mb-4" style={{color: 'rgb(119, 67, 219)'}}>{props.header}</h1>
-    <div id="section_1">
+      <h1 className="mb-4" id='header1' style={{color: 'rgb(119, 67, 219)' }}>{props.header}</h1>
+    <div id={props.section}>
       <dl className="row-align-items-stretch-justify-content-center">
        <Card
+       linkCard={props.link}
+       button = {props.button}
        title = {props.TitleHead} 
        description = {props.descriptionHead}
        photo = {props.photoHead}

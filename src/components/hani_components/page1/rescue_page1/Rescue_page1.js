@@ -1,19 +1,23 @@
-import HeaderCard from './HeaderCard';
-import Accordion from './Accordion';
-import ImagesH from './ImagesH';
-import Page from './Page';
-import StickyLinks from './StickyLinks';
-import "./HaniStyle.css"
+import HeaderCard from '../rescueHeaderCard/RescueHeaderCard';
+import Accordion from '../rescueAccordion/RescueAccordion';
+import ImagesH from '../rescueImages/RescueImagesH';
+import Page from '../rescuePage/RescuePage';
+import StickyLinks from '../rescueStickyLinks/RescueStickyLinks';
+// import "./HaniStyle.css"
+import "./Rescue_page1.css";
 function Hanis_page() {
   return (
     <>
-    <div>
-    <div class="lost-found-container">
-    <ImagesH/>
-    <StickyLinks/>
+<div id="body">
+    <div classNameName="lost-found-container">
+      <ImagesH/>
+      <StickyLinks/>
     </div>
     
     <HeaderCard
+    link = "/lost"
+      button = "Report your lost pet"
+      section= "section_1"
       header = "Lost a pet? Act fast!"
       TitleHead= "Report" 
       descriptionHead = "Report your missing pet and search for a match on Petco Love Lost, a national lost and found database where shelters and neighbors post found pets. Petco Love Lost uses facial recognition technology, so make sure to upload a clear photoHead of your pet’s face!"
@@ -35,6 +39,9 @@ function Hanis_page() {
  
  
       <HeaderCard
+      link = "/found"
+      button = "Report a found pet" 
+      section= "section_2"
        header = "Found a pet? Help get them home!"
        TitleHead= "Report the Pet" 
        descriptionHead = "Report the found pet and search Petco Love Lost, a national lost and found database where pets are reported as lost to our shelters. Petco Love Lost uses facial recognition technology, so make sure to upload a clear photo of the pet’s face!"
@@ -54,6 +61,7 @@ function Hanis_page() {
       />
  
      <HeaderCard
+     section= "section_3"
        header = "Outdoor cats might not be lost or stray!"
        TitleHead= "Healthy Cats" 
        descriptionHead = "If you come across a healthy cat in your neighborhood, don’t be too quick to assume it’s a stray or has been abandoned. The cat might belong to one of your neighbors and likes to explore the outdoors. Please note that Rafiq doesn’t accept healthy stray cats. We kindly recommend that you return the cat to where you found it so it can easily find its way back home."
@@ -71,46 +79,40 @@ function Hanis_page() {
       descriptionHead3 = "You can always report the cat as found on Petco Love Lost to ensure word gets out that this cat is roaming your neighborhood. If you contact an owner or a community cat caretaker, you can remove the listing from Petco Love Lost later."
       photoHead3 = "fa-solid fa-camera  fa-2x"
       />
-      {/* <section id="section_4" class="position-relative-container">
-          <div class="container-py-5" style={{border: "10px solid #FFFBF5", backgroundColor:"#FFFBF5"}}>
-            <div class="row"> */}
-            <div class ="relative-accordion">
-              <div class= "postion-absulute-1">
-              <Page/>
-              </div>
-              <div class= "postion-absulute">
-              <div class="col-md-6-p-4">
-              <div class="accordion" id="detailsAccordion">
-              <Accordion
-              buttonContant="Microchip"
-              pContant="Microchips with up-to-date info are essential! If your lost pet is brought to any shelter or veterinary office, they will scan for a microchip and contact you! Here at Rafeeq, 
-              we reunite hundreds of animals yearly because of microchips! If your pet is not microchipped, please have one implanted immediately! If your pet is microchipped, call the company to ensure the info is up-to-date. A microchip MUST be updated manually every time you move or change your contact info. "
-              />
-              <Accordion
-              buttonContant="  Have Details and a Photo Ready"
-              pContant="Always keep updated information and a recent photo of your pet in case they go missing."
-              />
-              <Accordion
-              buttonContant="Collars, Tags, and Leashes"
-              pContant="Ensure your pets are wearing proper identification and are kept safe with leashes."
-              />
-              <Accordion
-              buttonContant="Dog License"
-              pContant=" A dog license ensures your pet is easily identifiable by local authorities."
-              />
-               <Accordion
-              buttonContant="Protective Barriers"
-              pContant=" Use protective barriers to keep pets safe indoors or in secured outdoor areas."
-              />
-              </div>
-                </div>
-              </div>
-            </div>
-            </div>
-          {/* </div>
-        </section>
-        </div> */}
-     </>
+             <div className ="relative-accordion" section id="section_4">
+                  <div className= "postion-absulute-1">
+                   <Page/>
+                   </div>
+                <div className= "postion-absulute">
+                  {/* <div className="col-md-6-p-4"> */}
+                    <div className="accordion" id="detailsAccordion">
+                      <Accordion
+                       buttonContant="Microchip"
+                       pContant="Microchips with up-to-date info are essential! If your lost pet is brought to any shelter or veterinary office, they will scan for a microchip and contact you! Here at Rafeeq, 
+                      we reunite hundreds of animals yearly because of microchips! If your pet is not microchipped, please have one implanted immediately! If your pet is microchipped, call the company to ensure the info is up-to-date. A microchip MUST be updated manually every time you move or change your contact info. "
+                      />
+                        <Accordion
+                          buttonContant="  Have Details and a Photo Ready"
+                          pContant="Always keep updated information and a recent photo of your pet in case they go missing."
+                        />
+                        <Accordion
+                          buttonContant="Collars, Tags, and Leashes"
+                          pContant="Ensure your pets are wearing proper identification and are kept safe with leashes."
+                         />
+                         <Accordion
+                          buttonContant="Dog License"
+                          pContant=" A dog license ensures your pet is easily identifiable by local authorities."
+                          />
+                         <Accordion
+                          buttonContant="Protective Barriers"
+                          pContant=" Use protective barriers to keep pets safe indoors or in secured outdoor areas."
+                        />
+                    </div>
+                  </div>
+                {/* </div> */}
+             </div>
+</div>
+</>
   );
 }
 

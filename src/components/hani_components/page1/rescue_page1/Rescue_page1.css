@@ -1,0 +1,53 @@
+.lost-found-container {
+    text-align: center;
+    font-family: Arial, sans-serif;
+  }
+  .postion-absulute-1{
+    position: absolute;
+    width: 60%;
+    left:0;
+  }
+  .postion-absulute{
+    position: absolute;
+    width: 40%;
+    right: 0;
+  }
+  .relative-accordion{
+    position:relative;
+    width: 90%;
+  }
+  #body {
+    font-size: 16px;
+    line-height: 1.5;
+    color: #333;
+    padding: 2rem;
+  }
+  
+
+
+  @media only screen and (max-width : 750px){
+    .postion-absulute-1{
+      position: absolute;
+      width: 100%;
+      bottom:0;
+    }
+    .postion-absulute{
+      position: absolute;
+      width: 100%;
+      top:0;
+    }
+    .relative-accordion{
+      margin-top: 20rem;
+      position:relative;
+      width: 100%;
+    }
+    body {
+      font-family: initial;
+      display: block; 
+      justify-self: initial;
+      align-items: initial;
+      flex-direction: initial;
+      padding: 0;
+      background-color: initial;
+  }
+  }

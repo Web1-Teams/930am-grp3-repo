@@ -1,13 +1,13 @@
 import React from "react";
-import image from "../../../assests/images/coats-header-cropped.jpg"
-import "./HaniStyle.css";
+// import image from "../../../../public/images/coats-header-cropped.jpg"
+// import "./HaniStyle.css";
+import "./RescueImagesH.css"
 const ImagesH =()=>{
     return(
         <>
-        <div className="postion-relative" >
       <div className="imagePostion">
         <img
-          src={image}
+          src="/images/coats-header-cropped.jpg"
           alt="Picture of pets"
           style={{ width: "100%" , borderRadius:"3rem"  }}
         />
@@ -16,7 +16,6 @@ const ImagesH =()=>{
                  <h2 style={{margin: "0" , color: "white"}} >Find or Report a Lost Pet</h2>
                </p></div>
       </div>
-    </div>
         </>
     );
 }

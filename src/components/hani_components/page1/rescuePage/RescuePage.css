@@ -1,0 +1,23 @@
+.col-md-6-text-white-p-4 {
+    margin: 0 auto; 
+    color: white; 
+    padding: 1.5rem; 
+  }
+  .mb-4 {
+    margin-bottom: 1.5rem;
+  }
+
+  h1, h2, h3 {
+    font-family: 'Roboto', sans-serif;
+    font-weight: bold;
+    color: #444;
+  }
+  #rescuePageH{
+    color: white;
+    font-size:3rem;
+  }
+
+  #rescuePageP {
+    font-family: 'Open Sans', sans-serif;
+    font-size: 1.1rem;
+  }

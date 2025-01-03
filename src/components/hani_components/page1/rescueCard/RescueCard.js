@@ -1,8 +1,8 @@
 import React from 'react';
-import "./HaniStyle.css";
+import "./RescueCard.css"
 
 const Card = (props)=>{
-   
+    const verifyButton = props.button ? true : false;
 return(
     <>
     <div className="col-md-3">
@@ -15,6 +15,7 @@ return(
         <dd style={{marginLeft : "0.5rem", marginRight : "0.5rem"}} >
           {props.description}
         </dd>
+        <a href={props.linkCard}>{verifyButton && ( <button id='report'>{props.button}</button> )}</a>
       </div>
     </>
 );
