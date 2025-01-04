@@ -14,7 +14,7 @@
   }
   .overlay77{
     opacity:1;
-    
+    background-image: url("../../../../../public/images/pexels-raybilcliff-1509237.jpg");
     position:fixed;
     background-size: cover;
     width:100%;
