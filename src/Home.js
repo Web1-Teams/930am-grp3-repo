@@ -22,7 +22,7 @@ function Home() {
           and amusing stories that celebrate the bond with our animal companions" 
       btnTitle="Click" 
       image="../images/ARR.webp"
-      Link="/Rescue_page2"/>
+      Link="/Articels"/>
       <FindHome btnTitle="Find"/>
       <ElemAll/>
       <JoinHome 

@@ -8,21 +8,21 @@ import TrustRafeeq from "../TrustRafeeq/TrustRafeeq";
 
 // function
 const BannerHome = () => {
-  const [currentIndex, setCurrentIndex] = useState(0);
+  const [cuurrentIndex, setCuurrentIndex] = useState(0);
 
   useEffect(() => {
     const images = document.querySelectorAll(".image-item");
     const totalImages = images.length;
 
     const interval = setInterval(() => {
-      images[currentIndex].classList.remove("active");
-      const newIndex = (currentIndex + 1) % totalImages;
-      setCurrentIndex(newIndex);
+      images[cuurrentIndex].classList.remove("active");
+      const newIndex = (cuurrentIndex + 1) % totalImages;
+      setCuurrentIndex(newIndex);
       images[newIndex].classList.add("active");
     }, 3000);
 
     return () => clearInterval(interval);
-  }, [currentIndex]);
+  }, [cuurrentIndex]);
 
   return (
     <section className="home-banner25">
