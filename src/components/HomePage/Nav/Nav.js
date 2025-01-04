@@ -17,7 +17,7 @@ const Nav = () => {
               <Link to="/">Home</Link>
             </li>
             <li>
-              <Link to="/about">About</Link>
+              <Link to="/Rescue_page2">About</Link>
               <ul className="submenu">
                 <li>
                   <Link to="/contact">Contact Us</Link>
@@ -39,7 +39,7 @@ const Nav = () => {
               </ul>
             </li>
             <li>
-              <Link to="/found">Found</Link>
+              <Link to="/Rescue_page1">Found</Link>
             </li>
             <li>
               <Link to="/volunteer">Volunteer</Link>

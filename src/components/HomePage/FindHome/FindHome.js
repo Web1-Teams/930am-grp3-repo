@@ -13,8 +13,9 @@ const FindHome=(props)=>{
         <div class="text-comp">
             <h4>Adopt</h4>
             <h1>Find a friend RAFEQ Adoption</h1>
-            <p>Rafeeq is dedicated to helping animals find their forever homes. Our platform allows individuals to post their pets for adoption while also showcasing animals directly under Rafeeq’s care. Each adoption involves a small fee, which helps cover care and medical expenses. Fees vary based on the type of animal and their age, ensuring a fair process for all adopters.</p>
-            <A title={props.btnTitle}/>
+            <p>Here in Rafeeq, we are passionate about creating a world where every pet finds the loving home they deserve.
+Adoption is not just about giving an animal a place to stay; it's about building a bond of unconditional love and companionship that lasts a lifetime. Our platform is designed to make your pet adoption journey as smooth and rewarding as possible. Whether you're looking for a playful puppy, a cuddly kitten, or a calm senior companion, we're here to help you find your perfect match.</p>
+            <A title={props.btnTitle} Link="/Rescue_page2"/>
         </div>
         <div class="image-sections">
             <img src="../images/ad.jpg" alt="Queens Care Center Collage"/>

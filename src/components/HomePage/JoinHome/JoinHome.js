@@ -3,7 +3,7 @@ import A from "../A/A"
 //import logo from "../images/pack.jpg"
 import './JoinHome.css'
 //function
-const JoinHelp=(props)=>{
+const JoinHome=(props)=>{
     return(
         <section className="sec-comp">
         <div className="content-comp">
@@ -14,11 +14,11 @@ const JoinHelp=(props)=>{
                 <h4>{props.title}</h4>
                 <h1>{props.des}</h1>
                 <p>{props.dess}</p>
-                <A title={props.btnTitle}/>
+                <A title={props.btnTitle} Link={props.Link}/>
             </div>
         </div>
     </section>
     )
 }
 //export
-export default JoinHelp;
+export default JoinHome;

@@ -1,4 +1,5 @@
 //imports
+import { Link } from 'react-router-dom';
 import '../ElemHome/ElemHome.css'
 //function
 const ElemHome=(props)=>{
@@ -8,9 +9,9 @@ const ElemHome=(props)=>{
             <div className="elementor-column2">
                 <h5><strong>{props.title}</strong></h5>
                 <p>{props.des2}</p>
-                <a className="elementor-icon-go" href=".">
+                <Link className="elementor-icon-go" to={props.Link}>
                         <span className="button-cc">GO</span>
-                </a>
+                </Link>
             </div>
         </div>
     </div>

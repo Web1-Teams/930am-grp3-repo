@@ -1,5 +1,5 @@
 import Block from "../rescueBlocks/RescueBlocks"
-import "./Rescue_page2.css"
+import "../rescue_page2/Rescue_page2.css"
 import Submition from "../rescueSubmition/RescueSubmition"
 const Hanis_page2 = (props)=>{
 
