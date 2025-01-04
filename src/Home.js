@@ -1,13 +1,13 @@
 
 //import Nav from '../src/components/Nav/Nav';
-import JoinHome from '../src/components/JoinHome/JoinHome';
-import FindHome from './components/FindHome/FindHome';
-import BannerHome from './components/BannerHome/BannerHome';
-import ElemAll from './components/ElemAll/ElemAll';
+import JoinHome from './components/HomePage/JoinHome/JoinHome';
+import FindHome from './components/HomePage/FindHome/FindHome';
+import BannerHome from './components/HomePage/BannerHome/BannerHome';
+import ElemAll from './components/HomePage/ElemAll/ElemAll';
 //import HelpAll from './components/HelpAll/HelpAll';
-import Footer from './components/Footer/Footer';
-import AdoptHome from './components/AdoptHome/AdoptHome';
-import HelpHomeComp from './components/HelpHomeComp/HelpHomeComp';
+import Footer from './components/HomePage/Footer/Footer';
+import AdoptHome from './components/HomePage/AdoptHome/AdoptHome';
+import HelpHomeComp from './components/HomePage/HelpHomeComp/HelpHomeComp';
 //import AdoptHome from './components/AdoptHome/AdoptHome';
 
 

@@ -1,7 +1,7 @@
 import React from 'react';
 import ReactDOM from 'react-dom/client';
 import Home from './Home';
-import Nav from '../src/components/Nav/Nav'
+import Nav from './components/HomePage/Nav/Nav'
 import { BrowserRouter, Route, Routes } from 'react-router-dom';
 const root = ReactDOM.createRoot(document.getElementById('root'));
 root.render(
