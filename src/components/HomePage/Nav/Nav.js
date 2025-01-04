@@ -12,9 +12,9 @@ const Nav = () => {
 
   const toggleSubmenu = (index) => {
     if (activeSubmenu === index) {
-      setActiveSubmenu(null); // Close submenu if it's already open
+      setActiveSubmenu(null); 
     } else {
-      setActiveSubmenu(index); // Open the clicked submenu
+      setActiveSubmenu(index); 
     }
   };
 
@@ -27,7 +27,6 @@ const Nav = () => {
               <img src="../images/rafeeq.jpg" alt="Logo" title="Website Logo" />
             </Link>
           </div>
-          {/* Mobile menu toggle button */}
           <button className="menu-toggle25" onClick={toggleMenu}>
             ☰
           </button>
