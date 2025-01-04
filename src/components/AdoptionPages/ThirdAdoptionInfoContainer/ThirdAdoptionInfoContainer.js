@@ -1,16 +1,16 @@
 import "./ThirdAdoptionInfoContainer.css";
 const ThirdAdoptionInfoContainer = () => {
   return (
-    <div className="adopt-info-section">
-      <p className="adopt-info-paragraph">
+    <div className="adopt-info-section66">
+      <p className="adopt-info-paragraph66">
         Below is the detailed fee structure for adopting pets through Rafeeq:
       </p>
-      <h3 className="adopt-info-title">Adoption Fees</h3>
-      <p className="adopt-info-paragraph">Dogs and Puppies</p>
+      <h3 className="adopt-info-title66">Adoption Fees</h3>
+      <p className="adopt-info-paragraph66">Dogs and Puppies</p>
       <table border="1">
         <tr>
           <th>Age</th>
-          <th class="right-corner-table">Fee</th>
+          <th class="right-corner-table66">Fee</th>
         </tr>
         <tr>
           <td>6 months and under</td>
@@ -26,11 +26,11 @@ const ThirdAdoptionInfoContainer = () => {
         </tr>
       </table>
 
-      <p class="adopt-info-paragraph">Cats and Kittens</p>
+      <p class="adopt-info-paragraph66">Cats and Kittens</p>
       <table border="1">
         <tr>
           <th>Age</th>
-          <th class="right-corner-table">Fee</th>
+          <th class="right-corner-table66">Fee</th>
         </tr>
         <tr>
           <td>6 months and under</td>
@@ -50,11 +50,11 @@ const ThirdAdoptionInfoContainer = () => {
         </tr>
       </table>
 
-      <p class="adopt-info-paragraph">Rabbits</p>
+      <p class="adopt-info-paragraph66">Rabbits</p>
       <table border="1">
         <tr>
           <th>Type</th>
-          <th class="right-corner-table">Fee</th>
+          <th class="right-corner-table66">Fee</th>
         </tr>
         <tr>
           <td>All ages</td>

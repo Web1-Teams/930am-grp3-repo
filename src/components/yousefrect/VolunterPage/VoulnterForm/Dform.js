@@ -5,7 +5,7 @@ const Dform = () =>{
     return (
         <section className="donate-form-section">
         <h2 className = "main-heading">Support ACC's Lifesaving Funds</h2>
-        <div className="form-container">
+        <div className="form-container88">
           <h2>Donate Form:</h2>
           <form action="#" method="POST">
             <div>

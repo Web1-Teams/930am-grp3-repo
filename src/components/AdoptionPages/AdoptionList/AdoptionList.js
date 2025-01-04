@@ -28,10 +28,10 @@ const AdoptionList = () => {
     <div>
       <AdoptionListHeader />
       <AdoptionSearchBar searchTerm={searchTerm} handleSearch={handleSearch} />
-      <div className="animals-container">
+      <div className="animals-container66">
         {filteredAnimals.length > 0 ? (
           filteredAnimals.map((animal, index) => (
-            <div key={index} className="col">
+            <div key={index} className="col66">
               <Link
                 to={`/AnimalData?name=${animal.name}&details=${animal.details}&type=${animal.type}&place=${animal.place}&description=${animal.description}&image=${encodeURIComponent(animal.image)}`}
               >

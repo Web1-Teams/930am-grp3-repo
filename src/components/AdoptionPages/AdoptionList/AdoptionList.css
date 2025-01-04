@@ -1,4 +1,4 @@
-.animals-container{
+.animals-container66{
     display: flex;
     flex-wrap: wrap;
     gap: 20px;
@@ -12,7 +12,7 @@
 
 /*only one card will apear for the user when he is using phone*/
 @media screen and (max-width: 750px) { 
-    .animals-container{
+    .animals-container66{
         flex-direction: column;
         align-items: center;
         
@@ -21,6 +21,6 @@
     };
     
 }
-.animals-container a { /* just because i dont want lines under the words */
+.animals-container66 a { /* just because i dont want lines under the words */
     text-decoration: none;
   }

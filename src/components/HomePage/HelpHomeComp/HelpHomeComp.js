@@ -31,20 +31,20 @@ const HelpHomeComp = (props) => {
   ];
 
   return (
-    <section className="sec-how-can-help">
-      <div className="contaner222">
+    <section className="sec-how-can-help25">
+      <div className="contaner22225">
         <header>
           <h4>How You Can Help</h4>
           <h1>There are many ways to get involved</h1>
         </header>
         <img
-          className="er"
+          className="er25"
           src="../images/dooooooog.webp"
           alt="Illustration of help opportunities"
 
         />
       </div>
-      <div className="con-how-can-help">
+      <div className="con-how-can-help25">
         {helpItems.map((item, index) => (
           <HelpHome
             key={index}

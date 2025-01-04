@@ -1,15 +1,5 @@
-body {
-    font-family: Arial, sans-serif;
-    display: flex;
-    justify-content: center; /* تم تعديل justify-self إلى justify-content */
-    align-items: center;
-    flex-direction: row;
-    padding: 0;
-    margin: 0;
-    background-color: #ffffff;
-}
 
-.elementor-section2 {
+.elementor-section225 {
     background-color: #ffffff; 
     padding: 50px 30px;
     border-radius: 20px;
@@ -18,14 +8,14 @@ body {
     align-items: center;
 }
 
-.elementor-container2 {
+.elementor-container225 {
     display: flex;
     justify-content: space-around;
     width: 450px;
     height: 250px;
 }
 
-.elementor-column2 {
+.elementor-column225 {
     flex: 1;
     background-color: #ffffff;
     border-radius: 10px;
@@ -35,24 +25,24 @@ body {
     transition: transform 0.3s ease, box-shadow 0.3s ease;
 }
 
-.elementor-column2:hover {
+.elementor-column225:hover {
     transform: translateY(-5px);
     box-shadow: 0 6px 15px rgba(0, 0, 0, 0.2);
 }
 
-.elementor-column2 h5 {
+.elementor-column225 h5 {
     font-size: 20px;
     color: #7743DB;
     margin-bottom: 15px;
 }
 
-.elementor-column2 p {
+.elementor-column225 p {
     font-size: 20px;
     color: #000000;
     line-height: 1.5;
 }
 
-.elementor-icon-go {
+.elementor-icon-go25 {
     background-color: #f7b605;
     color: #000000;
     border: none;
@@ -63,99 +53,89 @@ body {
     border-radius: 25px;
 }
 
-.elementor-icon-go:hover {
+.elementor-icon-go25:hover {
     color: #ffffff; 
 }
 
-.button-cc {
+.button-cc25 {
     font-size: 15px;
     text-transform: uppercase;
 }
 
-/* Media Queries */
 @media screen and (min-width: 767px) and (max-width: 991px) {
-    body {
-        font-size: 16px; /* تعديل حجم الخط */
-        padding: 20px; /* تعديل الحواف */
+
+
+    .elementor-container225 {
+        width: 380px; 
+        height: 220px; 
     }
 
-    .elementor-container2 {
-        width: 380px; /* تعديل عرض الحاوية */
-        height: 220px; /* تعديل ارتفاع الحاوية */
+    .elementor-column225 {
+        padding: 15px; 
     }
 
-    .elementor-column2 {
-        padding: 15px; /* تقليص الحواف */
+    .elementor-column225 h5 {
+        font-size: 18px; 
     }
 
-    .elementor-column2 h5 {
-        font-size: 18px; /* تعديل حجم العناوين */
+    .elementor-column225 p {
+        font-size: 18px; 
     }
 
-    .elementor-column2 p {
-        font-size: 18px; /* تعديل حجم النص */
-    }
-
-    .elementor-icon-go {
-        font-size: 12px; /* تقليص حجم الخط في الزر */
-        padding: 8px 30px; /* تعديل الحواف */
+    .elementor-icon-go25 {
+        font-size: 12px; 
+        padding: 8px 30px; 
     }
 }
 
 @media screen and (min-width: 991px) and (max-width: 1200px) {
-    body {
-        font-size: 18px; /* تعديل حجم الخط */
-        padding: 25px; /* تعديل الحواف */
+
+
+    .elementor-container225 {
+        width: 420px; 
+        height: 240px; 
     }
 
-    .elementor-container2 {
-        width: 420px; /* تعديل عرض الحاوية */
-        height: 240px; /* تعديل ارتفاع الحاوية */
+    .elementor-column225 {
+        padding: 18px; 
     }
 
-    .elementor-column2 {
-        padding: 18px; /* تعديل الحواف */
+    .elementor-column225 h5 {
+        font-size: 20px; 
     }
 
-    .elementor-column2 h5 {
-        font-size: 20px; /* تعديل حجم العناوين */
+    .elementor-column225 p {
+        font-size: 18px; 
     }
 
-    .elementor-column2 p {
-        font-size: 18px; /* تعديل حجم النص */
-    }
-
-    .elementor-icon-go {
-        font-size: 14px; /* تعديل حجم الخط في الزر */
-        padding: 10px 35px; /* تعديل الحواف */
+    .elementor-icon-go25 {
+        font-size: 14px; 
+        padding: 10px 35px; 
     }
 }
 
 @media screen and (min-width: 1201px) {
-    body {
-        font-size: 20px; /* تعديل حجم الخط */
-        padding: 30px; /* تعديل الحواف */
+
+
+    .elementor-container225 {
+        width: 450px; 
+        height: 250px; 
     }
 
-    .elementor-container2 {
-        width: 450px; /* عرض الحاوية */
-        height: 250px; /* ارتفاع الحاوية */
+    .elementor-column225 {
+        padding: 20px; 
     }
 
-    .elementor-column2 {
-        padding: 20px; /* تعديل الحواف */
+    .elementor-column225 h5 {
+        font-size: 22px; 
     }
 
-    .elementor-column2 h5 {
-        font-size: 22px; /* تعديل حجم العناوين */
-    }
-
-    .elementor-column2 p {
-        font-size: 20px; /* تعديل حجم النص */
+    .elementor-column225 p {
+        font-size: 20px; 
     }
 
     .elementor-icon-go {
-        font-size: 14px; /* تعديل حجم الخط في الزر */
-        padding: 10px 40px; /* تعديل الحواف */
+        font-size: 14px; 
+        padding: 10px 40px; 
     }
 }

@@ -1,14 +1,5 @@
-body{
-    font-family: Arial, sans-serif;
-    display: flex;
-    justify-self: center;
-    align-items: center;
-    flex-direction: column;
-    padding: 0;
-    margin: 0;
-    background-color: #ffffff;
-}
-.sec-comp {
+
+.sec-comp25 {
     display: flex;
     justify-content: center;
     align-items: center;
@@ -16,16 +7,16 @@ body{
     border-radius: 20px;
     background-color: #ffffff;
 }
-.content-comp {
+.content-comp25 {
     display: flex;
     flex-wrap: wrap;
     gap: 20px;
 }
-.image-section img {
+.image-section25 img {
     border-radius: 10px;
     height: 600px;
 }
-.text-section {
+.text-section25 {
     display: flex;
     flex-direction: column;
     justify-content: center;
@@ -34,18 +25,18 @@ body{
     text-align: center;
 }
 
-.text-section h4 {
+.text-section25 h4 {
     color: #7743DB;
     font-size: 25px;
     margin-bottom: 10px;
 }
 
-.text-section h1 {
+.text-section25 h1 {
     padding: 10px;
     color: #4b4848;
     font-size: 28px;
 }
-.text-section p {
+.text-section25 p {
     padding: 10px;
     color: #555;
     font-size: 20px;

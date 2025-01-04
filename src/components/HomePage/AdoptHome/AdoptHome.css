@@ -1,18 +1,6 @@
-body{
-    font-family: Arial, sans-serif;
-    display: flex;
-    justify-self: center;
-    align-items: center;
-    flex-direction: column;
-    padding: 0;
-    margin: 0;
-    background-color: #ffffff;
-    max-width: 1200px; 
-    margin-left: auto; 
-    margin-right: auto; 
-}
 
-.Adopt-section{
+
+.Adopt-section25{
     background-color: #7743DB;
     padding: 50px;
     border-radius: 30px;
@@ -21,28 +9,28 @@ body{
     margin: 0 auto; 
 }
 
-.Adopt-div{
+.Adopt-div25{
     display: flex;
     justify-content: space-around;
     align-items: center;
 }
-.Adopt-text{
+.Adopt-text25{
     margin-right: 100px;
     color: #ffffff;
     font-size: 20px;
 }
-.Adopt-text p,h1{
+.Adopt-text25 p,h1{
     font-size: 20px;
 }
-.Adopt-search form{
+.Adopt-search25 form{
     display: flex;
     align-items: center;
 }
-.Search-box{
+.Search-box25{
     display: flex;
     align-items: center;
 }
-.Search-field{
+.Search-field25{
     margin-right: 20px ;
 }
 label{
@@ -60,13 +48,13 @@ option{
     color:#0a0909;
     border-radius: 10px;
 }
-.op{
+.op25{
     background-color: #7743DB;
     color: #ffffff;
     border-radius: 10px;
 }
 
-.Search-button {
+.Search-button25 {
     padding: 10px 10px;
     background-color: #f7b605;
     color: #ffffff;
@@ -76,92 +64,79 @@ option{
     text-decoration: none;
 }
 
-.Search-button:hover{
+.Search-button25:hover{
     background-color: #ffffff;
     color: #000;
 }
 @media screen and (max-width: 767px) {
-    body {
-        padding: 10px;
-        font-size: 14px;
-    }
     
-    .Adopt-section {
+    .Adopt-section25 {
         padding: 20px;
     }
 
-    .Adopt-text {
+    .Adopt-text25 {
         margin-right: 0;
         font-size: 16px;
     }
 
-    .Adopt-search form {
+    .Adopt-search25 form {
         flex-direction: column;
         align-items: flex-start;
     }
 
-    .Search-button {
+    .Search-button25 {
         width: 100%;
         padding: 12px;
         font-size: 16px;
     }
 }
 @media screen and (min-width: 767px) and (max-width: 991px) {
-    body {
-        padding: 15px;
-        font-size: 16px;
-    }
 
-    .Adopt-section {
+
+    .Adopt-section25 {
         padding: 30px;
     }
 
-    .Adopt-text {
+    .Adopt-text25 {
         margin-right: 50px;
         font-size: 18px;
     }
 
-    .Search-button {
+    .Search-button25 {
         padding: 12px 25px;
         font-size: 18px;
     }
 }
 @media screen and (min-width: 991px) and (max-width: 1200px) {
-    body {
-        padding: 20px;
-        font-size: 18px;
-    }
 
-    .Adopt-section {
+
+    .Adopt-section25 {
         padding: 40px;
     }
 
-    .Adopt-text {
+    .Adopt-text25 {
         margin-right: 80px;
         font-size: 20px;
     }
 
-    .Search-button {
+    .Search-button25 {
         padding: 15px 30px;
         font-size: 20px;
     }
 }
 @media screen and (min-width: 1201px) {
-    body {
-        padding: 30px;
-        font-size: 20px;
-    }
+ 
 
-    .Adopt-section {
+    .Adopt-section25 {
         padding: 50px;
     }
 
-    .Adopt-text {
+    .Adopt-text25 {
         margin-right: 100px;
         font-size: 22px;
     }
 
-    .Search-button {
+    .Search-button25 {
         padding: 15px 40px;
         font-size: 22px;
     }

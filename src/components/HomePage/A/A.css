@@ -1,4 +1,4 @@
-.button-comp {
+.button-comp25 {
     background-color: #f7b605; 
     color: #030202;
     border: none;
@@ -10,7 +10,7 @@
     text-decoration: none;
     transition: background-color 0.3s ease, transform 0.3s ease;
 }
-.button-comp:hover {
+.button-comp25:hover {
     color: #ffffff;
     transform: scale(1.05);
 }

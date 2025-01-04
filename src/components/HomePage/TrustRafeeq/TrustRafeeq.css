@@ -1,8 +1,8 @@
-.container {
+.container25 {
     text-align: center;
     margin: 20px;
   }
-  .button {
+  .button25 {
     background-color: #7743DB;
     color: #fff;
     border: none;
@@ -12,25 +12,24 @@
     font-size: 16px;
     transition: background-color 0.3s ease, transform 0.3s ease;
   }
-  .button:hover {
+  .button25:hover {
     background-color: #ffffff; 
     color: #000;
     transform: scale(1.05);
 
 
   }
-  .likeCount {
+  .likeCount25 {
     margin-top: 10px;
     font-size: 14px;
     color: #000000;
   }
-/* Default styles (for larger screens like desktops) */
-.container {
+.container25 {
     text-align: center;
     margin: 20px;
 }
 
-.button {
+.button25 {
     background-color: #7743DB;
     color: #fff;
     border: none;
@@ -41,58 +40,58 @@
     transition: background-color 0.3s ease, transform 0.3s ease;
 }
 
-.button:hover {
+.button25:hover {
     background-color: #ffffff; 
     color: #000;
     transform: scale(1.05);
 }
 
-.likeCount {
+.likeCount25 {
     margin-top: 10px;
     font-size: 14px;
     color: #000000;
 }
 
 @media screen and (max-width: 767px) {
-    .button {
+    .button25 {
         font-size: 14px;
         padding: 8px 16px;
     }
 
-    .likeCount {
+    .likeCount252 {
         font-size: 12px;
     }
 }
 
 @media screen and (min-width: 767px) and (max-width: 991px) {
-    .button {
+    .button25 {
         font-size: 15px;
         padding: 9px 18px;
     }
 
-    .likeCount {
+    .likeCount25 {
         font-size: 13px;
     }
 }
 
 @media screen and (min-width: 991px) and (max-width: 1200px) {
-    .button {
+    .button25 {
         font-size: 16px;
         padding: 10px 20px;
     }
 
-    .likeCount {
+    .likeCount25 {
         font-size: 14px;
     }
 }
 
 @media screen and (min-width: 1201px) {
-    .button {
+    .button25 {
         font-size: 18px;
         padding: 12px 24px;
     }
 
-    .likeCount {
+    .likeCount25 {
         font-size: 16px;
     }
 }

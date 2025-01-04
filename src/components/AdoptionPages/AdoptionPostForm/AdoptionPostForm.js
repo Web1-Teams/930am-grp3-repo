@@ -72,7 +72,7 @@ const AdoptionPostForm = () => {
   };
 
   return (
-    <div className="form-container">
+    <div className="form-container66">
       <h2>Post an Animal for Adoption</h2>
       <form onSubmit={handleSubmit}>
         <label htmlFor="animal-name">Animal Name:</label>

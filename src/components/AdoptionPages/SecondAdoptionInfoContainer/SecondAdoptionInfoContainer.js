@@ -1,9 +1,9 @@
 import "./SecondAdoptionInfoContainer.css";
 const SecondAdoptionInfoContainer = () => {
   return (
-    <div className="adopt-info-section-between">
-      <h3 className="adopt-info-title-between">How It Works</h3>
-      <p className="adopt-info-paragraph-between">
+    <div className="adopt-info-section-between66">
+      <h3 className="adopt-info-title-between66">How It Works</h3>
+      <p className="adopt-info-paragraph-between66">
         Rafeeq is dedicated to helping animals find their forever homes.
         <br />
         Our platform allows individuals to post their pets for adoption while

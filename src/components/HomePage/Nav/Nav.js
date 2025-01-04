@@ -4,21 +4,21 @@ import "./nav.css";
 
 const Nav = () => {
   return (
-    <div className="lol">
-      <nav className="main-menu page">
-        <div className="navbar">
-          <div className="logo">
+    <div className="lol25">
+      <nav className="main-menu page25">
+        <div className="navbar25">
+          <div className="logo25">
             <Link to="/">
               <img src="../images/rafeeq.jpg" alt="Logo" title="Website Logo" />
             </Link>
           </div>
-          <ul className="navigation">
+          <ul className="navigation25">
             <li>
               <Link to="/">Home</Link>
             </li>
             <li>
               <Link to="/Rescue_page2">About</Link>
-              <ul className="submenu">
+              <ul className="submenu25">
                 <li>
                   <Link to="/contact">Contact Us</Link>
                 </li>
@@ -26,7 +26,7 @@ const Nav = () => {
             </li>
             <li>
               <Link to="/community">Our Community</Link>
-              <ul className="submenu">
+              <ul className="submenu25">
                 <li>
                   <Link to="/login">Login</Link>
                 </li>
@@ -42,13 +42,13 @@ const Nav = () => {
               <Link to="/Rescue_page1">Found</Link>
             </li>
             <li>
-              <Link to="/volunteer">Volunteer</Link>
+              <Link to="/Ypage1">Volunteer</Link>
             </li>
             <li>
-              <Link to="/report">Report</Link>
+              <Link to="/">Report</Link>
             </li>
-            <button className="Donatee">
-              <Link to="/donate">
+            <button className="Donatee25">
+              <Link to="/Ypag2">
                 <span>Donate</span>
               </Link>
             </button>

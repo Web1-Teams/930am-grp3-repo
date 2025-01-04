@@ -4,7 +4,7 @@ import ElemHome from "../ElemHome/ElemHome";
 //function
 const ElemAll =()=>{
     return(
-        <div className="ElemAll">
+        <div className="ElemAll25">
             <ElemHome title="Volunteer" des2="If you have a passion for animals and are looking to make a difference, Animal Care Centers of Nablus (RAFEQ) needs your help." Link="/Rescue_page2"/>
             <ElemHome title="Lost and Found" des2="RAFEQ is committed to reuniting lost and found pets with their families.We take in of animals every day at all locations." Link="/Rescue_page2"/>
             <ElemHome title="Get Involved" des2="Adopting pets gives animals a second chance for a loving home while helping reduce shelter overcrowding." Link="/Rescue_page2"/>

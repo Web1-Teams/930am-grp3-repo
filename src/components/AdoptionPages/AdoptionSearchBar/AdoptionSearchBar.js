@@ -3,7 +3,7 @@ import "./AdoptionSearchBar.css";
 
 const AdoptionSearchBar = ({ searchTerm, handleSearch }) => {
   return (
-    <div className="search-container">
+    <div className="search-container66">
       <input
         type="text"
         placeholder="Search for an animal..."
@@ -11,7 +11,7 @@ const AdoptionSearchBar = ({ searchTerm, handleSearch }) => {
         value={searchTerm} // the input value variable is searchTearm
         onChange={handleSearch} // when it changes pass the data
       />
-      <button type="button" className="adoption-button">
+      <button type="button" className="adoption-button66">
         Search
       </button>
     </div>

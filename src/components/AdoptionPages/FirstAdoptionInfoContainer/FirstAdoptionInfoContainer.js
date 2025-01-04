@@ -2,9 +2,9 @@ import "./FirstAdoptionInfoContainer.css";
 
 const FirstAdoptionInfoContainer = () => {
   return (
-    <div className="adopt-info-section">
-      <h3 className="adopt-info-title">Thank You for Choosing Rafeeq!</h3>
-      <p className="adopt-info-paragraph">
+    <div className="adopt-info-section66">
+      <h3 className="adopt-info-title66">Thank You for Choosing Rafeeq!</h3>
+      <p className="adopt-info-paragraph66">
         Here in Rafeeq, we are passionate about creating a world where every pet
         finds the loving home they deserve. <br />
         Adoption is not just about giving an animal a place to stay; it's about

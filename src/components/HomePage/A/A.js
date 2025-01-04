@@ -4,7 +4,7 @@ import '../A/A.css'
 //function
 const A =(props)=>{
     return(
-        <Link to={props.Link} class="button-comp">{props.title}</Link>
+        <Link to={props.Link} class="button-comp25">{props.title}</Link>
     )
 }
 //export

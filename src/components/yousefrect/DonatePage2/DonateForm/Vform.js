@@ -8,7 +8,7 @@ const Vform =() =>{
     
     return (
         <section className="donate-form-section">
-            <div className="form-container">
+            <div className="form-container2">
                 <h2>Donate Form:</h2>
                 <form action="#" method="POST">
                     <div>

@@ -2,46 +2,46 @@
 footer{
     background-color: #7743DB;
 }
-.footerContainer{
+.footerContainer25{
     width: 1910px;
     padding: 50px  ;
 }
-.socialIcons{
+.socialIcons25{
     display: flex;
     justify-content: center;
 }
-.socialIcons a{
+.socialIcons25 a{
     text-decoration: none;
     padding:  10px;
     background-color: white;
     margin: 10px;
     border-radius: 15px;
 }
-.socialIcons a i{
+.socialIcons25 a i{
     font-size: 2em;
     color: #7743DB;
     opacity: 0,9;
 }
 
 
-.socialIcons a:hover{
+.socialIcons25 a:hover{
     background-color:#7743DB;
     transition: 0.5s;
 }
-.socialIcons a:hover i{
+.socialIcons25 a:hover i{
     color: white;
     transition: 0.5s;
 }
-.footerNav{
+.footerNav25{
     margin: 30px 0;
 margin-right: 40px;
 }
-.footerNav ul{
+.footerNav25 ul{
     display: flex;
     justify-content: center;
     list-style-type: none;
 }
-.footerNav ul li a{
+.footerNav25 ul li a{
     color:white;
     margin: 20px;
     text-decoration: none;
@@ -50,18 +50,18 @@ margin-right: 40px;
     transition: 0.5s;
 
 }
-.footerNav ul li a:hover{
+.footerNav25 ul li a:hover{
     opacity: 1;
 }
-.footerBottom{
+.footerBottom25{
     background-color:#2c3450;
     padding: 20px;
     text-align: center;
 }
-.footerBottom p{
+.footerBottom25 p{
     color: white;
 }
-.designer{
+.designer25{
     opacity: 0.7;
     text-transform: uppercase;
     letter-spacing: 1px;
@@ -69,15 +69,15 @@ margin-right: 40px;
     margin: 0px 5px;
 }
 @media (max-width: 700px){
-    .footerNav ul{
+    .footerNav25 ul{
         flex-direction: column;
     } 
-    .footerNav ul li{
+    .footerNav25 ul li{
         width:100%;
         text-align: center;
         margin: 10px;
     }
-    .socialIcons a{
+    .socialIcons25 a{
         padding: 8px;
         margin: 4px;
     }

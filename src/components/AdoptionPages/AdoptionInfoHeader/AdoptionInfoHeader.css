@@ -1,4 +1,4 @@
-.background-adoption-start {
+.background-adoption-start66 {
     position: relative; 
     background-image: url('../../../../public/images/first-adopt-pic.avif');
     background-size: cover; 
@@ -14,20 +14,20 @@
 
 }
 
-.first-back-text{
+.first-back-text66{
     font-weight: lighter;
     margin-left: 280px;
     color:rgb(255, 255, 255);
     font-size: 45px;
 }
-.second-back-text{
+.second-back-text66{
     font-weight: lighter;
     margin-left: 280px;
     color:rgb(255, 255, 255);
     font-size: 29px;
     margin-top: -12px;
 }
-.find-a-pet-button {
+.find-a-pet-button66 {
     padding: 10px 20px;
     font-size: 1rem;
     background-color: #ffbb00;
@@ -38,21 +38,21 @@
     transition: background-color 0.3s ease;
     margin-left: 280px;
 }
-.find-a-pet-button:hover {
+.find-a-pet-button66:hover {
     background-color: #e79e00;
 }
 
 /*when on phone, the user can see the texts*/
 @media screen and (max-width: 750px) { 
-    .first-back-text, 
-    .second-back-text, 
-    .find-a-pet-button {
+    .first-back-text66, 
+    .second-back-text66, 
+    .find-a-pet-button66 {
         margin-left: 20px;
     }
-    .first-back-text {
+    .first-back-text66 {
         font-size: 35px;
     }
-    .second-back-text {
+    .second-back-text66 {
         font-size: 24px;
     }
 }

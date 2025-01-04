@@ -13,16 +13,16 @@ const AdoptionAnimalData = () => {
   const description = params.get("description");
   const image = decodeURIComponent(params.get("image")); //after i encoded so i can enclude special characters like "+"
   return (
-    <div className="page-wrapper">
-      <div className="main">
-        <div className="content-wrapper">
-          <div className="pet-image-container">
-            <img src={image} alt={name} className="pet-image" />
+    <div className="page-wrapper66">
+      <div className="main66">
+        <div className="content-wrapper66">
+          <div className="pet-image-container66">
+            <img src={image} alt={name} className="pet-image66" />
           </div>
 
-          <div className="pet-info">
+          <div className="pet-info66">
             <div>
-              <h2 className="pet-name">{name}</h2>
+              <h2 className="pet-name66">{name}</h2>
               <p>
                 <strong>Details:</strong> {details}
               </p>
@@ -32,11 +32,11 @@ const AdoptionAnimalData = () => {
               <p>
                 <strong>Location:</strong> {place}
               </p>
-              <p className="pet-description">{description}</p>
+              <p className="pet-description66">{description}</p>
             </div>
             <div>
               <h3>Ready to Adopt {name}?</h3>
-              <form className="email-form">
+              <form className="email-form66">
                 <label htmlFor="email">Enter your email:</label>
                 <input
                   type="email"
@@ -45,7 +45,7 @@ const AdoptionAnimalData = () => {
                   placeholder="example@mail.com"
                   required
                 />
-                <button type="submit" className="adoption-button-email">
+                <button type="submit" className="adoption-button-email66">
                   Adopt Me!
                 </button>
               </form>

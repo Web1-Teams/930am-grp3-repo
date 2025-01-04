@@ -1,9 +1,9 @@
 
-.adopt-info-section p, .adopt-info-section table { /*so it dont affect Global css*/
+.adopt-info-section66 p, .adopt-info-section66 table { /*so it dont affect Global css*/
     color: #555;
 }
 
-.adopt-info-section {
+.adopt-info-section66 {
     background: #ffffff;
     margin: 20px auto;
     padding: 20px;
@@ -13,7 +13,7 @@
     max-width: 1200px;
 }
 
-.adopt-info-title {
+.adopt-info-title66 {
 
 
     margin-bottom: 10px;
@@ -21,7 +21,7 @@
     font-size: 1.5em;
 }
 
-.adopt-info-paragraph {
+.adopt-info-paragraph66 {
     font-size: 1.1em;
     line-height: 1.8;
     text-align: justify;
@@ -29,7 +29,7 @@
 }
 
 
-.adopt-info-section table {
+.adopt-info-section66 table {
 
     border-collapse: collapse;
     width: 100%;
@@ -39,22 +39,22 @@
     background-color: #fff;
 }
 
-.adopt-info-section table th, .adopt-info-section table td {
+.adopt-info-section66 table th, .adopt-info-section66 table td {
     padding: 12px;
     border: 1px solid #ddd;
 }
 
-.adopt-info-section table th {
+.adopt-info-section66 table th {
     background-color: #7743DB;
     color: #ffffff;
     font-weight: bold;
     text-align: center;
 }
 
-.adopt-info-section table td {
+.adopt-info-section66 table td {
     text-align: center;
 }
 
-.right-corner-table {
+.right-corner-table66 {
     text-align: center;
 }

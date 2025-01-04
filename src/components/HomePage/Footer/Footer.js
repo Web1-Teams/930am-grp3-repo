@@ -4,14 +4,14 @@ import '../Footer/Footer.css'
 const Footer=()=>{
     return(
         <footer>
-        <div className="footerContainer">
-            <div class="socialIcons">
-                <a href="..//page 1/home.html"><i className="fa-brands fa-twitter"></i></a>
-                <a href="..//page 1/home.html"><i className="fa-brands fa-google"></i></a>
-                <a href="..//page 1/home.html"><i className="fa-brands fa-instagram"></i></a>
-                <a href="..//page 1/home.html"><i className="fa-brands fa-facebook"></i></a>
+        <div className="footerContainer25">
+            <div className="socialIcons25">
+                <a href="..//page 1/home.html"><i className="fa-brands fa-twitter25"></i></a>
+                <a href="..//page 1/home.html"><i className="fa-brands fa-google25"></i></a>
+                <a href="..//page 1/home.html"><i className="fa-brands fa-instagram25"></i></a>
+                <a href="..//page 1/home.html"><i className="fa-brands fa-facebook25"></i></a>
             </div>
-            <div className="footerNav">
+            <div className="footerNav25">
                 <ul>
                     <li><a href="..//page 1/home.html">HOME</a></li>
                     <li><a href="..//page 1/home.html">Contact us</a></li>
@@ -21,8 +21,8 @@ const Footer=()=>{
             </div>
 
         </div>
-        <div class="footerBottom">
-            <p>Copyright &copy;2024; Designed by <span className="designer">" Our Team"</span></p>
+        <div class="footerBottom25">
+            <p>Copyright &copy;2024; Designed by <span className="designer25">" Our Team"</span></p>
         </div>
     </footer>
     )
