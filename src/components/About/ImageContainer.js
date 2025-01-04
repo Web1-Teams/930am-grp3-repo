@@ -1,5 +1,5 @@
-import React from 'react';
-import './ImageContainer.css';
+import React from "react";
+import "./ImageContainer.css";
 
 const ImageContainer = () => {
   return (

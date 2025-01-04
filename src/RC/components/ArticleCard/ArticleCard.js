@@ -1,4 +1,4 @@
-import './ArticleCard.css';
+import "./ArticleCard.css";
 
 const ArticleCard = ({
   category,
@@ -8,15 +8,15 @@ const ArticleCard = ({
   description,
   authorName,
 }) => {
-  const defaultProfilePic = 'images/user-avatar.png'; 
+  const defaultProfilePic = "images/user-avatar.png";
 
   const categoryColors = {
-    adoption: '#FFD700',
-    rescue: '#32CD32',
-    training: '#FF4500',
-    health: '#1E90FF',
-    general: '#9370DB',
-    other: '#FFA500',
+    adoption: "#FFD700",
+    rescue: "#32CD32",
+    training: "#FF4500",
+    health: "#1E90FF",
+    general: "#9370DB",
+    other: "#FFA500",
   };
 
   return (
@@ -25,7 +25,9 @@ const ArticleCard = ({
         <div className="card-banner55">
           <p
             className="category-tag55"
-            style={{ backgroundColor: categoryColors[category.toLowerCase()] || '#ccc' }}
+            style={{
+              backgroundColor: categoryColors[category.toLowerCase()] || "#ccc",
+            }}
           >
             {category}
           </p>

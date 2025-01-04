@@ -1,28 +1,30 @@
-import React from 'react';
-import HelpHome from '../HelpHome/HelpHome';
-import './HelpHomeComp.css';
+import React from "react";
+import HelpHome from "../HelpHome/HelpHome";
+import "./HelpHomeComp.css";
 
 const HelpHomeComp = (props) => {
   const helpItems = [
     {
-      imageSrc: '../images/hands.png',
-      title: 'Volunteer',
-      description: 'Currently seeking highly experienced large dog handlers at all Care Center locations',
+      imageSrc: "../images/hands.png",
+      title: "Volunteer",
+      description:
+        "Currently seeking highly experienced large dog handlers at all Care Center locations",
     },
     {
-      imageSrc: '../images/foster1.webp',
-      title: 'Foster',
-      description: 'Take your first steps with the RAFEQ Foster Team by signing up for one of our Virtual Foster Orientations',
+      imageSrc: "../images/foster1.webp",
+      title: "Foster",
+      description:
+        "Take your first steps with the RAFEQ Foster Team by signing up for one of our Virtual Foster Orientations",
     },
     {
-      imageSrc: '../images/donate1.png',
-      title: 'Donate',
-      description: 'Support homeless animals, achieve your charitable goals',
+      imageSrc: "../images/donate1.png",
+      title: "Donate",
+      description: "Support homeless animals, achieve your charitable goals",
     },
     {
-      imageSrc: '../images/tekit.png',
-      title: 'Fundraising Events',
-      description: 'Find an upcoming Fundraising Event near you',
+      imageSrc: "../images/tekit.png",
+      title: "Fundraising Events",
+      description: "Find an upcoming Fundraising Event near you",
     },
   ];
 
@@ -37,7 +39,6 @@ const HelpHomeComp = (props) => {
           className="er25"
           src="../images/dooooooog.webp"
           alt="Illustration of help opportunities"
-
         />
       </div>
       <div className="con-how-can-help25">
