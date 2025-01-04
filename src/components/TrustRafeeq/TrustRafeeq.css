@@ -53,7 +53,6 @@
     color: #000000;
 }
 
-/* For mobile devices (max width: 600px) */
 @media screen and (max-width: 767px) {
     .button {
         font-size: 14px;
@@ -65,7 +64,6 @@
     }
 }
 
-/* For tablets (max width: 768px) */
 @media screen and (min-width: 767px) and (max-width: 991px) {
     .button {
         font-size: 15px;
@@ -77,7 +75,6 @@
     }
 }
 
-/* For laptops (max width: 1024px) */
 @media screen and (min-width: 991px) and (max-width: 1200px) {
     .button {
         font-size: 16px;
@@ -89,7 +86,6 @@
     }
 }
 
-/* For large desktops (min width: 1025px) */
 @media screen and (min-width: 1201px) {
     .button {
         font-size: 18px;

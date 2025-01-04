@@ -1,4 +1,4 @@
-body{
+body {
     font-family: Arial, sans-serif;
     display: flex;
     justify-self: center;
@@ -8,6 +8,7 @@ body{
     margin: 0;
     background-color: #ffffff;
 }
+
 .lol {
     background-color: #7743DB;
     position: fixed;
@@ -16,7 +17,6 @@ body{
     width: 100%;
     z-index: 1000;
     box-shadow: 0 4px 10px #7743DB; 
-
 }
 
 .navbar {
@@ -56,7 +56,6 @@ body{
     font-size: 16px;
     padding: 5px 10px;
     transition: color 0.3s, box-shadow 0.3s; 
-
 }
 
 .navigation a:hover {
@@ -90,14 +89,12 @@ body{
     font-size: 14px;
     border-radius: 20px;
     box-shadow: 0 2px 5px rgba(0, 0, 0, 0.2); 
-
     white-space: nowrap;
     transition: background-color 0.3s;
 }
 
 .submenu a:hover {
     background-color: #7743DB;
-
 }
 
 .navigation li:hover .submenu {
@@ -127,37 +124,11 @@ body{
     box-shadow: 0 4px 10px rgba(0, 0, 0, 0.3); 
     background-color: #ffffff;
 }
-@media screen and (max-width: 767px) {
-    .navbar {
-        flex-direction: column;
-        align-items: flex-start;
-        padding: 10px;
-    }
 
-    .logo img {
-        height: 50px;
-    }
-
-    .navigation {
-        flex-direction: column;
-        width: 100%;
-    }
-
-    .navigation > li {
-        margin: 5px 0;
-    }
-
-    .Donatee {
-        width: 100%;
-        text-align: center;
-        margin: 10px 0 0;
-    }
-}
+/* Media Queries */
 @media screen and (min-width: 767px) and (max-width: 991px) {
     .navbar {
-        flex-direction: row;
-        justify-content: space-between;
-        padding: 15px 20px;
+        padding: 15px 10px;
     }
 
     .logo img {
@@ -166,16 +137,22 @@ body{
 
     .navigation a {
         font-size: 14px;
+        padding: 5px 8px;
     }
 
     .Donatee {
+        margin-left: 100px;
         font-size: 14px;
-        padding: 8px 15px;
+    }
+
+    .Donatee:hover {
+        font-size: 15px;
     }
 }
+
 @media screen and (min-width: 991px) and (max-width: 1200px) {
     .navbar {
-        max-width: 1000px;
+        padding: 20px 15px;
     }
 
     .logo img {
@@ -184,16 +161,22 @@ body{
 
     .navigation a {
         font-size: 15px;
+        padding: 6px 10px;
     }
 
     .Donatee {
+        margin-left: 120px;
         font-size: 15px;
-        padding: 10px 18px;
+    }
+
+    .Donatee:hover {
+        font-size: 16px;
     }
 }
+
 @media screen and (min-width: 1201px) {
     .navbar {
-        max-width: 1200px;
+        padding: 10px 20px;
     }
 
     .logo img {
@@ -202,11 +185,15 @@ body{
 
     .navigation a {
         font-size: 16px;
+        padding: 5px 10px;
     }
 
     .Donatee {
+        margin-left: 150px;
         font-size: 16px;
-        padding: 10px 20px;
+    }
+
+    .Donatee:hover {
+        font-size: 17px;
     }
 }
-

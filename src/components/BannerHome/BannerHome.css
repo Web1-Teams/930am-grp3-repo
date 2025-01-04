@@ -75,3 +75,74 @@ body{
     text-transform: uppercase;
     letter-spacing: 2px;
 }
+@media screen and (min-width: 767px) and (max-width: 991px) {
+    body {
+        font-size: 16px; /* تعديل حجم الخط */
+        padding: 20px; /* تعديل الحواف */
+    }
+
+    .home-banner {
+        height: 120vh; /* تقليص ارتفاع البانر */
+    }
+
+    .banner-content h1, .banner-content h2 {
+        font-size: 36px; /* تعديل حجم الخط في العناوين */
+    }
+
+    .banner-images {
+        max-width: 500px; /* تقليص عرض الصورة */
+        height: 500px; /* تقليص ارتفاع الصورة */
+    }
+
+    .banner-stats h2 {
+        font-size: 28px; /* تعديل حجم الخط للإحصائيات */
+    }
+}
+
+@media screen and (min-width: 991px) and (max-width: 1200px) {
+    body {
+        font-size: 18px; /* تعديل حجم الخط */
+        padding: 25px; /* تعديل الحواف */
+    }
+
+    .home-banner {
+        height: 130vh; /* تقليص ارتفاع البانر */
+    }
+
+    .banner-content h1, .banner-content h2 {
+        font-size: 42px; /* تعديل حجم الخط في العناوين */
+    }
+
+    .banner-images {
+        max-width: 550px; /* تعديل عرض الصورة */
+        height: 600px; /* تعديل ارتفاع الصورة */
+    }
+
+    .banner-stats h2 {
+        font-size: 32px; /* تعديل حجم الخط للإحصائيات */
+    }
+}
+
+@media screen and (min-width: 1201px) {
+    body {
+        font-size: 20px; /* تعديل حجم الخط */
+        padding: 30px; /* تعديل الحواف */
+    }
+
+    .home-banner {
+        height: 140vh; /* تعديل ارتفاع البانر */
+    }
+
+    .banner-content h1, .banner-content h2 {
+        font-size: 48px; /* تعديل حجم الخط في العناوين */
+    }
+
+    .banner-images {
+        max-width: 600px; /* عرض الصورة */
+        height: 700px; /* ارتفاع الصورة */
+    }
+
+    .banner-stats h2 {
+        font-size: 36px; /* تعديل حجم الخط للإحصائيات */
+    }
+}

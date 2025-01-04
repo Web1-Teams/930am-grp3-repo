@@ -1,4 +1,4 @@
-body{
+body {
     font-family: Arial, sans-serif;
     display: flex;
     justify-self: center;
@@ -8,6 +8,7 @@ body{
     margin: 0;
     background-color: #ffffff;
 }
+
 .sec-how-can-help {
     background-color: #ffffff;
     padding: 0px 0px 70px;
@@ -15,20 +16,24 @@ body{
     border-radius: 20px;
     font-family: Arial, sans-serif;
 }
+
 .sec-how-can-help header h4 {
     color: #ffffff;
     font-size: 20px;
     margin-bottom: 10px;
     text-transform: uppercase;
 }
+
 .sec-how-can-help header h1 {
     font-size: 32px;
     color: #333;
     margin-bottom: 40px;
 }
+
 .contaner222 {
     margin-bottom: 20px;
 }
+
 .sec-how-can-help img.er {
     display: block;
     height: 300px;
@@ -37,15 +42,15 @@ body{
     border-radius: 10px;
     box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
 }
+
 .con-how-can-help {
-    
     display: flex;
     flex-wrap: wrap;
     justify-content: center;
     gap: 30px;
 }
+
 .item-how-can-help {
-    
     background-color: #7743DB;
     border: 1px solid #ffffff;
     border-radius: 10px;
@@ -56,9 +61,11 @@ body{
     box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
     transition: transform 0.3s, box-shadow 0.3s;
 }
+
 .item-how-can-help:hover {
     transform: scale(1.05);
 }
+
 .item-how-can-help img.sss {
     width: 80px;
     height: 80px;
@@ -68,20 +75,112 @@ body{
     padding: 10px;
     margin-bottom: 0px;
 }
+
 .item-how-can-help h4 {
     font-size: 18px;
     color: #ffffff;
     margin-bottom: 10px;
 }
+
 .item-how-can-help p {
     font-size: 17px;
     color: #ffffff;
     line-height: 1.5;
 }
+
 .item-how-can-help a {
     text-decoration: none;
     color: inherit;
 }
+
 .item-how-can-help a:hover h4 {
     color: #ffffff;
+}
+
+/* Media Queries */
+@media screen and (min-width: 767px) and (max-width: 991px) {
+    body {
+        font-size: 16px;
+        padding: 20px;
+    }
+
+    .sec-how-can-help header h1 {
+        font-size: 28px;
+    }
+
+    .item-how-can-help {
+        width: 230px;
+        height: 230px;
+    }
+
+    .sec-how-can-help img.er {
+        width: 300px;
+        height: 250px;
+    }
+
+    .item-how-can-help h4 {
+        font-size: 16px;
+    }
+
+    .item-how-can-help p {
+        font-size: 16px;
+    }
+}
+
+@media screen and (min-width: 991px) and (max-width: 1200px) {
+    body {
+        font-size: 18px;
+        padding: 25px;
+    }
+
+    .sec-how-can-help header h1 {
+        font-size: 30px;
+    }
+
+    .item-how-can-help {
+        width: 240px;
+        height: 240px;
+    }
+
+    .sec-how-can-help img.er {
+        width: 320px;
+        height: 270px;
+    }
+
+    .item-how-can-help h4 {
+        font-size: 17px;
+    }
+
+    .item-how-can-help p {
+        font-size: 16px;
+    }
+}
+
+@media screen and (min-width: 1201px) {
+    body {
+        font-size: 20px;
+        padding: 30px;
+    }
+
+    .sec-how-can-help header h1 {
+        font-size: 32px;
+    }
+
+    .item-how-can-help {
+        width: 250px;
+        height: 250px;
+    }
+
+    .sec-how-can-help img.er {
+        width: 350px;
+        height: 300px;
+    }
+
+    .item-how-can-help h4 {
+        font-size: 18px;
+    }
+
+    .item-how-can-help p {
+        font-size: 16px;
+    }
 }
