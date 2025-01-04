@@ -9,6 +9,8 @@ const ElemHome=(props)=>{
             <div className="elementor-column225">
                 <h5><strong>{props.title}</strong></h5>
                 <p>{props.des2}</p>
+                <br/>
+                <br/>
                 <Link className="elementor-icon-go25" to={props.Link}>
                         <span className="button-cc25">GO</span>
                 </Link>
