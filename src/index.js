@@ -52,15 +52,6 @@ root.render(
         <Route path="/Articels" element={<ArticlesPage />} />
         <Route path="/Community" element={<RafeeqCommunityPage />} />
         <Route path="/login" element={<JoinUsPage />} />
-
-
-
-
-
-
-
-
-
         <Route />
       </Routes>
       {/* <Footer/> */}
