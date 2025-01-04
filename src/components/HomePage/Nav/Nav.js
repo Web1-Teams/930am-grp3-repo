@@ -45,13 +45,8 @@ const Nav = () => {
               </ul>
             </li>
             <li>
-<<<<<<< HEAD
-              <Link to="/community" onClick={() => setActiveSubmenu(null)}>
-                 Community
-=======
               <Link to="/Community" onClick={() => setActiveSubmenu(null)}>
                 Community
->>>>>>> main
               </Link>
               <ul
                 className={`submenu25 ${activeSubmenu === 1 ? "active25" : ""}`}
@@ -74,11 +69,7 @@ const Nav = () => {
             </li>
             <li>
               <Link to="/Team" onClick={() => setActiveSubmenu(null)}>
-<<<<<<< HEAD
-                Tame
-=======
                 Team
->>>>>>> main
               </Link>
             </li>
             <button className="Donatee25">
