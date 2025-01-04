@@ -1,28 +1,22 @@
 // imports
 import React, { useEffect, useState } from "react";
-//import logo from "../images/cat_2.webp";
-//import logo2 from "../images/dog.webp";
-import './BannerHome.css';
+import "./BannerHome.css";
 import TrustRafeeq from "../TrustRafeeq/TrustRafeeq";
-
 
 // function
 const BannerHome = () => {
-  const [cuurrentIndex, setCuurrentIndex] = useState(0);
+  const images = [
+    "../images/cat_2.webp",
+  ];
+  const [currentIndex, setCurrentIndex] = useState(0);
 
   useEffect(() => {
-    const images = document.querySelectorAll(".image-item");
-    const totalImages = images.length;
-
     const interval = setInterval(() => {
-      images[cuurrentIndex].classList.remove("active");
-      const newIndex = (cuurrentIndex + 1) % totalImages;
-      setCuurrentIndex(newIndex);
-      images[newIndex].classList.add("active");
+      setCurrentIndex((prevIndex) => (prevIndex + 1) % images.length);
     }, 3000);
 
     return () => clearInterval(interval);
-  }, [cuurrentIndex]);
+  }, [images.length]);
 
   return (
     <section className="home-banner25">
@@ -34,12 +28,14 @@ const BannerHome = () => {
         <TrustRafeeq />
 
         <div className="banner-images25">
-          <div className="image-item active25">
-            <img src="../images/cat_2.webp" alt="Cat" />
-          </div>
-          <div className="image-item25">
-            <img src="../images/dog.webp" alt="Dog" />
-          </div>
+          {images.map((img, index) => (
+            <div
+              key={index}
+              className={`image-item ${index === currentIndex ? "active" : ""}`}
+            >
+              <img src={img} alt={`Slide ${index}`} />
+            </div>
+          ))}
         </div>
         <div className="banner-stats25">
           <h2>Furry Friend</h2>
