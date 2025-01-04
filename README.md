@@ -73,4 +73,4 @@
   <li><strong>Hasan Musleh</strong></li>
 </ul>
 <h2>Watch this youtube video about our website :</h2>
-<p>[Click here!](https://youtu.be/mDdrt_EUP_8)</p>
+<p>(https://youtu.be/mDdrt_EUP_8)</p>
