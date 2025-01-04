@@ -2,10 +2,10 @@ import React from 'react';
 import HelpHome from '../HelpHome/HelpHome';
 import './HelpHomeComp.css';
 
-const HelpHomeComp = () => {
+const HelpHomeComp = (props) => {
   const helpItems = [
     {
-      link: '../page 6/volunter.html',
+      Link:"../../hani_components/page2/rescue_page2/Rescue_page2",
       imageSrc: '../images/hands.png',
       title: 'Volunteer',
       description: 'Currently seeking highly experienced large dog handlers at all Care Center locations',

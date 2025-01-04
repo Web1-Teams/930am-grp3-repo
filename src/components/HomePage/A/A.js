@@ -1,9 +1,10 @@
 //import
+import { Link } from 'react-router-dom';
 import '../A/A.css'
 //function
 const A =(props)=>{
     return(
-        <a href="." class="button-comp">{props.title}</a>
+        <Link to={props.Link} class="button-comp">{props.title}</Link>
     )
 }
 //export

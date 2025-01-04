@@ -1,13 +1,4 @@
-body{
-    font-family: Arial, sans-serif;
-    display: flex;
-    justify-self: center;
-    align-items: center;
-    flex-direction: column;
-    padding: 0;
-    margin: 0;
-    background-color: #ffffff;
-}
+
 footer{
     background-color: #7743DB;
 }

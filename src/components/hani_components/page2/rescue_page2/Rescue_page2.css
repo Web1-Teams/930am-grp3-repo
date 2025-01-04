@@ -14,7 +14,7 @@
   }
   .overlay{
     opacity:1;
-    background: url('C:\Users\basha\OneDrive\Desktop\project\930am-grp3-repo\public\images\pexels-raybilcliff-1509237.jpg');
+    
     position:fixed;
     background-size: cover;
     width:100%;
@@ -62,7 +62,6 @@
   }
   .overlay{
     opacity:1;
-    background: url('C:\Users\basha\OneDrive\Desktop\project\930am-grp3-repo\public\images\pexels-raybilcliff-1509237.jpg');
     position:fixed;
     background-size: cover;
     width:100%;
@@ -107,7 +106,6 @@
       }
       .overlay{
         opacity:1;
-        background: url('C:\Users\basha\OneDrive\Desktop\project\930am-grp3-repo\public\images\pexels-raybilcliff-1509237.jpg');
         position:fixed;
         background-size: cover;
         width:100%;
@@ -137,7 +135,6 @@
       }
       .overlay{
         opacity:1;
-        background: url('C:\Users\basha\OneDrive\Desktop\project\930am-grp3-repo\public\images\pexels-raybilcliff-1509237.jpg');
         position:fixed;
         background-size: cover;
         width:100%;

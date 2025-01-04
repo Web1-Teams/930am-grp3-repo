@@ -4,7 +4,7 @@ import AdoptionList from "./components/AdoptionPages/AdoptionList/AdoptionList";
 import AdoptionPostForm from "./components/AdoptionPages/AdoptionPostForm/AdoptionPostForm";
 import AdoptionInfo from "./components/AdoptionPages/AdoptionInfo/AdoptionInfo";
 import AdoptionAnimalData from "./components/AdoptionPages/AdoptionAnimalData/AdoptionAnimalData";
-const App = () => {
+const Adoption = () => {
   return (
     <BrowserRouter>
       <Routes>
@@ -17,4 +17,4 @@ const App = () => {
     </BrowserRouter>
   );
 };
-export default App;
+export default Adoption;
