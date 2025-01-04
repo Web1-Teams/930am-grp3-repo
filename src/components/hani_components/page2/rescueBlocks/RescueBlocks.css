@@ -1,0 +1,44 @@
+.absulute {
+    border-radius: 2rem; 
+    padding:	0.625rem; 
+  }
+  .upload-button {
+    font-size: 1rem;
+    font-weight: bold;
+    border: none;
+    border-radius: 25px;
+    cursor: pointer;
+  }
+  .upload-button:hover {
+    transform: translateY(-2px);
+    box-shadow: 0px 6px 8px rgba(0, 0, 0, 0.2);
+    background: linear-gradient;
+  }
+  .upload-button:active {
+    transform: translateY(1px);
+    box-shadow: 0px 3px 4px rgba(0, 0, 0, 0.2);
+  }
+  #input lable {
+    width: 100%;
+    display: block;
+    font-weight: bold;  
+    color: #333; 
+  }
+  #input input {
+    width: 100%;
+    padding: 0.5rem;
+    font-size: 0.65rem; 
+    border: 1px solid #ccc; 
+    border-radius: 1rem; 
+    box-sizing: border-b
+  
+  }
+  #submit{
+    display:flex;
+    margin: auto;
+    justify-content: center;
+    align-items: center;
+    border-radius: 1rem;
+    width : 5rem;
+  
+  }

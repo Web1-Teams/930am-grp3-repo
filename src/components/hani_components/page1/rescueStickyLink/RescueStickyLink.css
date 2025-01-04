@@ -1,0 +1,18 @@
+.nav-item {
+    padding: 1rem;
+    margin: 0 15px;
+  }
+  
+  #section{
+    padding: 1rem;
+    border: 1rem;
+    border-radius: 0.5rem;
+    background-color: #FFFBF5;
+    text-decoration: none;
+    color: black; 
+    font-size: 16px;
+  }
+  #section:hover{
+    background-color: rgb(247, 239, 229);
+    transform: scale(1.05); 
+  }
