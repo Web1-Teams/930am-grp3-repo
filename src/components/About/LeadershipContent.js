@@ -3,7 +3,7 @@ import './LeadershipContent.css';
 
 const LeadershipContent = () => {
   return (
-    <div className="content">
+    <div className="content1200">
       <h2>Leadership Team</h2>
       <p><b>Abdullah Saleh</b></p>
       <p>Company President</p>

@@ -3,7 +3,7 @@ import './Description.css';
 
 const Description = () => {
   return (
-    <div className="description">
+    <div className="description1200">
       <h2>About Us</h2>
       <h3>Our Vision and Mission</h3>
       <p>

@@ -1,12 +1,12 @@
 
 
-body {
+/* body {
     background-color: #f8f9fa;
     color: #333;
     line-height: 1.6;
-}
+} */
 
-.description {
+.description1200 {
     max-width: 800px;
     margin: 30px auto;
     padding: 20px;
@@ -15,31 +15,31 @@ body {
     border-radius: 10px;
 }
 
-.description h2 {
+.description1200 h2 {
     text-align: center;
     font-size: 2rem;
     margin-bottom: 20px;
     color: #7743DB;
 }
 
-.description h3 {
+.description1200 h3 {
     font-size: 1.5rem;
     color: #333;
     margin-bottom: 15px;
 }
 
-.description p {
+.description1200 p {
     margin: 10px 0;
     font-size: 1rem;
     line-height: 1.8;
     color: #555;
 }
 
-.description b {
+.description1200 b {
     color: #C3ACD0;
 }
 
-.description p:hover {
+.description1200 p:hover {
     background-color: #f1f1f1;
     border-left: 4px solid #007bff;
     padding-left: 10px;
@@ -47,15 +47,15 @@ body {
 }
 
 @media (max-width: 768px) {
-    .description h2 {
+    .description1200 h2 {
         font-size: 1.8rem;
     }
 
-    .description h3 {
+    .description1200 h3 {
         font-size: 1.3rem;
     }
 
-    .description p {
+    .description1200 p {
         font-size: 0.9rem;
     }
 }
