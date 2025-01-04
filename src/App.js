@@ -3,17 +3,9 @@
 
 
 
-
-
-
 function App() {
   return (
-  <div>
-   
-   
-   
-  </div>
-
+    <Ypage1 />
   );
 }
 
