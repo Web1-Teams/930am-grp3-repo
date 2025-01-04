@@ -8,10 +8,10 @@ const Hanis_page2 = (props)=>{
   const  placeholder1= props.placeholder? props.placeholder : "Enter The Place Lost";
 return(
     <>
-    <div className="overlay" >
-      <h3 className="header2"> {title1}</h3>
+    <div className="overlay77" >
+      <h3 className="header277"> {title1}</h3>
     <div >
-      <div id="contanier1" className="relative" >
+      <div id="contanier177" className="relative77" >
        <img src="/images/Picsart_24-12-11_00-26-28-373.jpg"  alt="pic of the logo" style={{width: "3rem", borderRadius : "2rem", opacity: 2 }}/>
              <Block
                 title="Animal type:"
@@ -29,7 +29,7 @@ return(
                 title="Animal picture:"
                 placeholder="Enter The Animal Picture"
                 type="file"  
-                className="upload-button"
+                className="upload-button77"
             />
             <Submition/>
       </div>

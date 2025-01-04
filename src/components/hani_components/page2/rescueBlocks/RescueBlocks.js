@@ -11,7 +11,7 @@ const Block=(props)=>{
       
     return(
         <>
-    <div id="input" className="absulute">
+    <div id="input77" className="absulute77">
         <lable for="type"> {props.title} <br/> </lable>
         <input id="type" type={typeTitle} className={classes}  placeholder={props.placeholder}   onChange={handleChange}/>
         <br/>

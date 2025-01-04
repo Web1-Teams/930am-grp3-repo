@@ -4,8 +4,8 @@ import RescueStickyLink from "../rescueStickyLink/RescueStickyLink";
 const StickyLinks = () => {
   // const stickyref = useRef<HTMLDivElement | null >(null);
   return (
-    <div className="position-sticky">
-        <ul className="nav">
+    <div className="position-sticky77">
+        <ul className="nav77">
           {/* <li className="nav-item">
             <a className="nav-link" href="#section_1">Lost Pet Resources</a>
           </li>

@@ -1,14 +1,14 @@
-.row-align-items-stretch-justify-content-center {
+.row-align-items-stretch-justify-content-center77 {
     display: grid;
     grid-template-columns: auto auto auto auto;
     text-align: center;
      
   }
-  .mb-4{
+  .mb-477{
     display: flex;
     justify-content: center;
     margin-bottom: 1.5rem;
   }
-#header1{
+#header177{
   font-size :3rem; 
 }

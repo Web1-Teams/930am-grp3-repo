@@ -6,9 +6,9 @@ const HeaderCard = (props)=>{
     return(
         
         <>
-      <h1 className="mb-4" id='header1' style={{color: 'rgb(119, 67, 219)' }}>{props.header}</h1>
+      <h1 className="mb-477" id='header177' style={{color: 'rgb(119, 67, 219)' }}>{props.header}</h1>
     <div id={props.section}>
-      <dl className="row-align-items-stretch-justify-content-center">
+      <dl className="row-align-items-stretch-justify-content-center77">
        <Card
        linkCard={props.link}
        button = {props.button}

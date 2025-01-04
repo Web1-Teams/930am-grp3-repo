@@ -8,8 +8,8 @@ import "./Rescue_page1.css";
 function Hanis_page() {
   return (
     <>
-<div id="body">
-    <div classNameName="lost-found-container">
+<div id="body77">
+    <div classNameName="lost-found-container77">
       <ImagesH/>
       <StickyLinks/>
     </div>
@@ -79,12 +79,12 @@ function Hanis_page() {
       descriptionHead3 = "You can always report the cat as found on Petco Love Lost to ensure word gets out that this cat is roaming your neighborhood. If you contact an owner or a community cat caretaker, you can remove the listing from Petco Love Lost later."
       photoHead3 = "fa-solid fa-camera  fa-2x"
       />
-             <div className ="relative-accordion" section id="section_4">
-                  <div className= "postion-absulute-1">
+             <div className ="relative-accordion77" section id="section_4">
+                  <div className= "postion-absulute-177">
                    <Page/>
                    </div>
-                <div className= "postion-absulute">
-                    <div className="accordion" id="detailsAccordion">
+                <div className= "postion-absulute77">
+                    <div className="accordion77" id="detailsAccordion">
                       <Accordion
                        buttonContant="Microchip"
                        pContant="Microchips with up-to-date info are essential! If your lost pet is brought to any shelter or veterinary office, they will scan for a microchip and contact you! Here at Rafeeq, 

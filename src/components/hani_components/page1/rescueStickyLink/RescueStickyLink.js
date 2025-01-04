@@ -10,8 +10,8 @@ const RescueStickyLink = (props)=>{
 
     return(
         <>
-            <li className="nav-item">
-                <button className="nav-link" id ="section" onClick={scrollToSection}>{props.description}</button>
+            <li className="nav-item77">
+                <button className="nav-link77" id ="section77" onClick={scrollToSection}>{props.description}</button>
             </li>
       </>
 );

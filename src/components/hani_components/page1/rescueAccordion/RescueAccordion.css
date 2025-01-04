@@ -1,4 +1,4 @@
-.accordion {
+.accordion77 {
     background-color:  #FFFBF5;
     color: #444;
     cursor: pointer;
@@ -10,10 +10,10 @@
     transition: 0.4s;
   } 
    
-  .accordion:hover {
+  .accordion77:hover {
     background-color: #F7EFE5;
   }
-  .panel {
+  .panel77 {
     padding: 0 1.1px;
     background-color: white;
     overflow: hidden;
@@ -22,7 +22,7 @@
 
 
    @media only screen and (min-width : 900px) and ( max-width : 1800px){
-    .accordion {
+    .accordion77 {
       background-color:  #FFFBF5;
       color: #444;
       cursor: pointer;
@@ -35,7 +35,7 @@
     }
 }
 @media only screen and (max-width : 900px){
-.accordion {
+.accordion77 {
   display: flex;
   flex-direction: column;
   align-items: center;

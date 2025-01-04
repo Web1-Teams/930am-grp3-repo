@@ -1,22 +1,22 @@
-.lost-found-container {
+.lost-found-container77 {
     text-align: center;
     font-family: Arial, sans-serif;
   }
-  .postion-absulute-1{
+  .postion-absulute-177{
     position: absolute;
     width: 60%;
     left:0;
   }
-  .postion-absulute{
+  .postion-absulute77{
     position: absolute;
     width: 40%;
     right: 0;
   }
-  .relative-accordion{
+  .relative-accordion77{
     position:relative;
     width: 90%;
   }
-  #body {
+  #body77 {
     font-size:1rem;
     line-height: 1.5;
     color: #333;
@@ -26,28 +26,19 @@
 
 
   @media only screen and (max-width : 750px){
-    .postion-absulute-1{
+    .postion-absulute-177{
       position: absolute;
       width: 100%;
       bottom:0;
     }
-    .postion-absulute{
+    .postion-absulute77{
       position: absolute;
       width: 100%;
       top:0;
     }
-    .relative-accordion{
+    .relative-accordion77{
       margin-top: 20rem;
       position:relative;
       width: 100%;
     }
-    body {
-      font-family: initial;
-      display: block; 
-      justify-self: initial;
-      align-items: initial;
-      flex-direction: initial;
-      padding: 0;
-      background-color: initial;
-  }
   }

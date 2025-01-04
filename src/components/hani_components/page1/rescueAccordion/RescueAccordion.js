@@ -10,8 +10,8 @@ const Accordion = (props)=>{
     }
     return(
     <>
-        <button className="accordion" onClick = {checkiftheAccordionOpen}>{props.buttonContant}</button>
-        <div className="panel"  style={{ display: open ? "block" : "none" }}>
+        <button className="accordion77" onClick = {checkiftheAccordionOpen}>{props.buttonContant}</button>
+        <div className="panel77"  style={{ display: open ? "block" : "none" }}>
          <p>{props.pContant}</p>
         </div>
 
