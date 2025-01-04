@@ -4,52 +4,60 @@ body{
     justify-self: center;
     align-items: center;
     flex-direction: column;
-    padding: 50px;
-    background-color: #FFFBF5;
+    padding: 0;
+    margin: 0;
+    background-color: #ffffff;
 }
-.navbar {
-    display: flex;
-    justify-content: space-between;
-    align-items: center;
+.lol {
     background-color: #7743DB;
-    padding: 10px 20px;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
     position: fixed;
     top: 0;
     left: 0;
     width: 100%;
     z-index: 1000;
-    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.2);
+}
+
+.navbar {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 10px 20px;
 }
 
 .logo img {
+    height: 70px;
+    width: auto;
     border-radius: 50px;
-    max-height: 70px;
-    margin-left: 200px;
 }
 
 .navigation {
-    list-style: none;
-    padding: 0;
-    margin: 10px;
+    list-style-type: none;
     display: flex;
     align-items: center;
+    margin: 0;
+    padding: 0;
 }
 
 .navigation li {
     position: relative;
-    margin: 0 10px;
+}
+
+.navigation > li {
+    margin: 0 15px;
 }
 
 .navigation a {
     text-decoration: none;
-    color: rgb(255, 255, 255);
-    padding: 10px 20px;
-    display: block;
-    transition: background-color 0.3s;
+    color: #ffffff;
+    font-size: 16px;
+    padding: 5px 10px;
+    transition: color 0.3s;
 }
 
 .navigation a:hover {
-    border-radius: 10px;
     color: #000000;
 }
 
@@ -58,46 +66,127 @@ body{
     position: absolute;
     top: 100%;
     left: 0;
-    background-color: #FFFBF5;
-    list-style: none;
-    padding: 0;
-    margin: 0;
+    background-color: #ffffff;
+    border: 1px solid #ddd;
     border-radius: 10px;
-    z-index: 1000;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+    list-style: none;
+    padding: 10px 0;
+    margin: 0;
+}
+
+.submenu li {
+    margin: 0;
+    padding: 0;
+}
+
+.submenu a {
+    display: block;
+    padding: 10px 20px;
+    color: #7743DB;
+    text-decoration: none;
+    font-size: 14px;
+    border-radius: 20px;
+
+    white-space: nowrap;
+    transition: background-color 0.3s;
+}
+
+.submenu a:hover {
+    background-color: #7743DB;
 }
 
 .navigation li:hover .submenu {
     display: block;
 }
 
-.submenu li {
-    margin: 0;
-}
-
-.submenu a {
-    padding: 10px 15px;
-    color: #7743DB;
-    white-space: nowrap;
-}
-.submenu a:hover {
-    background-color: #ffffff;
-    border-radius: 10px;
-}
-
-button.Donate {
-    margin-right: 300px;
+.Donatee {
+    margin-left: 150px;
     background-color: #f7b605;
-    color: rgb(0, 0, 0);
     border: none;
+    color: rgb(0, 0, 0);
     padding: 10px 20px;
     font-size: 16px;
     cursor: pointer;
+    border-radius: 5px;
     transition: background-color 0.3s;
+}
+
+.Donatee a {
+    text-decoration: none;
+    color: white;
+}
+
+.Donatee:hover {
+    background-color: #ffffff;
+}
+/***********/
+.home-banner {
+    width: 100%;
+    height: 150vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+}
+.banner-content {
+    text-align: center;
+    position: relative;
+    color: #ffffff;
+    z-index: 1;
+}
+.banner-text h1, .banner-text h2 {
+    margin: 0;
+    font-size: 36px;
+    line-height: 1.2;
+}
+.banner-text h1 {
+    font-size: 48px;
+    font-weight: 600;
+    letter-spacing: 1px;
+    color: #7743DB;
+}
+.banner-text h2 {
+    font-size: 48px;
+    font-weight: 700;
+    color: #7743DB; 
+    letter-spacing: 2px;
+    text-transform: uppercase;
+    margin-top: 10px;
+}
+.banner-images {
+    position: relative;
+    width: 100%;
+    max-width: 600px; 
+    height: 700px; 
+    margin: 30px auto;
+    border-radius: 10px;
+    overflow: hidden;
+}
+.image-item {
+    top: 0;
+    margin-left: 80px;
+    width: 100px;
+    height: 100px;
+    opacity: 0;
+    transition: opacity 1s ease-in-out, transform 1s ease-in-out;
+    object-fit: cover;
     border-radius: 10px;
 }
 
-button.Donate:hover {
-    color: #ffffff;
+.image-item.active {
+    opacity: 1;
+    transform: scale(1.05);
+}
+.banner-stats {
+    margin-top: 30px;
+}
+.banner-stats h2 {
+    font-size: 36px;
+    font-weight: 700;
+    color: #7743DB;
+    text-transform: uppercase;
+    letter-spacing: 2px;
 }
 /***********/
 .Adopt-section{
@@ -130,7 +219,7 @@ button.Donate:hover {
     margin-right: 20px ;
 }
 label{
-    color: #f5f5f5;
+    color: #ffffff;
     font-weight: bold;
     margin-right: 10px;
 }
@@ -138,45 +227,47 @@ select{
     background-color: #7743DB;
     padding: 10px;
     border-radius: 20px;
-    color: #FFFBF5;
+    color: #ffffff;
 }
 option{
     color:#0a0909;
     border-radius: 10px;
 }
 .op{
-    background-color: #ffffff;
-    color: #050504;
+    background-color: #7743DB;
+    color: #ffffff;
+    border-radius: 10px;
 }
 
 .Search-button {
     padding: 10px 20px;
     background-color: #f7b605;
-    color: #0c0404;
+    color: #7743DB;
     border: none;
     border-radius: 5px;
     cursor: pointer;
     text-decoration: none;
 }
-.lol{
+.lol2{
     font-size: 20px;
     text-decoration: none;
     padding: 10px ;
-    color: #0c0404;
+    color: #ffffff;
     cursor: pointer;
 }
-.lol:hover{
-    color: #ffffff;
+.lol2:hover{
+    color: #000000;
 }
 /***********/
-.join-our-pack {
+.sec-comp {
     display: flex;
     justify-content: center;
     align-items: center;
     padding: 70px;
-    background-color: #f3f3f3;
+    border-radius: 20px;
+    background-color: #ffffff;
 }
-.content-wrapper {
+.content-comp {
     display: flex;
     flex-wrap: wrap;
     gap: 20px;
@@ -209,20 +300,23 @@ option{
     padding: 10px;
     color: #555;
     font-size: 16px;
+    line-height: 1.6;
 }
 
-.apply-button {
-    padding: 10px 20px;
-    font-size: 16px;
-    color: #0e0606;
-    background-color: #f7b605;
+.button-comp {
+    background-color: #f7b605; 
+    color: #030202;
+    border: none;
+    padding: 12px 260px;
+    font-size: 18px;
+    font-weight: bold;
+    border-radius: 25px;
+    cursor: pointer;
     text-decoration: none;
-    border-radius: 50px;
-    transition: transform 0.3s ease, box-shadow 0.3s ease;
-
+    transition: background-color 0.3s ease, transform 0.3s ease;
 }
-.apply-button:hover {
-    color: #f7f7f8;
+.button-comp:hover {
+    color: #ffffff;
     transform: scale(1.05);
 }
 /***********/
@@ -230,9 +324,9 @@ option{
     display: flex;
     justify-content: center;
     align-items: center;
-    padding: 50px;
-    background-color: #f3f4f6;
-    border-radius: 10px;
+    padding: 80px;
+    background-color: #ffffff;
+    border-radius: 20px;
 }
 .elementor-container {
     display: flex;
@@ -267,21 +361,20 @@ option{
     margin-bottom: 20px;
     line-height: 1.6;
 }
-.elementor-button {
-    display: inline-block;
+.elementor-button button {
+    background-color: #f7b605; 
+    color: #030202;
+    border: none;
     padding: 12px 260px;
-    font-size: 16px;
+    font-size: 18px;
     font-weight: bold;
-    color: #000000;
-    background-color: #f7b605;
-    text-decoration: none;
-    border-radius: 50px;
-    transition: transform 0.3s ease, box-shadow 0.3s ease;
-
+    border-radius: 25px;
+    cursor: pointer;
+    transition: background-color 0.3s ease, transform 0.3s ease;
 }
-.elementor-button:hover {
+.elementor-button button:hover {
+    color: #ffffff;
     transform: scale(1.05);
-    color: #f5f7f5;
 }
 .elementor-widget img {
     max-width: 115%;
@@ -291,7 +384,7 @@ option{
 /***********/
 .elementor-section2 {
     background-color: #ffffff; 
-    padding: 50px;
+    padding: 50px 30px;
     border-radius: 20px;
     display: flex;
     justify-content: center;
@@ -328,77 +421,69 @@ option{
     line-height: 1.5;
     
 }
-.elementor-icon1 button,
-.elementor-icon2 button,
-.elementor-icon3 button {
+.elementor-icon-go {
     background-color: #f7b605;
     color: #000000;
     border: none;
     padding: 10px 40px;
     font-size: 14px;
     font-weight: bold;
+    text-decoration: none;
     border-radius: 25px;
-    transition: background-color 0.3s ease, transform 0.3s ease;
-
 }
-.elementor-icon1 button:hover,
-.elementor-icon2 button:hover,
-.elementor-icon3 button:hover {
-    color: #fdfdfd; 
-    transform: scale(1.05);
+.elementor-icon-go :hover{
+    color: #ffffff; 
 }
-.butto1, .butto2, .butto3 {
+.button-cc {
     font-size: 15px;
     text-transform: uppercase;
 }
 /***********/
-.hero-section {
+.sec-comp {
     display: flex;
     justify-content: center;
     align-items: center;
-    padding: 20px ;
-    background-color: #ffffff; 
-    color: #ffffff;
-    border-radius: 15px;
+    padding: 70px;
+    border-radius: 20px;
+    background-color: #ffffff;
 }
-.hero-container {
+.content-comp {
     display: flex;
-    justify-content: space-between;
-    gap: 30px;
-    text-align: center;
-    align-items: center;
-    max-width: 1200px;
+    flex-wrap: wrap;
+    gap: 20px;
 }
-.hero-column.hero-image {
-    flex: 1;
-}
-.hero-img {
-    width: 600px;
+.image-section img {
+    border-radius: 10px;
     height: 600px;
-    border-radius: 15px;
-    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.2);
 }
-.hero-column.hero-content {
-    flex: 1;
-    
+.text-section {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    max-width: 560px;
+    padding: 20px;
+    text-align: center;
 }
-.hero-subtitle {
-    font-size: 20px;
-    font-weight: bold;
+
+.text-section h4 {
     color: #7743DB;
+    font-size: 25px;
     margin-bottom: 10px;
 }
-.hero-title {
-    font-size:20px;
-    color: #020101;
+
+.text-section h1 {
+    padding: 10px;
+    color: #4b4848;
+    font-size: 28px;
 }
-.hero-text {
+.text-section p {
+    padding: 10px;
+    color: #555;
     font-size: 16px;
     line-height: 1.6;
-    color: #4a5568;
-    margin-bottom: 30px;
 }
-.hero-button button {
+
+.button-comp {
     background-color: #f7b605; 
     color: #030202;
     border: none;
@@ -408,26 +493,22 @@ option{
     border-radius: 25px;
     cursor: pointer;
     transition: background-color 0.3s ease, transform 0.3s ease;
+
 }
-.hero-button button:hover {
-    color: #f8f8f8;
+.button-comp:hover {
+    color: #ffffff;
     transform: scale(1.05);
-}
-.butto {
-    text-transform: uppercase;
-    font-size: 14px;
-    letter-spacing: 1px;
-    font-weight: bold;
 }
 /**********/
 .sec-how-can-help {
-    background-color: #f9f9f9;
-    padding: 40px 20px;
+    background-color: #ffffff;
+    padding: 50px ;
     text-align: center;
+    border-radius: 20px;
     font-family: Arial, sans-serif;
 }
 .sec-how-can-help header h4 {
-    color: #fff;
+    color: #ffffff;
     font-size: 20px;
     margin-bottom: 10px;
     text-transform: uppercase;
@@ -456,7 +537,7 @@ option{
 }
 .item-how-can-help {
     background-color: #7743DB;
-    border: 1px solid #ddd;
+    border: 1px solid #ffffff;
     border-radius: 10px;
     padding: 20px;
     width: 250px;
@@ -472,17 +553,17 @@ option{
     height: 80px;
     margin-bottom: 15px;
     border-radius: 50%;
-    background-color: #fff;
+    background-color: #ffffff;
     padding: 10px;
 }
 .item-how-can-help h4 {
     font-size: 18px;
-    color: #fff;
+    color: #ffffff;
     margin-bottom: 10px;
 }
 .item-how-can-help p {
     font-size: 14px;
-    color: #fff;
+    color: #ffffff;
     line-height: 1.5;
 }
 .item-how-can-help a {
@@ -493,53 +574,250 @@ option{
     color: #ffffff;
 }
 /********/
-/* تنسيق الفوتر */
-.footer-section {
-    background-color: #333;
-    width: 100%;
-    padding: 40px 0;
-    position: relative;
-    bottom: 0;
-    left: 0;
-    right: 0;
+footer{
+    background-color: #7743DB;
 }
-
-/* تنسيق محتوى الفوتر */
-.footer-content {
-    max-width: 1200px;
-    margin: 0 auto;
-    padding: 0 15px;
-    text-align: center;
+.footerContainer{
+    width: 1630px;
+    padding: 50px  ;
 }
-
-/* تنسيق شريط التواصل الاجتماعي */
-.social-bar {
+.socialIcons{
     display: flex;
     justify-content: center;
-    gap: 20px;
-    align-items: center;
 }
-
-/* تنسيق الأيقونات الاجتماعية */
-.social-icon img {
-    width: 40px;
-    height: 40px;
-    transition: transform 0.3s ease;
+.socialIcons a{
+    text-decoration: none;
+    padding:  10px;
+    background-color: white;
+    margin: 10px;
+    border-radius: 60%;
 }
-
-/* تأثير عند تمرير الماوس */
-.social-icon:hover img {
-    transform: scale(1.1);
-}
-
-/* تنسيق الأيقونات عند التمرير */
-.social-icon {
-    display: inline-block;
+.socialIcons a i{
+    font-size: 2em;
+    color: #7743DB;
+    opacity: 0,9;
 }
 
 
+.socialIcons a:hover{
+    background-color:#7743DB;
+    transition: 0.5s;
+}
+.socialIcons a:hover i{
+    color: white;
+    transition: 0.5s;
+}
+.footerNav{
+    margin: 30px 0;
+margin-right: 40px;
+}
+.footerNav ul{
+    display: flex;
+    justify-content: center;
+    list-style-type: none;
+}
+.footerNav ul li a{
+    color:white;
+    margin: 20px;
+    text-decoration: none;
+    font-size: 1.3em;
+    opacity: 0.7;
+    transition: 0.5s;
 
-
-
-
-
+}
+.footerNav ul li a:hover{
+    opacity: 1;
+}
+.footerBottom{
+    background-color:#2c3450;
+    padding: 20px;
+    text-align: center;
+}
+.footerBottom p{
+    color: white;
+}
+.designer{
+    opacity: 0.7;
+    text-transform: uppercase;
+    letter-spacing: 1px;
+    font-weight: 400;
+    margin: 0px 5px;
+}
+@media (max-width: 700px){
+    .footerNav ul{
+        flex-direction: column;
+    } 
+    .footerNav ul li{
+        width:100%;
+        text-align: center;
+        margin: 10px;
+    }
+    .socialIcons a{
+        padding: 8px;
+        margin: 4px;
+    }
+}
+/*********/
+@media (max-width:768px) {
+    .navbar {
+        flex-direction: column;
+        padding: 10px;
+    }
+    .logo img {
+        max-height: 40px;
+        margin: 0 auto;
+    }
+    .navigation {
+        flex-direction: column;
+        align-items: center;
+    }
+    .Donatee {
+        margin: 10px 0;
+        padding: 10px 20px;
+    }
+    .home-banner {
+        height: 100vh;
+    }
+    .banner-text h1, .banner-text h2 {
+        font-size: 24px;
+    }
+    .banner-images {
+        max-width: 100%;
+        height: auto;
+    }
+    .Adopt-div {
+        flex-direction: column;
+        text-align: center;
+    }
+    .Search-box {
+        flex-direction: column;
+    }
+    .Search-field {
+        margin-right: 0;
+        margin-bottom: 10px;
+    }
+    .button-comp {
+        padding: 12px 50px;
+    }
+    footer .footerContainer {
+        width: 100%;
+        padding: 20px;
+    }
+}
+@media (min-width: 768px) and (max-width: 991px) {
+    .navbar {
+        flex-direction: column;
+        padding: 15px;
+    }
+    .logo img {
+        max-height: 50px;
+    }
+    .navigation {
+        flex-direction: column;
+        align-items: center;
+    }
+    .Donatee {
+        margin: 10px 0;
+        padding: 10px 30px;
+    }
+    .banner-text h1 {
+        font-size: 32px;
+    }
+    .banner-text h2 {
+        font-size: 28px;
+    }
+    .Adopt-div {
+        flex-direction: column;
+        text-align: center;
+    }
+    .Search-field {
+        margin-bottom: 10px;
+    }
+    .image-section img {
+        height: auto;
+        max-width: 100%;
+    }
+    .button-comp {
+        padding: 12px 100px;
+    }
+    footer .footerContainer {
+        width: 100%;
+        padding: 30px;
+    }
+}
+@media (min-width: 992px) and (max-width: 1199px) {
+    .navbar {
+        padding: 20px;
+    }
+    .logo img {
+        max-height: 60px;
+    }
+    .navigation {
+        flex-direction: row;
+        justify-content: center;
+    }
+    .Donatee {
+        margin: 0;
+    }
+    .banner-text h1 {
+        font-size: 36px;
+    }
+    .banner-text h2 {
+        font-size: 32px;
+    }
+    .Adopt-div {
+        flex-direction: row;
+        justify-content: space-between;
+    }
+    .Search-box {
+        flex-direction: row;
+    }
+    .Search-field {
+        margin-right: 20px;
+    }
+    .button-comp {
+        padding: 12px 150px;
+    }
+    .image-section img {
+        height: 400px;
+    }
+}
+@media (min-width: 1200px) {
+    .navbar {
+        padding: 20px 40px;
+    }
+    .logo img {
+        max-height: 70px;
+    }
+    .navigation {
+        flex-direction: row;
+        justify-content: space-between;
+    }
+    .Donatee {
+        margin: 0;
+        padding: 10px 40px;
+    }
+    .banner-text h1 {
+        font-size: 48px;
+    }
+    .banner-text h2 {
+        font-size: 42px;
+    }
+    .Adopt-div {
+        flex-direction: row;
+        justify-content: space-between;
+    }
+    .Search-box {
+        flex-direction: row;
+    }
+    .Search-field {
+        margin-right: 20px;
+    }
+    .button-comp {
+        padding: 12px 200px;
+    }
+    .image-section img {
+        height: 500px;
+    }
+}
+/*end*/

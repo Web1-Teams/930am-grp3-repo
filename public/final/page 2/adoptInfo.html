@@ -3,20 +3,23 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style2.css">
     <title>Adopt</title>
 </head>
 <body>
-    <div>
-        <img src="AdoptStart.webp" alt="Adopt Start Background" width="30%" height="auto">
+
+    <div class="background-adoption-start">
         <div>
-            <h1>Looking For Your <br> Forever Friend?</h1>
-            <h2>Your Pet Adoption <br> Journey Starts Here</h2>
-            <button>Find a Pet</button>
+            <h1 id="first-back-text">Looking For Your <br> Forever Friend?</h1>
+            <h2 id="second-back-text">Your Pet Adoption <br> Journey Starts Here!</h2>
+            <button id="find-a-pet-button">Find a Pet</button>
         </div>
+
     </div>
-    <div>
-        <h3>Thank You for Choosing Rafeeq!</h3>
-        <p>Here in Rafeeq, we are passionate about creating a world where every pet finds the loving home they deserve. <br>
+    
+    <div class="adopt-info-section">
+        <h3 class="adopt-info-title">Thank You for Choosing Rafeeq!</h3>
+        <p class="adopt-info-paragraph">Here in Rafeeq, we are passionate about creating a world where every pet finds the loving home they deserve. <br>
             Adoption is not just about giving an animal a place to stay; it's about building a bond of unconditional <br>
             love and companionship that lasts a lifetime. Our platform is designed to make your pet adoption journey 
             as smooth and rewarding as possible.  <br>  Whether you're looking for a playful puppy, a cuddly kitten, 
@@ -24,28 +27,34 @@
             you’re not just changing  a pet’s life, you’re enriching your own. Let us guide you toward <br>
             your new best friend and a lifetime of unforgettable memories.</p>
     </div>
-    <div>
-        <h3>How It Works</h3>
-        <p>
-            Rafeeq is dedicated to helping animals find their forever homes.
-             Our platform allows individuals to post their pets for adoption <br>
-            while also showcasing animals directly under Rafeeq’s care.
-            Each adoption involves a small fee,
-            which helps <br>cover care and medical expenses.
-            Fees vary based on the type of animal and their age,
-            ensuring a fair process for all adopters.
-            <br>Below is the detailed fee structure for adopting pets through Rafeeq:
-        </p>
+    <div class="adopt-info-section-between">
+        
+        <div class="second-section">
+            <div>
+                <h3 class="adopt-info-title-between">How It Works</h3>
+                <p class="adopt-info-paragraph-between">
+                    Rafeeq is dedicated to helping animals find their forever homes.<br>
+                    Our platform allows individuals to post their pets for adoption <br>
+                    while also showcasing animals directly under Rafeeq’s care.<br>
+                    Each adoption involves a small fee, which helps cover care<br>
+                    and medical expenses.<br>
+                    Fees vary based on the type of animal and their age, ensuring<br>
+                    a fair process for all adopters.<br>
+                </p>
+            </div>
+            <img src="CatAdoption.jpg" alt="Cat Adoption Picture" width="30%" height="auto">
+        </div>
 
-        <img src="CatAdoption.jpg" alt="Cat Adoption Picture" width="30%" height="auto">
-    
-        <h3>Adoption Fees</h3>
-    
-        <h4>Dogs and Puppies</h4>
+    </div>
+
+    <div class="adopt-info-section">
+        <p class="adopt-info-paragraph">Below is the detailed fee structure for adopting pets through Rafeeq:</p>
+        <h3 class="adopt-info-title">Adoption Fees</h3>
+        <p class="adopt-info-paragraph">Dogs and Puppies</p>
         <table border="1">
             <tr>
                 <th>Age</th>
-                <th>Fee</th>
+                <th class="right-corner-table">Fee</th>
             </tr>
             <tr>
                 <td>6 months and under</td>
@@ -61,11 +70,11 @@
             </tr>
         </table>
     
-        <h4>Cats and Kittens</h4>
+        <p class="adopt-info-paragraph">Cats and Kittens</p>
         <table border="1">
             <tr>
                 <th>Age</th>
-                <th>Fee</th>
+                <th class="right-corner-table">Fee</th>
             </tr>
             <tr>
                 <td>6 months and under</td>
@@ -85,11 +94,11 @@
             </tr>
         </table>
     
-        <h4>Rabbits</h4>
+        <p class="adopt-info-paragraph">Rabbits</p>
         <table border="1">
             <tr>
                 <th>Type</th>
-                <th>Fee</th>
+                <th class="right-corner-table">Fee</th>
             </tr>
             <tr>
                 <td>All ages</td>

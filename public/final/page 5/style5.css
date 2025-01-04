@@ -1,0 +1,92 @@
+
+body {
+    font-family: sans-serif; 
+    margin: 0;        
+    padding: 0;        
+    background-color: #f9f9f9; 
+    color: #333;        
+    line-height: 1.6;  
+}
+
+.image-container {
+    background-color: #fff; 
+    text-align: center; 
+    padding: 2em 0;       
+    box-shadow: 0 2px 5px rgba(0,0,0,0.1); 
+    margin-bottom: 2em; 
+}
+
+.image-container img {
+    width: 350px;      
+    height: 250px;     
+    border-radius: 10px;  
+    display: block;     
+    margin: 0 auto 1em;    
+}
+
+.image-container h1 {
+    color: #7743DB;
+    font-size: 2.5rem;
+    margin-top: 10px;
+}
+
+.content {
+    max-width: 800px;
+    margin: 30px auto;
+    padding: 20px;
+    background-color: #fff;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    border-radius: 10px;
+    border-left: 6px solid #7743DB;
+}
+
+.content h2 {
+    text-align: center;
+    font-size: 2rem;
+    margin-bottom: 20px;
+    color: #7743DB;
+    text-transform: uppercase;
+}
+
+.content p {
+    font-size: 1rem;
+    margin: 10px 0;
+    color: #333;
+}
+
+.content b {
+    font-size: 1.2rem;
+    color: #000000;
+}
+
+.content hr {
+    border: none;
+    height: 1px;
+    background-color: #ddd;
+    margin: 15px 0;
+}
+
+.image-container img:hover {
+    transform: scale(1.1);
+    transition: transform 0.3s ease-in-out;
+}
+
+.content b:hover {
+    text-decoration: underline;
+    color: #333;
+    transition: color 0.3s ease-in-out;
+}
+
+@media (max-width: 768px) {
+    .image-container h1 {
+        font-size: 2rem;
+    }
+
+    .content h2 {
+        font-size: 1.8rem;
+    }
+
+    .content p {
+        font-size: 0.9rem;
+    }
+}

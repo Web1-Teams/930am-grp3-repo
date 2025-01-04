@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Post an Animal for Adoption</title>
+    <link rel="stylesheet" href="style2.css">
+
+</head>
+<body>
+    <div class="form-container">
+        <h2>Post an Animal for Adoption</h2>
+        <form action="/submit-pet" method="POST">
+            <label for="name">Animal Name:</label>
+            <input type="text" id="name" name="name" placeholder="Enter the animal's name" required>
+
+            <label for="age">Animal Age:</label>
+            <input type="text" id="age" name="age" placeholder="Enter the animal's age" required>
+
+            <label for="type">Animal Type:</label>
+            <select id="type" name="type" required>
+                <option value="">Select the type</option>
+                <option value="Cat">Cat</option>
+                <option value="Dog">Dog</option>
+                <option value="Rabbit">Rabbit</option>
+                <option value="Other">Other</option>
+            </select>
+
+            <label for="health">Health Condition:</label>
+            <textarea id="health" name="health" placeholder="Enter details about health condition (if any)" rows="4"></textarea>
+
+            <label for="notes">Additional Notes:</label>
+            <textarea id="notes" name="notes" placeholder="Enter any additional notes" rows="4"></textarea>
+
+            <button type="submit">Submit</button>
+        </form>
+        <p class="note">* All fields are required unless specified otherwise.</p>
+    </div>
+</body>
+</html>
