@@ -104,5 +104,6 @@
 @media screen and (max-width: 750px) { 
     .content-wrapper66{
         flex-direction: column;
+        margin-top: 120px;
     }
 }

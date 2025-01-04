@@ -17,15 +17,15 @@ const Nav = () => {
               <Link to="/">Home</Link>
             </li>
             <li>
-              <Link to="/Rescue_page2">About</Link>
+              <Link to="/About">About</Link>
               <ul className="submenu25">
                 <li>
-                  <Link to="/contact">Contact Us</Link>
+                  <Link to="/Contact">Contact Us</Link>
                 </li>
               </ul>
             </li>
             <li>
-              <Link to="/community">Our Community</Link>
+              <Link to="/community"> Community</Link>
               <ul className="submenu25">
                 <li>
                   <Link to="/login">Login</Link>
@@ -45,7 +45,7 @@ const Nav = () => {
               <Link to="/Ypage1">Volunteer</Link>
             </li>
             <li>
-              <Link to="/">Report</Link>
+              <Link to="/Team">Team</Link>
             </li>
             <button className="Donatee25">
               <Link to="/Ypag2">
