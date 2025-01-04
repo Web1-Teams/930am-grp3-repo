@@ -32,6 +32,8 @@
   <li>List of roles (e.g., event support, community outreach, etc.).</li>
   <li>A form for users to register as volunteers.</li>
 </ul>
+<h4>Rafeeq community page</h4>
+<p>The Rafeeq community page lets users sign up, log in, and post articles about pet adoption and care. It offers a personalized experience for sharing insights and connecting with fellow animal enthusiasts.</p>
 <h2>Features about our website :</h2>
 <p>Rafeeq  is a comprehensive platform designed to simplify pet adoption, care, and community engagement. The website features a user-friendly interface with key sections such as a Home Page for highlighting services, a Pet Adoption page with search and filter options, a Lost and Found section for reporting and recovering pets, a Donate Page to support initiatives, and a Volunteer Page for users to contribute to community efforts. With seamless navigation and intuitive functionality, Rafeeq Pet Service ensures an enriching experience for pet owners and animal lovers alike.
 </p>
@@ -69,7 +71,7 @@
   <li><strong>Hani Basha</strong></li>
   <li><strong>Osaid Motawi</strong></li>
   <li><strong>Yousef Dabeek</strong></li>
-  <li><strong>Nabeel Dwekat</strong></li>
+  <li><strong>Nabeel Dwikat</strong></li>
   <li><strong>Hasan Musleh</strong></li>
 </ul>
 <h2>Watch this youtube video about our website :</h2>
