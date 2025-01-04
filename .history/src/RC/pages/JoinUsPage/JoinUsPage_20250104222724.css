@@ -1,0 +1,122 @@
+/* General Styles */
+body {
+    margin: 0;
+    font-family: Arial, sans-serif;
+    line-height: 1.6;
+}
+
+/* Join Us Page Styles */
+.join-us-page {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 20px;
+}
+
+/* Hero Section Styles */
+.hero {
+    width: 100%;
+    height: 300px; /* Fixed height for the hero */
+    background-image: url('/images/elderly-people-with-cat-pet.jpg');
+    background-size: cover;
+    background-position: center;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    color: white;
+    text-align: center;
+    padding: 20px;
+}
+
+.hero h1 {
+    font-size: 2.5rem;
+    margin: 0;
+}
+
+.hero p {
+    font-size: 1.2rem;
+}
+
+/* Content Section Styles */
+.content-section {
+    width: 100%;
+    max-width: 1200px;
+    display: flex;
+    flex-direction: column;
+    padding: 20px;
+    margin: 20px 0;
+}
+
+.content-section h2 {
+    font-size: 2rem;
+    margin-bottom: 10px;
+}
+
+.content-section p {
+    font-size: 1rem;
+    margin-bottom: 20px;
+}
+
+.content-section img {
+    width: 100%;
+    height: auto;
+    border-radius: 8px;
+}
+
+/* Form Section Styles */
+.form-section {
+    width: 100%;
+    max-width: 800px;
+    margin: 20px 0;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+/* Responsive Styles */
+@media (min-width: 768px) {
+    .content-section {
+        flex-direction: row;
+        justify-content: space-between;
+    }
+
+    .content-section > div {
+        flex: 1;
+        margin: 0 10px; /* Space between content sections */
+    }
+
+    .form-section {
+        flex-direction: row; /* Align sign-up and login side by side */
+        justify-content: space-around;
+        width: 100%;
+    }
+
+    .form-section > div {
+        flex: 1; /* Allow sign-up and login to take equal space */
+        margin: 0 10px; /* Space between the forms */
+    }
+}
+
+@media (max-width: 767px) {
+    .hero h1 {
+        font-size: 2rem; /* Smaller font size on mobile */
+    }
+
+    .hero p {
+        font-size: 1rem; /* Smaller font size on mobile */
+    }
+
+    .content-section h2 {
+        font-size: 1.5rem; /* Smaller font size on mobile */
+    }
+
+    .form-section {
+        flex-direction: column; /* Stack inputs on mobile */
+        align-items: stretch; /* Ensure forms take full width */
+    }
+
+    .form-section > div {
+        margin: 10px 0; /* Margin between stacked forms */
+    }
+}

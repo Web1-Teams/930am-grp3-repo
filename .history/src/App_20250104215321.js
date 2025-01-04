@@ -1,7 +1,7 @@
 import { BrowserRouter, Route, Routes } from "react-router-dom";
-import RafeeqCommunityPage from '../src/RC/pages/RafeeqCommunityPage/RafeeqCommunityPage';
-import JoinUsPage from '../src/RC/pages/JoinUsPage/JoinUsPage';
-import ArticlesPage from '../src/RC/pages/ArticlesPage/ArticlesPage';
+import RafeeqCommunityPage from './RC/pages/RafeeqCommunityPage/RafeeqCommunityPage';
+import JoinUsPage from '../src/pages/JoinUsPage/JoinUsPage';
+import ArticlesPage from './RC/pages/ArticlesPage/ArticlesPage';
 
 const app =() =>{
 return(

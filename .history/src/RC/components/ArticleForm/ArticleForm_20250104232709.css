@@ -1,0 +1,87 @@
+.article-form-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  margin: 20px;
+}
+
+.article-form {
+  background-color: #fff;
+  padding: 30px;
+  border-radius: 8px;
+  box-shadow: 0 2px 10px rgba(0, 0, 0, 0.1);
+  width: 100%;
+  max-width: 600px;
+}
+
+.article-form h2 {
+  font-size: 24px;
+  color: #7743DB;
+  text-align: center;
+  margin-bottom: 20px;
+}
+
+.article-form label {
+  display: block;
+  font-size: 16px;
+  margin-bottom: 8px;
+  color: #333;
+}
+
+.article-form input,
+.article-form select,
+.article-form textarea,
+.article-form button {
+  width: 100%;
+  padding: 10px;
+  margin-bottom: 16px;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+  font-size: 16px;
+}
+
+.article-form input[type="file"] {
+  padding: 5px;
+}
+
+.article-form button {
+  background-color: #7743DB;
+  color: white;
+  border: none;
+  cursor: pointer;
+  font-size: 18px;
+}
+
+.article-form button:hover {
+  background-color: #5a2da0;
+}
+
+.article-form textarea {
+  resize: vertical;
+}
+
+@media (max-width: 768px) {
+  .article-form-container {
+    margin: 10px;
+  }
+
+  .article-form {
+    padding: 20px;
+  }
+
+  .article-form h2 {
+    font-size: 20px;
+  }
+
+  .article-form label {
+    font-size: 14px;
+  }
+
+  .article-form input,
+  .article-form select,
+  .article-form textarea,
+  .article-form button {
+    font-size: 14px;
+  }
+}
