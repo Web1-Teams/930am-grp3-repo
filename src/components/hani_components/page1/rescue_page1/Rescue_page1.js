@@ -84,7 +84,6 @@ function Hanis_page() {
                    <Page/>
                    </div>
                 <div className= "postion-absulute">
-                  {/* <div className="col-md-6-p-4"> */}
                     <div className="accordion" id="detailsAccordion">
                       <Accordion
                        buttonContant="Microchip"
@@ -109,7 +108,6 @@ function Hanis_page() {
                         />
                     </div>
                   </div>
-                {/* </div> */}
              </div>
 </div>
 </>
