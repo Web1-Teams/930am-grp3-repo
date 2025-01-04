@@ -1,0 +1,26 @@
+.animals-container{
+    display: flex;
+    flex-wrap: wrap;
+    gap: 20px;
+    padding: 0px;
+    margin: 0 auto;
+    max-width: 1250px;
+    margin-top: -10px;
+    
+    
+}
+
+/*only one card will apear for the user when he is using phone*/
+@media screen and (max-width: 750px) { 
+    .animals-container{
+        flex-direction: column;
+        align-items: center;
+        
+
+
+    };
+    
+}
+.animals-container a { /* just because i dont want lines under the words */
+    text-decoration: none;
+  }
