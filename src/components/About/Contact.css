@@ -97,11 +97,7 @@ select:focus,
   resize: none;
 }
 
-<<<<<<< HEAD
-.but33 {
-=======
 #button1200 {
->>>>>>> 49983b1c36df2ab00ec2f878ef7b4ff6f49ab675
   display: block;
   width: 100%;
   padding: 10px;
@@ -114,11 +110,7 @@ select:focus,
   transition: background-color 0.3s ease, transform 0.2s ease;
 }
 
-<<<<<<< HEAD
-.but33:hover {
-=======
 #button1200:hover {
->>>>>>> 49983b1c36df2ab00ec2f878ef7b4ff6f49ab675
   background-color: #6a006a;
   transform: scale(1.05);
 }
