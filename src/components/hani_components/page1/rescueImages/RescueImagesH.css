@@ -64,9 +64,8 @@
   .imagePostion77 {
     position: relative;
     margin: auto;
-     width: 75%; 
-    border: 5rem ;
+     width: 100%; 
+    border: 6rem ;
     border-Color: white;
-    left: 2rem;
   }
 }
