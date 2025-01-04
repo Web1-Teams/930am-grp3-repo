@@ -1,4 +1,4 @@
-.contact-image {
+.contact-image1200 {
   display: block;
   margin: 0 auto;
   width: 550px;
@@ -10,12 +10,12 @@
   transition: transform 0.3s ease, box-shadow 0.3s ease;
 }
 
-.contact-image:hover {
+.contact-image1200:hover {
   transform: scale(1.05);
   box-shadow: 0 8px 16px rgba(0, 0, 0, 0.2);
 }
 
-.form-container {
+.form-container1200 {
   max-width: 500px;
   margin: 100px auto 50px auto;
   background: #ffffff;
@@ -25,7 +25,7 @@
   position: relative;
 }
 
-.notification {
+.notification1200 {
   position: absolute;
   top: -60px;
   left: 50%;
@@ -46,24 +46,24 @@
   z-index: 10;
 }
 
-.notification.show {
+.notification1200.show {
   opacity: 1;
   visibility: visible;
 }
 
-.notification svg {
+.notification1200 svg {
   width: 24px;
   height: 24px;
   fill: #800080; 
 }
 
-.form-container h2 {
+.form-container1200 h2 {
   text-align: center;
   color: #333;
   margin-bottom: 20px;
 }
 
-label {
+#label1200 {
   display: block;
   margin-bottom: 8px;
   font-weight: bold;
@@ -73,7 +73,7 @@ label {
 input[type="text"],
 input[type="email"],
 select,
-textarea {
+#textarea1200 {
   width: 100%;
   padding: 10px;
   margin-bottom: 15px;
@@ -87,17 +87,17 @@ textarea {
 input[type="text"]:focus,
 input[type="email"]:focus,
 select:focus,
-textarea:focus {
+#textarea1200:focus {
   border-color: #800080;
   box-shadow: 0 0 8px rgba(128, 0, 128, 0.3);
   outline: none;
 }
 
-textarea {
+#textarea1200 {
   resize: none;
 }
 
-button {
+#button1200 {
   display: block;
   width: 100%;
   padding: 10px;
@@ -110,12 +110,12 @@ button {
   transition: background-color 0.3s ease, transform 0.2s ease;
 }
 
-button:hover {
+#button1200:hover {
   background-color: #6a006a;
   transform: scale(1.05);
 }
 
-.note {
+.note1200 {
   text-align: center;
   font-size: 0.9em;
   color: #777;

@@ -15,6 +15,13 @@ import AdoptionAnimalData from "./components/AdoptionPages/AdoptionAnimalData/Ad
 import Contant from "./components/About/Contact";
 import Desc from "./components/About/Desc";
 import Leadershippage from "./components/About/LeadershipPage";
+import ArticlesPage from "./RC/pages/ArticlesPage/ArticlesPage";
+import RafeeqCommunityPage from "./RC/pages/RafeeqCommunityPage/RafeeqCommunityPage";
+import JoinUsPage from "./RC/pages/JoinUsPage/JoinUsPage";
+
+
+
+
 
 //import App from './App';
 const root = ReactDOM.createRoot(document.getElementById("root"));
@@ -42,6 +49,14 @@ root.render(
         <Route path="/Contact" element={<Contant />} />
         <Route path="/About" element={<Desc />} />
         <Route path="/Team" element={<Leadershippage />} />
+        <Route path="/Articels" element={<ArticlesPage />} />
+        <Route path="/Community" element={<RafeeqCommunityPage />} />
+        <Route path="/login" element={<JoinUsPage />} />
+
+
+
+
+
 
 
 

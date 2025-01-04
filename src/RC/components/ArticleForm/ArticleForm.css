@@ -1,0 +1,90 @@
+/* General Styles for Form Container */
+.article-form-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 20px;
+  background-color: #f9f9f9; /* Light background color */
+  min-height: 100vh;
+}
+
+/* Form Styles */
+.article-form {
+  background-color: #fff; /* White background */
+  padding: 30px;
+  border-radius: 8px; /* Rounded corners */
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1); /* Soft shadow */
+  width: 100%;
+  max-width: 900px; /* Max width for the form */
+  display: flex;
+  flex-direction: column;
+}
+
+/* Header */
+.article-form h2 {
+  font-size: 2rem;
+  color: #333; /* Dark text for the header */
+  margin-bottom: 20px;
+  text-align: center;
+}
+
+/* Label Styles */
+.article-form label {
+  font-size: 1.1rem;
+  color: #555; /* Light gray text for labels */
+  margin-bottom: 8px;
+}
+
+/* Input Styles */
+.article-form input,
+.article-form textarea {
+  width: 100%;
+  padding: 12px;
+  margin-bottom: 20px;
+  border: 1px solid #ccc; /* Light gray border */
+  border-radius: 5px; /* Rounded input fields */
+  font-size: 1rem;
+  color: #333; /* Dark text for inputs */
+}
+
+.article-form input[type="file"] {
+  padding: 10px 0; /* Reduce padding for file input */
+}
+
+/* Placeholder text styling */
+.article-form input::placeholder,
+.article-form textarea::placeholder {
+  color: #aaa; /* Light gray for placeholders */
+}
+
+/* Button Styling */
+.article-form button {
+  background-color: #7743DB; /* Purple background */
+  color: white;
+  padding: 12px 20px;
+  border: none;
+  border-radius: 5px;
+  font-size: 1.1rem;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+}
+
+.article-form button:hover {
+  background-color: #5c29a2; /* Darker purple on hover */
+}
+
+/* Responsive Design */
+@media (max-width: 768px) {
+  .article-form {
+    padding: 20px;
+  }
+
+  .article-form h2 {
+    font-size: 1.6rem;
+  }
+
+  .article-form input,
+  .article-form textarea {
+    font-size: 1rem; /* Adjust font size for smaller screens */
+  }
+}

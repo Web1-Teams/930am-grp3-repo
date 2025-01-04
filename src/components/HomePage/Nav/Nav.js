@@ -42,26 +42,23 @@ const Nav = () => {
               <ul
                 className={`submenu25 ${activeSubmenu === 0 ? "active25" : ""}`}
               >
-                <li>
-                  <Link to="/Contact">Contact Us</Link>
-                </li>
               </ul>
             </li>
             <li>
+<<<<<<< HEAD
               <Link to="/community" onClick={() => setActiveSubmenu(null)}>
                  Community
+=======
+              <Link to="/Community" onClick={() => setActiveSubmenu(null)}>
+                Community
+>>>>>>> main
               </Link>
               <ul
                 className={`submenu25 ${activeSubmenu === 1 ? "active25" : ""}`}
               >
+
                 <li>
                   <Link to="/login">Login</Link>
-                </li>
-                <li>
-                  <Link to="/articles">Articles</Link>
-                </li>
-                <li>
-                  <Link to="/questions">Questions</Link>
                 </li>
               </ul>
             </li>
@@ -77,7 +74,11 @@ const Nav = () => {
             </li>
             <li>
               <Link to="/Team" onClick={() => setActiveSubmenu(null)}>
+<<<<<<< HEAD
                 Tame
+=======
+                Team
+>>>>>>> main
               </Link>
             </li>
             <button className="Donatee25">

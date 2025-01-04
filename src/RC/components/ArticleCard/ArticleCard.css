@@ -1,0 +1,186 @@
+:root {
+  --clr-gray-light: #d7dfe2;
+  --clr-gray-med: #616b74;
+  --clr-gray-dark: #414b56;
+  --clr-link: #4d97b2;
+  --clr-pet-care: #ef257a;
+  --clr-Health-and-Wellness: #651fff;
+  --clr-Adoption-and-Rescue: #e85808;
+  --clr-Animal-Behavior: #e6e20b;
+  --clr-Wildlife-and-Conservation: #d42b2b;
+  --clr-Lifestyle-and-Stories: #2b9ed4;
+}
+/*
+* {
+  box-sizing: border-box;
+  font-family: "Inter", sans-serif;
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  margin: 3rem;
+  color: var(--clr-gray-dark);
+}
+*/
+.wrapper55 {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+}
+
+.card55 {
+  overflow: hidden;
+  box-shadow: 0px 2px 20px var(--clr-gray-light);
+  background: white;
+  border-radius: 0.5rem;
+  position: relative;
+  width: 350px;
+  margin: 1rem;
+  transition: 250ms all ease-in-out;
+  cursor: pointer;
+}
+
+.card55:hover {
+  transform: scale(1.05);
+  box-shadow: 0px 2px 40px var(--clr-gray-light);
+}
+
+.banner-img55 {
+  position: absolute;
+  object-fit: cover;
+  height: 14rem;
+  width: 100%;
+}
+
+.category-tag55 {
+  font-size: 0.8rem;
+  font-weight: bold;
+  color: white;
+  background: red;
+  padding: 0.5rem 1.3rem 0.5rem 1rem;
+  text-transform: uppercase;
+  position: absolute;
+  z-index: 1;
+  top: 1rem;
+  border-radius: 0 2rem 2rem 0;
+}
+
+.pet-care55 {
+  background: var(--clr-pet-care);
+}
+
+.Health-and-Wellness55 {
+  background: var(--clr-Health-and-Wellness);
+}
+
+.Animal-Behavior55 {
+  background: var(--clr-Animal-Behavior);
+}
+
+.Wildlife-and-Conservation55 {
+  background: var(--clr-Wildlife-and-Conservation);
+}
+
+.Lifestyle-and-Stories55 {
+  background: var(--clr-Lifestyle-and-Stories);
+}
+
+.card-body55 {
+  margin: 15rem 1rem 1rem 1rem;
+  overflow: hidden; 
+  text-overflow: ellipsis;
+}
+
+.card-body55 p {
+  word-wrap: break-word;
+  overflow-wrap: break-word;
+}
+
+.blog-description55 {
+  color: var(--clr-gray-med);
+  font-size: 0.9rem;
+  max-height: 4rem; 
+  overflow: hidden; 
+  text-overflow: ellipsis; 
+}
+
+.blog-hashtag55 {
+  font-size: 0.9rem;
+  font-weight: 500;
+  color: var(--clr-link);
+}
+
+.blog-title55 {
+  line-height: 1.5rem;
+  margin: 1rem 0 0.5rem;
+}
+
+.card-profile55 {
+  display: flex;
+  margin-top: 2rem;
+  align-items: center;
+}
+
+.profile-img55 {
+  width: 60px;
+  height: 60px;
+  object-fit: cover;
+  border-radius: 50%;
+}
+
+.card-profile-info55 {
+  margin-left: 1rem;
+}
+
+.profile-name55 {
+  font-size: 1rem;
+}
+
+.profile-followers55 {
+  color: var(--clr-gray-med);
+  font-size: 0.9rem;
+}
+
+.expanded-article55 {
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background: rgba(0, 0, 0, 0.8);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  z-index: 1000;
+  overflow-y: auto;
+}
+
+.expanded-content55 {
+  background: #fff;
+  border-radius: 8px;
+  padding: 20px;
+  width: 90%;
+  max-width: 800px;
+  text-align: center;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+}
+
+.expanded-banner-img55 {
+  width: 100%;
+  height: 200px; 
+  object-fit: cover;
+  border-radius: 8px;
+  margin-bottom: 16px;
+}
+
+.expanded-content55 h255 {
+  font-size: 1.5rem;
+  margin-bottom: 16px;
+}
+
+.expanded-content55 p55 {
+  font-size: 1rem;
+  line-height: 1.6;
+  text-align: justify;
+}

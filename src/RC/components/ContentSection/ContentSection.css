@@ -1,0 +1,56 @@
+.content-section55 {
+    display: flex;
+    align-items: center;
+    width: 100%;
+    padding: 2rem;
+    margin: 2rem 0;
+    background-color: #f9f9f9;
+}
+
+.content-section55.reverse55 {
+    flex-direction: row-reverse;
+}
+
+.content-image55 {
+    flex: 1;
+    max-width: 40%;
+    height: auto;
+    object-fit: cover;
+    border-radius: 0; 
+}
+
+.content-text55 {
+    flex: 1;
+    padding: 1rem 2rem;
+}
+
+.content-text55 h2 {
+    margin-bottom: 1rem;
+    font-size: 2rem;
+    color: #333;
+}
+
+.content-text55 p {
+    font-size: 1.2rem;
+    color: #666;
+    line-height: 1.6;
+}
+
+.styled-button55 {
+    display: inline-block;
+    text-decoration: none;
+    background-color: #7743DB; 
+    color: white;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    font-size: 16px;
+    margin-top: 20px;
+    transition: background-color 0.3s ease;
+    text-align: center;
+}
+
+.styled-button55:hover {
+    background-color: #5B33A6;
+}
