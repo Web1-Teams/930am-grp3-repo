@@ -36,7 +36,7 @@
 <p>Rafeeq  is a comprehensive platform designed to simplify pet adoption, care, and community engagement. The website features a user-friendly interface with key sections such as a Home Page for highlighting services, a Pet Adoption page with search and filter options, a Lost and Found section for reporting and recovering pets, a Donate Page to support initiatives, and a Volunteer Page for users to contribute to community efforts. With seamless navigation and intuitive functionality, Rafeeq Pet Service ensures an enriching experience for pet owners and animal lovers alike.
 </p>
 
-<!-- Video Embed Section -->
+
 <h2>Watch the Video About Rafeeq</h2>
 <iframe width="560" height="315" src="https://www.youtube.com/embed/mDdrt_EUP_8" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
 
