@@ -1,9 +1,11 @@
-
+*{
+    margin: 0px;
+}
 footer{
     background-color: #7743DB;
 }
 .footerContainer25{
-    width: 1910px;
+    width: 1800px;
     padding: 50px  ;
 }
 .socialIcons25{

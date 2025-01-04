@@ -25,12 +25,6 @@ root.render(
         {/* <Route path="/found" element={<Found/>}/> */}
         <Route path='/Rescue_page1' element={<Rescue_page1/>}/>
         <Route path='/Rescue_page2' element={<Rescue_page2/>}/>
-        <Route path="/lost" element={<Rescue_page2/>}/>
-        <Route path="/found" element={<Rescue_page2
-        title = "Found pet information"
-        title2 = "Found Lost:"
-        placeholder = "Enter The Place Found"
-        />}/>
         <Route path='/Ypage1' element={<Ypage1/>}/>
         <Route path='/Ypag2' element={<Ypag2/>}/>
         <Route path='/AdoptionInfo' element={<AdoptionInfo/>}/>
