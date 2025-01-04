@@ -4,11 +4,9 @@
     margin-top: auto;
   }
 
-<<<<<<< HEAD
-  .form-container88 {
-=======
+
   .form-container99 {
->>>>>>> yousef
+
     background: white;
     padding: 70px;
     margin: auto;
@@ -39,11 +37,9 @@
     box-shadow: 0 0 5px rgba(119, 67, 219, 0.5);
   }
 
-<<<<<<< HEAD
-  .form-container88 button {
-=======
+
   .form-container99 button {
->>>>>>> yousef
+
     background-color: #7743DB;
     color: #ffffff;
     border: none;
@@ -54,11 +50,9 @@
     transition: background-color 0.3s ease;
   }
 
-<<<<<<< HEAD
-  .form-container88 button:hover {
-=======
+
   .form-container99 button:hover {
->>>>>>> yousef
+
     background-color: #C3ACD0;
   }
 

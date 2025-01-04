@@ -3,15 +3,11 @@ import'./Dform.css';
 //function
 const Dform = () =>{
     return (
-<<<<<<< HEAD
-        <section className="donate-form-section">
-        <h2 className = "main-heading">Support ACC's Lifesaving Funds</h2>
-        <div className="form-container88">
-=======
+
         <section className="donate-form-section99">
         <h2 className = "main-heading99">Support ACC's Lifesaving Funds</h2>
         <div className="form-container99">
->>>>>>> yousef
+
           <h2>Donate Form:</h2>
           <form action="#" method="POST">
             <div>
