@@ -1,0 +1,15 @@
+.articles-container {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(300px, 1fr)); /* Responsive grid */
+    gap: 5px; /* Reduced gap between cards */
+    margin: 0 auto; /* Center the container, no extra margin around */
+    padding: 0; /* Remove extra padding */
+    width: 90%; /* Ensure container doesn't span too wide */
+  }
+  
+  /* Optional: Ensure cards themselves don't have extra margins */
+  .article-card {
+    margin: 0;
+    padding: 10px;
+  }
+  
