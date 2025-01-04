@@ -1,15 +1,15 @@
-.header-section {
+.header-section99 {
     position: relative;
 }
 
-.head-img img {
+.head-img99 img {
     width: 100%;
     height: 30rem;
     object-fit: cover;
     border-radius: 1rem;
 }
 
-.header-text {
+.header-text99 {
     position: absolute;
     top: 50%;
     left: 10%;

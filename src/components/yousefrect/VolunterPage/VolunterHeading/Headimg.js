@@ -5,13 +5,13 @@ import './headimg.css';
 const Headimg = (props) =>{
     return (
         
-    <div className="header-section">
-        <header className="pic-text">
-            <div className="head-img">
-                <img src={props.logo} alt="Dog" className="header-image" />
+    <div className="header-section99">
+        <header className="pic-text99">
+            <div className="head-img99">
+                <img src={props.logo} alt="Dog" className="header-image99" />
                 
             </div>
-            <div className="header-text">
+            <div className="header-text99">
                 <h3>{props.title}</h3>
                 <h1>{props.dec}</h1>
             </div>

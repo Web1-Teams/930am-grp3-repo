@@ -3,9 +3,9 @@ import './cards.css';
 //function 
 const Ycard = (props)=>{
     return(
-        <div className="card">
-        <h3 className = "card-title">{props.title}</h3>
-        <p className ="card-text">{props.dec}</p>
+        <div className="card99">
+        <h3 className = "card-title99">{props.title}</h3>
+        <p className ="card-text99">{props.dec}</p>
       </div>
     )
 }
