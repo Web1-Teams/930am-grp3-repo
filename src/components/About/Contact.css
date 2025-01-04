@@ -1,0 +1,123 @@
+.contact-image {
+  display: block;
+  margin: 0 auto;
+  width: 550px;
+  height: 300px;
+  border-radius: 10px; 
+  object-fit: cover;
+  border: 2px solid #6a006a;
+  margin-bottom: -30px;
+  transition: transform 0.3s ease, box-shadow 0.3s ease;
+}
+
+.contact-image:hover {
+  transform: scale(1.05);
+  box-shadow: 0 8px 16px rgba(0, 0, 0, 0.2);
+}
+
+.form-container {
+  max-width: 500px;
+  margin: 100px auto 50px auto;
+  background: #ffffff;
+  padding: 20px 30px;
+  border-radius: 8px;
+  box-shadow: 0 4px 8px rgba(145, 24, 24, 0.1);
+  position: relative;
+}
+
+.notification {
+  position: absolute;
+  top: -60px;
+  left: 50%;
+  transform: translateX(-50%);
+  background-color: #f3e5f5; 
+  color: #800080; 
+  padding: 15px 20px;
+  border-radius: 5px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+  font-size: 1.5em;
+  font-weight: bold;
+  display: flex;
+  align-items: center;
+  gap: 10px; 
+  opacity: 0;
+  visibility: hidden;
+  transition: opacity 0.5s ease, visibility 0.5s ease;
+  z-index: 10;
+}
+
+.notification.show {
+  opacity: 1;
+  visibility: visible;
+}
+
+.notification svg {
+  width: 24px;
+  height: 24px;
+  fill: #800080; 
+}
+
+.form-container h2 {
+  text-align: center;
+  color: #333;
+  margin-bottom: 20px;
+}
+
+label {
+  display: block;
+  margin-bottom: 8px;
+  font-weight: bold;
+  color: #555;
+}
+
+input[type="text"],
+input[type="email"],
+select,
+textarea {
+  width: 100%;
+  padding: 10px;
+  margin-bottom: 15px;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+  box-sizing: border-box;
+  font-size: 1em;
+  transition: border-color 0.3s ease, box-shadow 0.3s ease;
+}
+
+input[type="text"]:focus,
+input[type="email"]:focus,
+select:focus,
+textarea:focus {
+  border-color: #800080;
+  box-shadow: 0 0 8px rgba(128, 0, 128, 0.3);
+  outline: none;
+}
+
+textarea {
+  resize: none;
+}
+
+button {
+  display: block;
+  width: 100%;
+  padding: 10px;
+  background-color: #800080;
+  color: white;
+  border: none;
+  border-radius: 5px;
+  font-size: 1em;
+  cursor: pointer;
+  transition: background-color 0.3s ease, transform 0.2s ease;
+}
+
+button:hover {
+  background-color: #6a006a;
+  transform: scale(1.05);
+}
+
+.note {
+  text-align: center;
+  font-size: 0.9em;
+  color: #777;
+  margin-top: 10px;
+}

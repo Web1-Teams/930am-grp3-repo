@@ -12,6 +12,9 @@ import AdoptionInfo from "./components/AdoptionPages/AdoptionInfo/AdoptionInfo";
 import AdoptionList from "./components/AdoptionPages/AdoptionList/AdoptionList";
 import AdoptionPostForm from "./components/AdoptionPages/AdoptionPostForm/AdoptionPostForm";
 import AdoptionAnimalData from "./components/AdoptionPages/AdoptionAnimalData/AdoptionAnimalData";
+import Contant from "./components/About/Contact";
+import Desc from "./components/About/Desc";
+import Leadershippage from "./components/About/LeadershipPage";
 
 //import App from './App';
 const root = ReactDOM.createRoot(document.getElementById("root"));
@@ -30,6 +33,12 @@ root.render(
         <Route path="/AdoptionList" element={<AdoptionList />} />
         <Route path="/AdoptionForm" element={<AdoptionPostForm />} />
         <Route path="/AnimalData" element={<AdoptionAnimalData />} />
+        <Route path="/Contact" element={<Contant />} />
+        <Route path="/About" element={<Desc />} />
+        <Route path="/Team" element={<Leadershippage />} />
+
+
+
 
         <Route />
       </Routes>

@@ -16,11 +16,12 @@ function Home() {
       <BannerHome/>
       <AdoptHome/>
       <JoinHome 
-      title="Join Our Pack!" 
-      des="RAFEEQ is hiring for our newly built Queens Care Center!" 
-      dess="Are you passionate about making a difference in the lives of animals?  Join  RAFEQ and be part of a movement making a real difference!" 
-      btnTitle="Apply" 
-      image="../images/pack.jpg"
+      title="Articles" 
+      des="Do you like Articles?" 
+      dess="Here you can find articles on pet care, helpful tips for looking after your pets, 
+          and amusing stories that celebrate the bond with our animal companions" 
+      btnTitle="Click" 
+      image="../images/ARR.webp"
       Link="/Rescue_page2"/>
       <FindHome btnTitle="Find"/>
       <ElemAll/>
