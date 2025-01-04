@@ -1,0 +1,60 @@
+
+.adopt-info-section p, .adopt-info-section table { /*so it dont affect Global css*/
+    color: #555;
+}
+
+.adopt-info-section {
+    background: #ffffff;
+    margin: 20px auto;
+    padding: 20px;
+    border-radius: 8px;
+
+    width: 90%;
+    max-width: 1200px;
+}
+
+.adopt-info-title {
+
+
+    margin-bottom: 10px;
+    color: #7743DB;
+    font-size: 1.5em;
+}
+
+.adopt-info-paragraph {
+    font-size: 1.1em;
+    line-height: 1.8;
+    text-align: justify;
+    margin-bottom: 20px;
+}
+
+
+.adopt-info-section table {
+
+    border-collapse: collapse;
+    width: 100%;
+    margin: 15px 0;
+    font-size: 1em;
+    text-align: left;
+    background-color: #fff;
+}
+
+.adopt-info-section table th, .adopt-info-section table td {
+    padding: 12px;
+    border: 1px solid #ddd;
+}
+
+.adopt-info-section table th {
+    background-color: #7743DB;
+    color: #ffffff;
+    font-weight: bold;
+    text-align: center;
+}
+
+.adopt-info-section table td {
+    text-align: center;
+}
+
+.right-corner-table {
+    text-align: center;
+}

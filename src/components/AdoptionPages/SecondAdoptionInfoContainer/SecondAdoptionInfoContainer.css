@@ -1,0 +1,24 @@
+
+.adopt-info-section-between{
+    background:#7743DB ;
+    margin: 40px auto;
+    padding: 20px;
+    border-radius: 8px;
+
+    width: 90%;
+    max-width: 1200px;
+}
+
+.adopt-info-title-between{
+    margin-bottom: 10px;
+    color: #ffffff;
+    font-size: 1.5em;
+}
+
+.adopt-info-paragraph-between{
+    font-size: 1.1em;
+    line-height: 1.8;
+    text-align: justify;
+    margin-bottom: 20px;
+    color: #ffffff;
+}
