@@ -14,7 +14,6 @@ import AdoptionPostForm from './components/AdoptionPages/AdoptionPostForm/Adopti
 import AdoptionAnimalData from './components/AdoptionPages/AdoptionAnimalData/AdoptionAnimalData';
 
 
-//import App from './App';
 const root = ReactDOM.createRoot(document.getElementById('root'));
 root.render(
   <React.StrictMode>
