@@ -15,11 +15,11 @@ const Contact = () => {
       <img
         src="../../../../images/catdog.webp"
         alt="cat"
-        className="contact-image"
+        className="contact-image1200"
       />
-      <div className="form-container">
+      <div className="form-container1200">
         {showNotification && (
-          <div className={`notification ${showNotification ? 'show' : ''}`}>
+          <div className={`notification1200 ${showNotification ? 'show' : ''}`}>
             <svg
               xmlns="http://www.w3.org/2000/svg"
               viewBox="0 0 24 24"
@@ -36,7 +36,7 @@ const Contact = () => {
         )}
         <h2>Contact Us</h2>
         <form onSubmit={handleSubmit}>
-          <label htmlFor="full-name">Full Name:</label>
+          <label id  = "#label1200" htmlFor="full-name">Full Name:</label>
           <input
             type="text"
             id="full-name"
@@ -45,7 +45,7 @@ const Contact = () => {
             required
           />
 
-          <label htmlFor="email">Email:</label>
+          <label  id="#label1200" htmlFor="email">Email:</label>
           <input
             type="email"
             id="email"
@@ -54,7 +54,7 @@ const Contact = () => {
             required
           />
 
-          <label htmlFor="subject">Subject:</label>
+          <label id="#label1200" htmlFor="subject">Subject:</label>
           <select id="subject" name="subject" required>
             <option value="">Select the subject</option>
             <option value="technical">Technical Issue</option>
@@ -63,16 +63,20 @@ const Contact = () => {
             <option value="other">Other</option>
           </select>
 
-          <label htmlFor="description">Problem Description:</label>
-          <textarea
-            id="description"
+          <label id="#label1200" htmlFor="description">Problem Description:</label>
+          <textarea 
+            id= "#textarea1200"
             name="description"
             placeholder="Describe the issue in detail"
             rows="4"
             required
           ></textarea>
 
+<<<<<<< HEAD
           <button className='but33' type="submit">Submit</button>
+=======
+          <button id ="#button1200" type="submit">Submit</button>
+>>>>>>> 49983b1c36df2ab00ec2f878ef7b4ff6f49ab675
         </form>
         <p className="note">* All fields are required.</p>
       </div>
