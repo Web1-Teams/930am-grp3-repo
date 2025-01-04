@@ -5,6 +5,7 @@ import BannerHome from './components/HomePage/BannerHome/BannerHome';
 import ElemAll from './components/HomePage/ElemAll/ElemAll';
 import AdoptHome from './components/HomePage/AdoptHome/AdoptHome';
 import HelpHomeComp from './components/HomePage/HelpHomeComp/HelpHomeComp';
+import Footer from './components/HomePage/Footer/Footer';
 
 
 
@@ -31,6 +32,7 @@ function Home() {
       image="../images/Hero.jpg"
       Link="/Rescue_page2"/>
       <HelpHomeComp/>
+      <Footer/>
     </div>
 
   );
