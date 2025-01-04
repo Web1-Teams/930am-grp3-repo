@@ -5,8 +5,8 @@ const Mainh = () =>
 {
     return (
         <div>
-            <h2 className="main-heading">Our volunteers work in several areas of our operations.</h2>
-            <div className="sidebar-container">
+            <h2 className="main-heading99">Our volunteers work in several areas of our operations.</h2>
+            <div className="sidebar-container99">
                 <ul>
                     <li>
                     Primarily, they interact with our shelter pets to provide them with exercise, attention, comfort, and socialization to reduce stress, improve their health, strengthen trust with humans, and increase their adoptability factor.

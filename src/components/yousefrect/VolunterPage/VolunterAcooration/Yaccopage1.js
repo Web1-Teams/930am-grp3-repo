@@ -11,14 +11,14 @@ const Yaccopage1 = () => {
         setSelected(i)
     }
     return (
-        <div className="accordion-container">
+        <div className="accordion-container99">
       {data.map((item, i) => (
-        <div key={i} className="accordion-item">
-          <div className="accordion-header"  onClick={() => toggle(i)}>
+        <div key={i} className="accordion-item99">
+          <div className="accordion-header99"  onClick={() => toggle(i)}>
             <h4>{item.title}</h4>
             <span>{selected === i ? '-' : '+'}</span>
           </div>
-          <div className={selected === i ? 'accordion-body' : 'accordion-body-hidden'}>
+          <div className={selected === i ? 'accordion-body99' : 'accordion-body-hidden99'}>
             {item.dec}
           </div>
         </div>

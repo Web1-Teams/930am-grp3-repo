@@ -16,8 +16,8 @@ const Ypage2 = ()=>{
             <Ycenter />
             <Yacco2 />
             <div>
-                <h2 class="section-title">Donate Item</h2>
-                <div className = "card-container">
+                <h2 className="section-title99">Donate Item</h2>
+                <div className = "card-container99">
                     <Ycard  title = "STAR (Special Treatment & Recovery)" dec = "Dogs and cats requiring extensive medical and/or surgical care often arrive at ACC. The STAR (Special Treatment & Recovery) Fund is used to pay for medical care that only a specialized facility can provide."/>
                     <Ycard title = "Community Pets Fund" dec = "The Community Pets Fund helps keep pets in loving homes by providing items such as free wellness services, spay/neuter surgeries, a pet food pantry, and behavior training for owners in need."/>
                 </div>

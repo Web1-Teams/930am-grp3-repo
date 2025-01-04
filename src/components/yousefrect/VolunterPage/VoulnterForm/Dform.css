@@ -1,10 +1,10 @@
-.donate-form-section {
+.donate-form-section99 {
     padding: 40px 20px; 
     background-color: #C3ACD0;
     margin-top: auto;
   }
 
-  .form-container {
+  .form-container99 {
     background: white;
     padding: 70px;
     margin: auto;
@@ -13,14 +13,14 @@
     max-width: 500px;
   }
 
-  .form-label {
+  .form-label99 {
     font-weight: bold;
     display: block;
     margin-bottom: 8px;
     color: #333;
   }
 
-  .form-control {
+  .form-control99 {
     width: 100%;
     padding: 10px;
     margin-bottom: 20px;
@@ -29,13 +29,13 @@
     font-size: 1em;
   }
 
-  .form-control:focus {
+  .form-control99:focus {
     border-color: #7743DB;
     outline: none;
     box-shadow: 0 0 5px rgba(119, 67, 219, 0.5);
   }
 
-  .form-container button {
+  .form-container99 button {
     background-color: #7743DB;
     color: #ffffff;
     border: none;
@@ -46,14 +46,14 @@
     transition: background-color 0.3s ease;
   }
 
-  .form-container button:hover {
+  .form-container99 button:hover {
     background-color: #C3ACD0;
   }
 
-  .text-center {
+  .text-center99 {
     text-align: center;
   }
-  .main-heading {
+  .main-heading99 {
     text-align: center;
     margin: 20px 0;
     font-size: 1.5rem;
