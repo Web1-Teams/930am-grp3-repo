@@ -38,7 +38,7 @@
 
 <!-- Video Embed Section -->
 <h2>Watch the Video About Rafeeq</h2>
-[![Watch the video](https://img.youtube.com/vi/mDdrt_EUP_8/0.jpg)](https://www.youtube.com/watch?v=mDdrt_EUP_8&ab_channel=Abdallah)
+<iframe width="560" height="315" src="https://www.youtube.com/embed/mDdrt_EUP_8" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
 
 
 <h2>How to run the website :</h2>
