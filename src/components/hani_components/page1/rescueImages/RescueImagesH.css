@@ -1,7 +1,8 @@
 .imagePostion77 {
     position: relative;
     margin: auto;
-     width: 100%; 
+    margin-top: 4rem;
+     width: 100%;
     border: 5rem ;
     border-Color: white;
   }
