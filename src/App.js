@@ -1,26 +1,43 @@
-import Hanis_page from './components/hani_components/page1/rescue_page1/Rescue_page1.js';
-import Nav from "./components/Nav.js";
-import Hanis_page2 from "./components/hani_components/page2/rescue_page2/Rescue_page2.js"
-import { BrowserRouter, Route, Routes } from 'react-router-dom';
+
+//import Nav from '../src/components/Nav/Nav';
+import JoinHome from './components/HomePage/JoinHome/JoinHome';
+import FindHome from './components/HomePage/FindHome/FindHome';
+import BannerHome from './components/HomePage/BannerHome/BannerHome';
+import ElemAll from './components/HomePage/ElemAll/ElemAll';
+//import HelpAll from './components/HelpAll/HelpAll';
+import Footer from './components/HomePage/Footer/Footer';
+import AdoptHome from './components/HomePage/AdoptHome/AdoptHome';
+import HelpHomeComp from './components/HomePage/HelpHomeComp/HelpHomeComp';
+//import AdoptHome from './components/AdoptHome/AdoptHome';
+
+
+
 
 function App() {
   return (
-    <>
-    <BrowserRouter>
-      <Routes>
-        {/* <Nav/> */}
-        <Route path="/" element={<Hanis_page/>} />
-            <Route path="/page" element={<Hanis_page/>} />
-            <Route path="/lost" element={<Hanis_page2/>} />
-            <Route path="/found" element={<Hanis_page2
-             title = "Found Pet Information"
-             title2="Place Found:"
-             placeholder="Enter The Place Found" 
-            />} />
-      </Routes>
-    </BrowserRouter>
-    </>
+    <div>
+      <BannerHome/>
+      <AdoptHome/>
+      <JoinHome 
+      title="Join Our Pack!" 
+      des="RAFEEQ is hiring for our newly built Queens Care Center!" 
+      dess="Are you passionate about making a difference in the lives of animals?  Join  RAFEQ and be part of a movement making a real difference!" 
+      btnTitle="Apply" 
+      image="../images/pack.jpg"/>
+      <FindHome btnTitle="Find"/>
+      <ElemAll/>
+      <JoinHome 
+      title="Emergency Placement" 
+      des="Heroes Needed" 
+      dess="Emergency Placement Heroes Needed Many of our Partners have been very open about their need to focus more on the emergency cases and pull those animals with the greatest needs. With RAFEQ having so many animals in care, it is challenging for our partners to know which animals they should focus their efforts on."
+      btnTitle="Hero"
+      image="../images/Hero.jpg"/>
+      <HelpHomeComp/>
+      <Footer/>
+    </div>
+
   );
 }
 
 export default App;
+

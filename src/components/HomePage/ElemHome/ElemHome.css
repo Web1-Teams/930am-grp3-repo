@@ -1,0 +1,161 @@
+body {
+    font-family: Arial, sans-serif;
+    display: flex;
+    justify-content: center; /* تم تعديل justify-self إلى justify-content */
+    align-items: center;
+    flex-direction: row;
+    padding: 0;
+    margin: 0;
+    background-color: #ffffff;
+}
+
+.elementor-section2 {
+    background-color: #ffffff; 
+    padding: 50px 30px;
+    border-radius: 20px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.elementor-container2 {
+    display: flex;
+    justify-content: space-around;
+    width: 450px;
+    height: 250px;
+}
+
+.elementor-column2 {
+    flex: 1;
+    background-color: #ffffff;
+    border-radius: 10px;
+    padding: 20px;
+    text-align: center;
+    box-shadow: 0 3px 8px rgba(0, 0, 0, 0.15);
+    transition: transform 0.3s ease, box-shadow 0.3s ease;
+}
+
+.elementor-column2:hover {
+    transform: translateY(-5px);
+    box-shadow: 0 6px 15px rgba(0, 0, 0, 0.2);
+}
+
+.elementor-column2 h5 {
+    font-size: 20px;
+    color: #7743DB;
+    margin-bottom: 15px;
+}
+
+.elementor-column2 p {
+    font-size: 20px;
+    color: #000000;
+    line-height: 1.5;
+}
+
+.elementor-icon-go {
+    background-color: #f7b605;
+    color: #000000;
+    border: none;
+    padding: 10px 40px;
+    font-size: 14px;
+    font-weight: bold;
+    text-decoration: none;
+    border-radius: 25px;
+}
+
+.elementor-icon-go:hover {
+    color: #ffffff; 
+}
+
+.button-cc {
+    font-size: 15px;
+    text-transform: uppercase;
+}
+
+/* Media Queries */
+@media screen and (min-width: 767px) and (max-width: 991px) {
+    body {
+        font-size: 16px; /* تعديل حجم الخط */
+        padding: 20px; /* تعديل الحواف */
+    }
+
+    .elementor-container2 {
+        width: 380px; /* تعديل عرض الحاوية */
+        height: 220px; /* تعديل ارتفاع الحاوية */
+    }
+
+    .elementor-column2 {
+        padding: 15px; /* تقليص الحواف */
+    }
+
+    .elementor-column2 h5 {
+        font-size: 18px; /* تعديل حجم العناوين */
+    }
+
+    .elementor-column2 p {
+        font-size: 18px; /* تعديل حجم النص */
+    }
+
+    .elementor-icon-go {
+        font-size: 12px; /* تقليص حجم الخط في الزر */
+        padding: 8px 30px; /* تعديل الحواف */
+    }
+}
+
+@media screen and (min-width: 991px) and (max-width: 1200px) {
+    body {
+        font-size: 18px; /* تعديل حجم الخط */
+        padding: 25px; /* تعديل الحواف */
+    }
+
+    .elementor-container2 {
+        width: 420px; /* تعديل عرض الحاوية */
+        height: 240px; /* تعديل ارتفاع الحاوية */
+    }
+
+    .elementor-column2 {
+        padding: 18px; /* تعديل الحواف */
+    }
+
+    .elementor-column2 h5 {
+        font-size: 20px; /* تعديل حجم العناوين */
+    }
+
+    .elementor-column2 p {
+        font-size: 18px; /* تعديل حجم النص */
+    }
+
+    .elementor-icon-go {
+        font-size: 14px; /* تعديل حجم الخط في الزر */
+        padding: 10px 35px; /* تعديل الحواف */
+    }
+}
+
+@media screen and (min-width: 1201px) {
+    body {
+        font-size: 20px; /* تعديل حجم الخط */
+        padding: 30px; /* تعديل الحواف */
+    }
+
+    .elementor-container2 {
+        width: 450px; /* عرض الحاوية */
+        height: 250px; /* ارتفاع الحاوية */
+    }
+
+    .elementor-column2 {
+        padding: 20px; /* تعديل الحواف */
+    }
+
+    .elementor-column2 h5 {
+        font-size: 22px; /* تعديل حجم العناوين */
+    }
+
+    .elementor-column2 p {
+        font-size: 20px; /* تعديل حجم النص */
+    }
+
+    .elementor-icon-go {
+        font-size: 14px; /* تعديل حجم الخط في الزر */
+        padding: 10px 40px; /* تعديل الحواف */
+    }
+}

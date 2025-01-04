@@ -1,0 +1,58 @@
+.background-adoption-start {
+    position: relative; 
+    background-image: url('../../../../public/images/first-adopt-pic.avif');
+    background-size: cover; 
+    background-position: center; 
+    height: 650px; 
+    width: 100%;
+    background-repeat: no-repeat;
+
+    display: flex;
+    align-items: center;
+    margin-bottom: 40px;
+
+
+}
+
+.first-back-text{
+    font-weight: lighter;
+    margin-left: 280px;
+    color:rgb(255, 255, 255);
+    font-size: 45px;
+}
+.second-back-text{
+    font-weight: lighter;
+    margin-left: 280px;
+    color:rgb(255, 255, 255);
+    font-size: 29px;
+    margin-top: -12px;
+}
+.find-a-pet-button {
+    padding: 10px 20px;
+    font-size: 1rem;
+    background-color: #ffbb00;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+    margin-left: 280px;
+}
+.find-a-pet-button:hover {
+    background-color: #e79e00;
+}
+
+/*when on phone, the user can see the texts*/
+@media screen and (max-width: 750px) { 
+    .first-back-text, 
+    .second-back-text, 
+    .find-a-pet-button {
+        margin-left: 20px;
+    }
+    .first-back-text {
+        font-size: 35px;
+    }
+    .second-back-text {
+        font-size: 24px;
+    }
+}

@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Post an Animal for Adoption</title>
+    <link rel="stylesheet" href="style2.css">
+</head>
+<body>
+    <div class="form-container">
+        <h2>Post an Animal for Adoption</h2>
+        <form action="/submit-pet" method="POST" enctype="multipart/form-data">
+            <label for="animal-name">Animal Name:</label>
+            <input type="text" id="animal-name" name="animal-name" placeholder="Enter the animal's name" required>
+
+            <label for="animal-place">Animal Place:</label>
+            <input type="text" id="animal-place" name="animal-place" placeholder="Enter the animal's place" required>
+
+            <label for="animal-gender">Animal Gender:</label>
+            <select id="animal-gender" name="animal-gender" required>
+                <option value="">Select the gender</option>
+                <option value="Female">Female</option>
+                <option value="Male">Male</option>
+            </select>
+
+            <label for="animal-age">Animal Age:</label>
+            <input type="number" id="animal-age" name="animal-age" placeholder="Enter the animal's age" required>
+
+            <label for="animal-type">Animal Type:</label>
+            <select id="animal-type" name="animal-type" required>
+                <option value="">Select the type</option>
+                <option value="Cat">Cat</option>
+                <option value="Dog">Dog</option>
+                <option value="Rabbit">Rabbit</option>
+                <option value="Other">Other</option>
+            </select>
+
+            <label for="additional-notes">Additional Notes:</label>
+            <textarea id="additional-notes" name="additional-notes" placeholder="Enter any additional notes (including health conditions if any)" rows="4"></textarea>
+
+            <label for="animal-image">Upload Animal Picture:</label>
+            <input type="file" id="animal-image" name="animal-image" accept="image/*" required>
+
+            <button type="submit">Submit</button>
+        </form>
+        <p class="note">* All fields are required unless specified otherwise.</p>
+    </div>
+</body>
+</html>
