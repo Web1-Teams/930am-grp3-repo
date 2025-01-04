@@ -1,0 +1,129 @@
+
+.home-banner25 {
+    width: 100%;
+    height: 140vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+}
+.banner-content25 {
+    text-align: center;
+    position: relative;
+    color: #ffffff;
+    z-index: 1;
+}
+.banner-text25 h1, .banner-text25 h2 {
+    margin: 0;
+    font-size: 36px;
+    line-height: 1.2;
+}
+.banner-text25 h1 {
+    font-size: 48px;
+    font-weight: 600;
+    letter-spacing: 1px;
+    color: #7743DB;
+}
+.banner-text25 h2 {
+    font-size: 48px;
+    font-weight: 700;
+    color: #7743DB; 
+    letter-spacing: 2px;
+    text-transform: uppercase;
+    margin-top: 10px;
+}
+.banner-images25 {
+    position: relative;
+    width: 100%;
+    max-width: 600px; 
+    height: 700px; 
+    margin: 30px auto;
+    border-radius: 10px;
+    overflow: hidden;
+}
+.image-item25 {
+    top: 0;
+    margin-left: 80px;
+    width: 100px;
+    height: 100px;
+    opacity: 0;
+    transition: opacity 1s ease-in-out, transform 1s ease-in-out;
+    object-fit: cover;
+    border-radius: 10px;
+}
+
+.image-item.active25 {
+    opacity: 1;
+    transform: scale(1.05);
+}
+.banner-stats25 {
+    margin-top: 30px;
+}
+.banner-stats25 h2 {
+    font-size: 36px;
+    font-weight: 700;
+    color: #7743DB;
+    text-transform: uppercase;
+    letter-spacing: 2px;
+}
+@media screen and (min-width: 767px) and (max-width: 991px) {
+
+
+    .home-banner25 {
+        height: 120vh; 
+    }
+
+    .banner-content25 h1, .banner-content25 h2 {
+        font-size: 36px; 
+    }
+
+    .banner-images25 {
+        max-width: 500px; 
+        height: 500px; 
+    }
+
+    .banner-stats25 h2 {
+        font-size: 28px; 
+    }
+}
+
+@media screen and (min-width: 991px) and (max-width: 1200px) {
+
+
+    .home-banner25 {
+        height: 130vh; 
+    }
+
+    .banner-content25 h1, .banner-content25 h2 {
+        font-size: 42px; 
+    }
+
+    .banner-images25 {
+        max-width: 550px; 
+        height: 600px; 
+    }
+
+    .banner-stats25 h2 {
+        font-size: 32px; 
+    }
+}
+
+@media screen and (min-width: 1201px) {
+
+    .home-banner25 {
+        height: 140vh; 
+    }
+
+    .banner-content25 h1, .banner-content25 h2 {
+        font-size: 48px; 
+    }
+
+    .banner-images25 {
+        max-width: 600px;
+        height: 700px; 
+    }
+
+    .banner-stats25 h2 {
+        font-size: 36px; 
+    }
+}

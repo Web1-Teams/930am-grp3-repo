@@ -1,0 +1,141 @@
+
+.elementor-section225 {
+    background-color: #ffffff; 
+    padding: 50px 30px;
+    border-radius: 20px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.elementor-container225 {
+    display: flex;
+    justify-content: space-around;
+    width: 450px;
+    height: 250px;
+}
+
+.elementor-column225 {
+    flex: 1;
+    background-color: #ffffff;
+    border-radius: 10px;
+    padding: 20px;
+    text-align: center;
+    box-shadow: 0 3px 8px rgba(0, 0, 0, 0.15);
+    transition: transform 0.3s ease, box-shadow 0.3s ease;
+}
+
+.elementor-column225:hover {
+    transform: translateY(-5px);
+    box-shadow: 0 6px 15px rgba(0, 0, 0, 0.2);
+}
+
+.elementor-column225 h5 {
+    font-size: 20px;
+    color: #7743DB;
+    margin-bottom: 20px;
+}
+
+.elementor-column225 p {
+    font-size: 20px;
+    color: #000000;
+    line-height: 1.5;
+}
+
+.elementor-icon-go25 {
+    background-color: #f7b605;
+    color: #000000;
+    border: none;
+    padding: 10px 20px;
+    font-size: 14px;
+    font-weight: bold;
+    text-decoration: none;
+    border-radius: 25px;
+}
+
+.elementor-icon-go25:hover {
+    color: #ffffff; 
+}
+
+.button-cc25 {
+    font-size: 15px;
+    text-transform: uppercase;
+}
+
+@media screen and (min-width: 767px) and (max-width: 991px) {
+
+
+    .elementor-container225 {
+        width: 380px; 
+        height: 220px; 
+    }
+
+    .elementor-column225 {
+        padding: 15px; 
+    }
+
+    .elementor-column225 h5 {
+        font-size: 18px; 
+    }
+
+    .elementor-column225 p {
+        font-size: 18px; 
+    }
+
+    .elementor-icon-go25 {
+        font-size: 12px; 
+        padding: 8px 30px; 
+    }
+}
+
+@media screen and (min-width: 991px) and (max-width: 1200px) {
+
+
+    .elementor-container225 {
+        width: 420px; 
+        height: 240px; 
+    }
+
+    .elementor-column225 {
+        padding: 18px; 
+    }
+
+    .elementor-column225 h5 {
+        font-size: 20px; 
+    }
+
+    .elementor-column225 p {
+        font-size: 18px; 
+    }
+
+    .elementor-icon-go25 {
+        font-size: 14px; 
+        padding: 10px 35px; 
+    }
+}
+
+@media screen and (min-width: 1201px) {
+
+
+    .elementor-container225 {
+        width: 450px; 
+        height: 250px; 
+    }
+
+    .elementor-column225 {
+        padding: 20px; 
+    }
+
+    .elementor-column225 h5 {
+        font-size: 22px; 
+    }
+
+    .elementor-column225 p {
+        font-size: 20px; 
+    }
+
+    .elementor-icon-go25 {
+        font-size: 14px; 
+        padding: 10px 40px; 
+    }
+}

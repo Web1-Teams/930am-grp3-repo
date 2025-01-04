@@ -1,0 +1,31 @@
+#form77 input{
+  padding: 0.8rem;
+    border-radius: 1rem;
+    background-color: rgb(119, 67, 219);
+    opacity: 0.9;
+    border-color:  rgb(119, 67, 219);
+    font-weight: bold;
+}
+#return77 {
+    padding: 0.8rem;
+    border: 100rem;
+    border-radius: 1rem;
+    background-color: rgb(119, 67, 219);
+    opacity: 0.9;
+    border-color:  rgb(119, 67, 219);
+    font-weight: bold;
+    color: black;
+    text-decoration: none ; 
+  }
+ #return77:hover{
+    background-color:  #F7EFE5;
+  }
+  #form77 input:hover{
+    background-color:  #F7EFE5;
+  }
+  #form77 {
+    display: flex;
+    justify-content: space-around;
+    align-items:center;
+  }
+ 

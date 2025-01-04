@@ -1,0 +1,18 @@
+.ElemAll25{
+    display: flex;
+    margin-left: 200px;
+}
+
+/* Mobile menu toggle button */
+.menu-toggle25 {
+    display: none; /* Hidden by default */
+    font-size: 30px;
+    background: none;
+    border: none;
+    color: white;
+    cursor: pointer;
+    z-index: 9999;
+  }
+  
+
+ 

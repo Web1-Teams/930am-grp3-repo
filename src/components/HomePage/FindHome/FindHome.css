@@ -1,0 +1,152 @@
+
+
+.find-comp25 {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 70px;
+    border-radius: 20px;
+    background-color: #ffffff;
+}
+
+.content-comp25 {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 20px;
+}
+
+.text-comp25 {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    max-width: 560px;
+    padding: 20px;
+    text-align: center;
+}
+
+.text-comp25 h4 {
+    color: #7743DB;
+    font-size: 25px;
+    margin-bottom: 10px;
+}
+
+.text-comp25 h1 {
+    padding: 10px;
+    color: #4b4848;
+    font-size: 28px;
+}
+
+.text-comp25 p {
+    padding: 10px;
+    color: #555;
+    font-size: 20px;
+    line-height: 1.6;
+}
+
+.image-sections25 img {
+    width: 630px;
+    border-radius: 10px;
+    height: 600px;
+}
+
+@media screen and (min-width: 767px) and (max-width: 991px) {
+
+
+    .find-comp25 {
+        padding: 50px; 
+    }
+
+    .content-comp25 {
+        gap: 15px; 
+    }
+
+    .text-comp25 {
+        max-width: 480px; 
+        padding: 15px; 
+    }
+
+    .text-comp25 h4 {
+        font-size: 22px; 
+    }
+
+    .text-comp25 h1 {
+        font-size: 24px; 
+    }
+
+    .text-comp25 p {
+        font-size: 18px; 
+    }
+
+    .image-sections25 img {
+        width: 500px;
+        height: 450px; 
+    }
+}
+
+@media screen and (min-width: 991px) and (max-width: 1200px) {
+
+
+    .find-comp25 {
+        padding: 60px; 
+    }
+
+    .content-comp25 {
+        gap: 18px; 
+    }
+
+    .text-comp25 {
+        max-width: 520px; 
+        padding: 18px; 
+    }
+
+    .text-comp25 h4 {
+        font-size: 24px; 
+    }
+
+    .text-comp25 h1 {
+        font-size: 26px; 
+    }
+
+    .text-comp25 p {
+        font-size: 19px; 
+    }
+
+    .image-sections25 img {
+        width: 580px; 
+        height: 520px; 
+    }
+}
+
+@media screen and (min-width: 1201px) {
+
+
+    .find-comp25 {
+        padding: 70px; 
+    }
+
+    .content-comp25 {
+        gap: 20px;
+    }
+
+    .text-comp25 {
+        max-width: 560px; 
+        padding: 20px; 
+    }
+
+    .text-comp25 h4 {
+        font-size: 25px; 
+    }
+
+    .text-comp25 h1 {
+        font-size: 28px; 
+    }
+
+    .text-comp25 p {
+        font-size: 20px; 
+    }
+
+    .image-sections25 img {
+        width: 630px; 
+        height: 600px; 
+    }
+}

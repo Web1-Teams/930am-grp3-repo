@@ -1,10 +1,54 @@
-import React from 'react';
-import ReactDOM from 'react-dom/client';
-import App from './App';
+import React from "react";
+import ReactDOM from "react-dom/client";
+// import Footer from './components/HomePage/Footer/Footer';
+import Nav from "./components/HomePage/Nav/Nav";
+import Home from "./Home";
+import { BrowserRouter, Route, Routes } from "react-router-dom";
+import Rescue_page1 from "./components/hani_components/page1/rescue_page1/Rescue_page1";
+import Rescue_page2 from "./components/hani_components/page2/rescue_page2/Rescue_page2";
+import Ypage1 from "./components/yousefrect/VolunterPage/VolunterPage1/Ypage1";
+import Ypag2 from "./components/yousefrect/DonatePage2/DonatePage/Ypag2";
+import AdoptionInfo from "./components/AdoptionPages/AdoptionInfo/AdoptionInfo";
+import AdoptionList from "./components/AdoptionPages/AdoptionList/AdoptionList";
+import AdoptionPostForm from "./components/AdoptionPages/AdoptionPostForm/AdoptionPostForm";
+import AdoptionAnimalData from "./components/AdoptionPages/AdoptionAnimalData/AdoptionAnimalData";
+import Contant from "./components/About/Contact";
+import Desc from "./components/About/Desc";
+import Leadershippage from "./components/About/LeadershipPage";
 
-const root = ReactDOM.createRoot(document.getElementById('root'));
+//import App from './App';
+const root = ReactDOM.createRoot(document.getElementById("root"));
 root.render(
   <React.StrictMode>
-    <App/>
+    <BrowserRouter>
+      <Nav />
+      <Routes>
+        <Route path="/" element={<Home />} />
+        {/* <Route path="/found" element={<Found/>}/> */}
+        <Route path="/Rescue_page1" element={<Rescue_page1 />} />
+        <Route path="/Rescue_page2" element={<Rescue_page2 />} />
+        <Route path="/lost" element={<Rescue_page2 />} />
+        <Route path="/found" element={<Rescue_page2
+             title = "Found pet information"
+             title2 = "Place Found: "
+             placeholder = "Enter The Place Found"
+         />} />
+        <Route path="/Ypage1" element={<Ypage1 />} />
+        <Route path="/Ypag2" element={<Ypag2 />} />
+        <Route path="/AdoptionInfo" element={<AdoptionInfo />} />
+        <Route path="/AdoptionList" element={<AdoptionList />} />
+        <Route path="/AdoptionForm" element={<AdoptionPostForm />} />
+        <Route path="/AnimalData" element={<AdoptionAnimalData />} />
+        <Route path="/Contact" element={<Contant />} />
+        <Route path="/About" element={<Desc />} />
+        <Route path="/Team" element={<Leadershippage />} />
+
+
+
+
+        <Route />
+      </Routes>
+      {/* <Footer/> */}
+    </BrowserRouter>
   </React.StrictMode>
 );

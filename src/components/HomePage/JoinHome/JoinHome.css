@@ -1,0 +1,44 @@
+
+.sec-comp25 {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 70px;
+    border-radius: 20px;
+    background-color: #ffffff;
+}
+.content-comp25 {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 20px;
+}
+.image-section25 img {
+    border-radius: 10px;
+    height: 600px;
+}
+.text-section25 {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    max-width: 560px;
+    padding: 20px;
+    text-align: center;
+}
+
+.text-section25 h4 {
+    color: #7743DB;
+    font-size: 25px;
+    margin-bottom: 10px;
+}
+
+.text-section25 h1 {
+    padding: 10px;
+    color: #4b4848;
+    font-size: 28px;
+}
+.text-section25 p {
+    padding: 10px;
+    color: #555;
+    font-size: 20px;
+    line-height: 1.6;
+}

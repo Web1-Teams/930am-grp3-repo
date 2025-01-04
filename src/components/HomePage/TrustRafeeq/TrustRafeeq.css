@@ -1,0 +1,77 @@
+.container25 {
+    text-align: center;
+    margin: 20px;
+}
+
+.button25 {
+    background-color: #7743DB;
+    color: #fff;
+    border: none;
+    border-radius: 5px;
+    padding: 10px 20px;
+    cursor: pointer;
+    font-size: 16px;
+    transition: background-color 0.3s ease, transform 0.3s ease;
+    width: auto;
+    max-width: 250px; 
+    margin: 0 auto; 
+}
+.button25:hover {
+    background-color: #ffffff; 
+    color: #000;
+    transform: scale(1.05);
+}
+
+.likeCount25 {
+    margin-top: 10px;
+    font-size: 14px;
+    color: #000000;
+}
+
+@media (max-width: 1024px) {
+    .container25 {
+        margin: 15px;
+    }
+
+    .button25 {
+        font-size: 14px;
+        padding: 8px 16px;
+        max-width: 220px;
+    }
+
+    .likeCount25 {
+        font-size: 12px;
+    }
+}
+
+@media (max-width: 768px) {
+    .container25 {
+        margin: 10px;
+    }
+
+    .button25 {
+        font-size: 14px;
+        padding: 8px 15px;
+        max-width: 200px; 
+    }
+
+    .likeCount25 {
+        font-size: 12px;
+    }
+}
+
+@media (max-width: 480px) {
+    .container25 {
+        margin: 8px;
+    }
+
+    .button25 {
+        font-size: 12px;
+        padding: 6px 12px;
+        max-width: 180px; 
+    }
+
+    .likeCount25 {
+        font-size: 10px;
+    }
+}

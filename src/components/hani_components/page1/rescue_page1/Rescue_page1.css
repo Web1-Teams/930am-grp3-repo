@@ -1,0 +1,45 @@
+.lost-found-container77 {
+    text-align: center;
+    font-family: Arial, sans-serif;
+  }
+  .postion-absulute-177{
+    position: absolute;
+    width: 60%;
+    left:0;
+  }
+  .postion-absulute77{
+    position: absolute;
+    width: 40%;
+    right: 0;
+  }
+  .relative-accordion77{
+    position:relative;
+    width: 90%;
+  }
+  #body77 {
+    font-size:1rem;
+    line-height: 1.5;
+    color: #333;
+    padding: 2rem;
+  }
+  
+
+
+  @media only screen and (max-width : 750px){
+    .postion-absulute-177{
+      position: absolute;
+      width: 100%;
+      bottom:0;
+    }
+    .postion-absulute77{
+      position: absolute;
+      width: 100%;
+      top:0;
+    }
+    .relative-accordion77{
+      margin-top: 20rem;
+      position:relative;
+      top: 75vh;
+      width: 100%;
+    }
+  }

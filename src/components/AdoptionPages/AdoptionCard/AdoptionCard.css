@@ -1,0 +1,48 @@
+.animal-container66 {
+    background-color: #fff;
+    border: 1px solid #E0E0E0;
+    border-radius: 10px;
+    width: 280px;
+    text-align: center;
+    padding: 15px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    transition: transform 0.3s ease, box-shadow 0.3s ease;
+    cursor: pointer;
+    margin-top: 20px;
+ 
+}
+    
+/*the user clicks on the card itself*/
+.animal-container66:hover {
+    transform: translateY(-5px);
+    box-shadow: 0 8px 16px rgba(0, 0, 0, 0.2);
+}
+
+.animal-container66 img {
+    border-radius: 10px;
+    width: 100%;
+    height: auto;
+}
+
+
+.name66 {
+    font-size: 1.4rem;
+    font-weight: bold;
+    color: #7743DB;
+    margin: 10px 0 5px;
+}
+
+.details66, .place66 {
+    font-size: 1rem;
+    margin: 5px 0;
+    color: #555;
+}
+
+/*when on phone, decrease the width ( the flex box will fix anything else) */
+@media screen and (max-width: 750px) { 
+    .animal-container66{
+        width: 280px;
+
+    };
+    
+}

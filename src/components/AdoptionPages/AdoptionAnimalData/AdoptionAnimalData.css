@@ -1,0 +1,109 @@
+
+.page-wrapper66 {
+    display: flex;
+    flex-direction: column;
+    min-height: 100vh;
+}
+
+.main66 {
+    flex: 1;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 20px;
+}
+
+.content-wrapper66 {
+    display: flex;
+    flex-direction: row;
+    gap: 40px;
+    max-width: 1200px;
+    width: 100%;
+    background-color: white;
+    border-radius: 15px;
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+    overflow: hidden;
+    padding: 20px;
+}
+.content-wrapper66 h3{
+    color: #6c63ff;
+}
+/*Image Part */
+.pet-image-container66 {
+    flex: 1;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.pet-image66 {
+    width: 100%;
+
+    height: auto;
+    border-radius: 15px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+/*Info Part */
+.pet-info66 {
+    flex: 1;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+
+.pet-name66 {
+    font-size: 2rem;
+    color: #6c63ff;
+    margin-bottom: 10px;
+}
+
+.pet-description66 {
+    margin-top: 15px;
+    line-height: 1.6;
+    font-size: 1.1rem;
+}
+
+.email-form66 {
+    margin-top: 20px;
+    margin-right: 30px;
+}
+
+.email-form66 label {
+    display: block;
+    margin-bottom: 10px;
+    font-weight: bold;
+}
+
+.email-form66 input {
+    width: 100%;
+    padding: 10px;
+    margin-bottom: 15px;
+    border: 2px solid #ccc;
+    border-radius: 5px;
+
+}
+
+.adoption-button-email66 {
+    background-color: #6c63ff;
+    color: white;
+    border: none;
+    padding: 15px 30px;
+    font-size: 1.2rem;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: all 0.3s ease-in-out;
+}
+
+.adopt-button66:hover {
+    background-color: #574bdd;
+    transform: scale(1.05);
+}
+
+/*when he is using phone make the photo over the text*/
+@media screen and (max-width: 750px) { 
+    .content-wrapper66{
+        flex-direction: column;
+        margin-top: 120px;
+    }
+}
