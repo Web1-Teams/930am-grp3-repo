@@ -97,7 +97,7 @@ textarea {
   resize: none;
 }
 
-button {
+.but33 {
   display: block;
   width: 100%;
   padding: 10px;
@@ -110,7 +110,7 @@ button {
   transition: background-color 0.3s ease, transform 0.2s ease;
 }
 
-button:hover {
+.but33:hover {
   background-color: #6a006a;
   transform: scale(1.05);
 }

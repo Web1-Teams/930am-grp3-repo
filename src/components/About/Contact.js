@@ -72,7 +72,7 @@ const Contact = () => {
             required
           ></textarea>
 
-          <button type="submit">Submit</button>
+          <button className='but33' type="submit">Submit</button>
         </form>
         <p className="note">* All fields are required.</p>
       </div>
