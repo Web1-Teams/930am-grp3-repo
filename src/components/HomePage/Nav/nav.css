@@ -112,45 +112,88 @@
     box-shadow: 0 4px 10px rgba(0, 0, 0, 0.3); 
     background-color: #ffffff;
 }
+/* Mobile menu toggle button */
+.menu-toggle25 {
+  display: none; /* Hidden by default */
+  font-size: 30px;
+  background: none;
+  border: none;
+  color: white;
+  cursor: pointer;
+  z-index: 9999;
+}
 
-/* Media Queries */
-@media (max-width: 768px) {
+/* Show the mobile menu toggle button on smaller screens */
+@media screen and (max-width: 768px) {
+  .menu-toggle25 {
+    display: block !important; /* Visible on small screens */
+  }
+
+  /* Make the navigation appear when the menu is active */
+  .navigation25.active25 {
+    display: block;
+    width: 100%;
+    margin-top: 10px;
+  }
+
+  /* Make the menu vertical on small screens */
+  .navigation25 {
+    display: none; /* Hidden by default */
+    flex-direction: column;
+    width: 100%;
+    text-align: center;
+  }
+
+  .navigation25 li {
+    margin: 10px 0;
+  }
+
+  .submenu25 {
+    display: none; /* Submenu hidden by default */
+  }
+
+  .submenu25.active25 {
+    display: block; /* Display active submenu */
+  }
+}
+  @media screen and (max-width: 480px) {
     .navbar25 {
-        flex-direction: column;
-        padding: 10px;
+      padding: 10px;
     }
-
+  
     .logo25 img {
-        height: 50px;
+      height: 40px;
     }
-
+  
     .navigation25 {
-        flex-direction: column;
-        align-items: center;
-        margin-top: 10px;
+      padding: 0;
+      margin-top: 10px;
     }
-
-    .navigation25 > li {
-        margin: 10px 0;
-    }
-
-    .Donatee25 {
-        margin-left: 0;
-        margin-top: 10px;
-    }
-}
-
-@media (max-width: 480px) {
+  
     .navigation25 a {
-        font-size: 14px;
+      font-size: 16px;
+      padding: 10px;
     }
-
-    .submenu25 a {
-        font-size: 12px;
-    }
-
+  
     .Donatee25 {
-        font-size: 14px;
-        padding: 8px 15px;
+      font-size: 14px;
+      padding: 8px 16px;
     }
-}
+  
+    /* Optional: Make submenu items more touch-friendly and stack vertically */
+    .submenu25 {
+      position: static;
+      width: 100%;
+      box-shadow: none;
+      display: none;
+    }
+  
+    .navigation25 li:hover .submenu25 {
+      display: block;
+    }
+  
+    .navigation25 li {
+      width: 100%;
+    }
+  }
+  
