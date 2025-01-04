@@ -1,16 +1,16 @@
-import React, { useState, useRef } from 'react';
-import './ArticleForm.css';
-import CategoryDropdown from '../CategoryDropdown/CategoryDropdown';
+import React, { useState, useRef } from "react";
+import "./ArticleForm.css";
+import CategoryDropdown from "../CategoryDropdown/CategoryDropdown";
 
 const ArticleForm = ({ onSubmit }) => {
   const [formData, setFormData] = useState({
-    category: '',
+    category: "",
     bannerImage: null,
-    hashtags: '',
-    title: '',
-    description: '',
-    body: '',
-    authorName: '',
+    hashtags: "",
+    title: "",
+    description: "",
+    body: "",
+    authorName: "",
   });
 
   const fileInputRef = useRef();
@@ -26,7 +26,7 @@ const ArticleForm = ({ onSubmit }) => {
 
   const handleChange = (e) => {
     const { name, value, files } = e.target;
-    if (name === 'bannerImage') {
+    if (name === "bannerImage") {
       setFormData({ ...formData, bannerImage: files[0] });
     } else {
       setFormData({ ...formData, [name]: value });
@@ -52,17 +52,17 @@ const ArticleForm = ({ onSubmit }) => {
 
   const resetForm = () => {
     setFormData({
-      category: '',
+      category: "",
       bannerImage: null,
-      hashtags: '',
-      title: '',
-      description: '',
-      body: '',
-      authorName: '',
+      hashtags: "",
+      title: "",
+      description: "",
+      body: "",
+      authorName: "",
     });
 
     if (fileInputRef.current) {
-      fileInputRef.current.value = '';
+      fileInputRef.current.value = "";
     }
   };
 
@@ -74,7 +74,9 @@ const ArticleForm = ({ onSubmit }) => {
         <CategoryDropdown
           categories={categories}
           value={formData.category}
-          onChange={(e) => setFormData({ ...formData, category: e.target.value })}
+          onChange={(e) =>
+            setFormData({ ...formData, category: e.target.value })
+          }
         />
 
         <label>

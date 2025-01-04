@@ -1,13 +1,13 @@
-import React, { useState } from 'react';
-import './Contact.css';
+import React, { useState } from "react";
+import "./Contact.css";
 
 const Contact = () => {
   const [showNotification, setShowNotification] = useState(false);
 
   const handleSubmit = (event) => {
     event.preventDefault();
-    setShowNotification(true); 
-    setTimeout(() => setShowNotification(false), 3000); 
+    setShowNotification(true);
+    setTimeout(() => setShowNotification(false), 3000);
   };
 
   return (
@@ -19,7 +19,7 @@ const Contact = () => {
       />
       <div className="form-container1200">
         {showNotification && (
-          <div className={`notification1200 ${showNotification ? 'show' : ''}`}>
+          <div className={`notification1200 ${showNotification ? "show" : ""}`}>
             <svg
               xmlns="http://www.w3.org/2000/svg"
               viewBox="0 0 24 24"
@@ -36,7 +36,9 @@ const Contact = () => {
         )}
         <h2>Contact Us</h2>
         <form onSubmit={handleSubmit}>
-          <label id  = "#label1200" htmlFor="full-name">Full Name:</label>
+          <label id="#label1200" htmlFor="full-name">
+            Full Name:
+          </label>
           <input
             type="text"
             id="full-name"
@@ -45,7 +47,9 @@ const Contact = () => {
             required
           />
 
-          <label  id="#label1200" htmlFor="email">Email:</label>
+          <label id="#label1200" htmlFor="email">
+            Email:
+          </label>
           <input
             type="email"
             id="email"
@@ -54,7 +58,9 @@ const Contact = () => {
             required
           />
 
-          <label id="#label1200" htmlFor="subject">Subject:</label>
+          <label id="#label1200" htmlFor="subject">
+            Subject:
+          </label>
           <select id="subject" name="subject" required>
             <option value="">Select the subject</option>
             <option value="technical">Technical Issue</option>
@@ -63,16 +69,20 @@ const Contact = () => {
             <option value="other">Other</option>
           </select>
 
-          <label id="#label1200" htmlFor="description">Problem Description:</label>
-          <textarea 
-            id= "#textarea1200"
+          <label id="#label1200" htmlFor="description">
+            Problem Description:
+          </label>
+          <textarea
+            id="#textarea1200"
             name="description"
             placeholder="Describe the issue in detail"
             rows="4"
             required
           ></textarea>
 
-          <button id ="#button1200" type="submit">Submit</button>
+          <button id="#button1200" type="submit">
+            Submit
+          </button>
         </form>
         <p className="note">* All fields are required.</p>
       </div>
